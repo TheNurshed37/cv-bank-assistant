@@ -312,3 +312,390 @@ To succeed in an environment of growth and excellence and earn a job which provi
 2025-10-31 17:13:32,133 - cv_chatbot - INFO - [rag.py:108] - Found source path for EVANA YASMIN: data/EVANA_YASMIN.pdf -> EVANA_YASMIN.pdf
 2025-10-31 17:13:32,133 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
 2025-10-31 17:13:33,914 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf, EVANA_YASMIN.pdf
+2025-10-31 17:22:27,136 - cv_chatbot - WARNING - [vector_store.py:324] - No original client path provided, using processed path: data/Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 17:22:50,099 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: MD.MEHEDI HASAN TAMIM
+2025-10-31 17:22:50,101 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: MD.MEHEDI HASAN TAMIM (18a0537d-d498-4239-b248-d389670387ee) from content_extraction
+2025-10-31 17:22:50,102 - cv_chatbot - INFO - [vector_store.py:345] - Processing CV with enhanced pipeline: MD.MEHEDI HASAN TAMIM
+2025-10-31 17:22:50,102 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MD.MEHEDI HASAN TAMIM
+2025-10-31 17:22:50,103 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 20 sections from pre-processed content: ['MD.MEHEDI HASAN TAMIM', 'Career Objective:', 'Career Summary:', 'Employment History:', '1. Software Engineer (0.8 yr)', 'eGeneration Limited', 'Duties/Responsibilities:', '2. Software Engineer (1.0 yr)', 'Newgen Technology', '3. Software Engineer (3.6 yrs)', 'BRAC IT Services Ltd', '4. Jr.Software Engineer (1.0 yr)', 'APLOS GOLOBAL LTD.', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Fields of Specialization', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-31 17:22:54,265 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-31 17:22:54,265 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4119 characters
+2025-10-31 17:22:54,266 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MD.MEHEDI HASAN TAMIM
+
+**Career Objective:**
+Looking for the position of a software engineer where my creative thinking and excellent skills in web application development using modern development too...
+2025-10-31 17:22:54,266 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4119 characters
+2025-10-31 17:22:54,267 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for MD.MEHEDI HASAN TAMIM 
+2025-10-31 17:22:54,268 - cv_chatbot - INFO - [vector_store.py:365] - Created 1 golden chunks for: MD.MEHEDI HASAN TAMIM
+2025-10-31 17:22:59,012 - cv_chatbot - INFO - [vector_store.py:373] - Appended to existing FAISS index
+2025-10-31 17:23:43,896 - cv_chatbot - INFO - [rag.py:237] - Documents available - using RAG only
+2025-10-31 17:23:48,013 - cv_chatbot - INFO - [rag.py:108] - Found source path for EVANA YASMIN: data/EVANA_YASMIN.pdf -> EVANA_YASMIN.pdf
+2025-10-31 17:23:48,014 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 17:23:48,014 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD.MEHEDI HASAN TAMIM: data/Md.Mehedi_Hasan_Tamim.pdf -> Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 17:23:50,401 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf, EVANA_YASMIN.pdf, Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 17:24:14,460 - cv_chatbot - INFO - [rag.py:237] - Documents available - using RAG only
+2025-10-31 17:24:18,704 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD.MEHEDI HASAN TAMIM: data/Md.Mehedi_Hasan_Tamim.pdf -> Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 17:24:18,704 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 17:24:18,704 - cv_chatbot - INFO - [rag.py:108] - Found source path for EVANA YASMIN: data/EVANA_YASMIN.pdf -> EVANA_YASMIN.pdf
+2025-10-31 17:24:21,053 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf, EVANA_YASMIN.pdf, Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 17:24:48,612 - cv_chatbot - INFO - [rag.py:237] - Documents available - using RAG only
+2025-10-31 17:24:52,722 - cv_chatbot - INFO - [rag.py:108] - Found source path for EVANA YASMIN: data/EVANA_YASMIN.pdf -> EVANA_YASMIN.pdf
+2025-10-31 17:24:52,722 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD.MEHEDI HASAN TAMIM: data/Md.Mehedi_Hasan_Tamim.pdf -> Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 17:24:52,723 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 17:25:02,054 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf, EVANA_YASMIN.pdf, Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 17:59:10,352 - cv_chatbot - INFO - [rag.py:237] - Documents available - using RAG only
+2025-10-31 17:59:14,587 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD.MEHEDI HASAN TAMIM: data/Md.Mehedi_Hasan_Tamim.pdf -> Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 17:59:14,587 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 17:59:14,587 - cv_chatbot - INFO - [rag.py:108] - Found source path for EVANA YASMIN: data/EVANA_YASMIN.pdf -> EVANA_YASMIN.pdf
+2025-10-31 17:59:17,113 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf, EVANA_YASMIN.pdf, Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 17:59:40,060 - cv_chatbot - INFO - [rag.py:237] - Documents available - using RAG only
+2025-10-31 17:59:44,176 - cv_chatbot - INFO - [rag.py:108] - Found source path for EVANA YASMIN: data/EVANA_YASMIN.pdf -> EVANA_YASMIN.pdf
+2025-10-31 17:59:44,177 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 17:59:44,177 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD.MEHEDI HASAN TAMIM: data/Md.Mehedi_Hasan_Tamim.pdf -> Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 17:59:55,621 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf, EVANA_YASMIN.pdf, Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 18:00:07,508 - cv_chatbot - INFO - [rag.py:237] - Documents available - using RAG only
+2025-10-31 18:00:12,036 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD.MEHEDI HASAN TAMIM: data/Md.Mehedi_Hasan_Tamim.pdf -> Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 18:00:12,036 - cv_chatbot - INFO - [rag.py:108] - Found source path for EVANA YASMIN: data/EVANA_YASMIN.pdf -> EVANA_YASMIN.pdf
+2025-10-31 18:00:12,036 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 18:00:15,562 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf, EVANA_YASMIN.pdf, Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 18:00:35,987 - cv_chatbot - INFO - [rag.py:237] - Documents available - using RAG only
+2025-10-31 18:00:40,022 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 18:00:40,022 - cv_chatbot - INFO - [rag.py:108] - Found source path for EVANA YASMIN: data/EVANA_YASMIN.pdf -> EVANA_YASMIN.pdf
+2025-10-31 18:00:40,022 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD.MEHEDI HASAN TAMIM: data/Md.Mehedi_Hasan_Tamim.pdf -> Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 18:00:42,823 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf, EVANA_YASMIN.pdf, Md.Mehedi_Hasan_Tamim.pdf
+2025-10-31 18:06:43,349 - cv_chatbot - WARNING - [main.py:317] - Vector store, candidate index, and uploaded PDFs reset
+2025-10-31 18:07:02,720 - cv_chatbot - INFO - [rag.py:470] - No documents - using general knowledge LLM
+2025-10-31 18:07:26,920 - cv_chatbot - INFO - [main.py:224] - PDF saved permanently: uploaded_cvs/A.H.M._HASIBUL_HASAN.pdf
+2025-10-31 18:07:26,920 - cv_chatbot - INFO - [vector_store.py:702] - Storing permanent PDF path: uploaded_cvs/A.H.M._HASIBUL_HASAN.pdf
+2025-10-31 18:08:48,710 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: A.H.M. HASIBUL HASAN
+2025-10-31 18:08:48,712 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: A.H.M. HASIBUL HASAN (8bb72291-c5b0-469c-980c-c318658a069f) from content_extraction
+2025-10-31 18:08:48,712 - cv_chatbot - INFO - [vector_store.py:615] - Starting optimized processing for: A.H.M. HASIBUL HASAN
+2025-10-31 18:08:48,714 - cv_chatbot - INFO - [vector_store.py:642] - Extracted 26 sections from pre-processed content: ['A.H.M. HASIBUL HASAN', 'Career Objective:', 'Career Summary:', 'Employment History:', '1. Programmer (1.8 yrs)', 'Flora Limited', 'Duties/Responsibilities:', '2. Assistant Software Development Web Apps (0.2 yr)', 'Regent Group Bd', '3. Assistant Manager IT (0.7 yr)', 'Hamid Group', '4. Manager (IT) (1.8 yrs)', 'Amex Knitting and Dyeing Industries Ltd.', '5. Sr. System Support Engineer (10.7 yrs)', 'Airtel Bangladesh Limited.(Vendor project of Thakral Information System Private Ltd)', '6. IT Engineer (0.3 yr)', 'Al - Muslim Group Ltd', '7. System Support Engineer (0.9 yr)', 'Gonophone Online Ltd.', '8. Customer Support Engineer (1.2 yrs)', 'BD Com Online Ltd.', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :']
+2025-10-31 18:10:21,322 - cv_chatbot - INFO - [vector_store.py:540] - Lightweight LLM validation completed
+2025-10-31 18:10:21,323 - cv_chatbot - INFO - [vector_store.py:557] - Golden chunk content length: 7367 characters
+2025-10-31 18:10:21,323 - cv_chatbot - INFO - [vector_store.py:558] - Golden chunk preview: A.H.M. HASIBUL HASAN
+
+**Career Objective:**
+To build a career with intelligence and integrity, seeking a respected and challenging role where my educational, technical skills, and experiences can be u...
+2025-10-31 18:10:21,324 - cv_chatbot - INFO - [vector_store.py:578] - Created single golden chunk with 7367 characters
+2025-10-31 18:10:21,325 - cv_chatbot - INFO - [vector_store.py:650] - Successfully created chunk for A.H.M. HASIBUL HASAN 
+2025-10-31 18:16:42,997 - cv_chatbot - INFO - [main.py:224] - PDF saved permanently: uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:16:42,998 - cv_chatbot - INFO - [vector_store.py:702] - Storing permanent PDF path: uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:17:03,836 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: SUJAN DAS
+2025-10-31 18:17:03,838 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: SUJAN DAS (4757395c-f29a-4df1-b35f-71ade9af8d55) from content_extraction
+2025-10-31 18:17:03,838 - cv_chatbot - INFO - [vector_store.py:615] - Starting optimized processing for: SUJAN DAS
+2025-10-31 18:17:03,839 - cv_chatbot - INFO - [vector_store.py:642] - Extracted 19 sections from pre-processed content: ['SUJAN DAS', 'Career Objective:', 'Career Summary:', 'Employment History:', '1. Senior Software Engineer (0.3 yr)', 'Infinia Group', 'Duties/Responsibilities:', '2. Programmer (2.2 yrs)', 'IICT , BUET', '3. Assistant Manager (9.7 yrs)', 'Youngone CEPZ', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Fields of Specialization', 'Language Proficiency:', 'Personal Details :', 'Reference: 02']
+2025-10-31 18:17:06,780 - cv_chatbot - INFO - [vector_store.py:540] - Lightweight LLM validation completed
+2025-10-31 18:17:06,780 - cv_chatbot - INFO - [vector_store.py:557] - Golden chunk content length: 4015 characters
+2025-10-31 18:17:06,781 - cv_chatbot - INFO - [vector_store.py:558] - Golden chunk preview: # SUJAN DAS
+
+## Career Objective
+Passionate software development professional with a desire to leverage critical thinking, requirement analysis, and project management technologies to develop medium t...
+2025-10-31 18:17:06,781 - cv_chatbot - INFO - [vector_store.py:578] - Created single golden chunk with 4015 characters
+2025-10-31 18:17:06,782 - cv_chatbot - INFO - [vector_store.py:650] - Successfully created chunk for SUJAN DAS 
+2025-10-31 18:17:29,836 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:17:33,981 - cv_chatbot - INFO - [rag.py:351] - Found source path for SUJAN DAS: uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:17:33,982 - cv_chatbot - INFO - [rag.py:351] - Found source path for A.H.M. HASIBUL HASAN: uploaded_cvs/A.H.M._HASIBUL_HASAN.pdf
+2025-10-31 18:17:37,582 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: uploaded_cvs/A.H.M._HASIBUL_HASAN.pdf, uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:17:37,587 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:17:41,817 - cv_chatbot - INFO - [rag.py:351] - Found source path for A.H.M. HASIBUL HASAN: uploaded_cvs/A.H.M._HASIBUL_HASAN.pdf
+2025-10-31 18:17:41,818 - cv_chatbot - INFO - [rag.py:351] - Found source path for SUJAN DAS: uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:17:53,889 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: uploaded_cvs/A.H.M._HASIBUL_HASAN.pdf, uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:18:18,264 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:18:22,436 - cv_chatbot - INFO - [rag.py:351] - Found source path for SUJAN DAS: uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:18:22,436 - cv_chatbot - INFO - [rag.py:351] - Found source path for A.H.M. HASIBUL HASAN: uploaded_cvs/A.H.M._HASIBUL_HASAN.pdf
+2025-10-31 18:18:27,079 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: uploaded_cvs/A.H.M._HASIBUL_HASAN.pdf, uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:21:45,317 - cv_chatbot - INFO - [main.py:225] - PDF saved permanently: uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:22:00,270 - cv_chatbot - INFO - [main.py:225] - PDF saved permanently: uploaded_cvs/MOHASIN_MIAH.pdf
+2025-10-31 18:22:00,271 - cv_chatbot - INFO - [vector_store.py:702] - Storing permanent PDF path: uploaded_cvs/MOHASIN_MIAH.pdf
+2025-10-31 18:22:33,880 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: MOHASIN MIAH
+2025-10-31 18:22:33,883 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: MOHASIN MIAH (36c75171-0cf1-4330-a972-b06ca2779062) from content_extraction
+2025-10-31 18:22:33,883 - cv_chatbot - INFO - [vector_store.py:615] - Starting optimized processing for: MOHASIN MIAH
+2025-10-31 18:22:33,885 - cv_chatbot - INFO - [vector_store.py:642] - Extracted 24 sections from pre-processed content: ['MOHASIN MIAH', 'Career Objective:', 'Career Summary:', 'Employment History:', '1. Lead Java Consultant(Sr. Software Engineer) (0.3 yr)', 'Midas Software Solutions Ltd', 'Duties/Responsibilities:', '2. Lead Developer (0.8 yr)', 'Amharc Tech', '3. Lead Developer (1.3 yrs)', 'AlterSense Limited', '4. Sr.Software Engineer(Team Lead) (2.1 yrs)', 'ADN DIGINET LTD.', '5. Sr.Software Engineer (2.0 yrs)', 'Synesis IT', '6. Software Engineer (4.6 yrs)', 'Newgen Technology Ltd.', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference: 01', 'Reference: 02']
+2025-10-31 18:22:46,032 - cv_chatbot - INFO - [vector_store.py:540] - Lightweight LLM validation completed
+2025-10-31 18:22:46,033 - cv_chatbot - INFO - [vector_store.py:557] - Golden chunk content length: 4676 characters
+2025-10-31 18:22:46,035 - cv_chatbot - INFO - [vector_store.py:558] - Golden chunk preview: MOHASIN MIAH
+
+**Career Objective:**
+To join a company that offers a stable and positive atmosphere and inspires me to enhance and innovate the work culture for the betterment of all parties concerned....
+2025-10-31 18:22:46,037 - cv_chatbot - INFO - [vector_store.py:578] - Created single golden chunk with 4676 characters
+2025-10-31 18:22:46,037 - cv_chatbot - INFO - [vector_store.py:650] - Successfully created chunk for MOHASIN MIAH 
+2025-10-31 18:23:25,355 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:23:29,659 - cv_chatbot - INFO - [rag.py:351] - Found source path for MOHASIN MIAH: uploaded_cvs/MOHASIN_MIAH.pdf
+2025-10-31 18:23:29,660 - cv_chatbot - INFO - [rag.py:351] - Found source path for SUJAN DAS: uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:23:29,661 - cv_chatbot - INFO - [rag.py:351] - Found source path for A.H.M. HASIBUL HASAN: uploaded_cvs/A.H.M._HASIBUL_HASAN.pdf
+2025-10-31 18:23:35,622 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: uploaded_cvs/A.H.M._HASIBUL_HASAN.pdf, uploaded_cvs/MOHASIN_MIAH.pdf, uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:25:50,676 - cv_chatbot - WARNING - [main.py:322] - Vector store, candidate index, and uploaded PDFs reset
+2025-10-31 18:26:20,317 - cv_chatbot - INFO - [main.py:225] - PDF saved permanently: uploaded_cvs/MOHASIN_MIAH.pdf
+2025-10-31 18:26:20,317 - cv_chatbot - INFO - [vector_store.py:702] - Storing permanent PDF path: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:26:53,791 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: MOHASIN MIAH
+2025-10-31 18:26:53,793 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: MOHASIN MIAH (a7c13f73-ef6c-4cd8-9591-f1fb1deb147e) from content_extraction
+2025-10-31 18:26:53,794 - cv_chatbot - INFO - [vector_store.py:615] - Starting optimized processing for: MOHASIN MIAH
+2025-10-31 18:26:53,796 - cv_chatbot - INFO - [vector_store.py:642] - Extracted 24 sections from pre-processed content: ['MOHASIN MIAH', 'Career Objective:', 'Career Summary:', 'Employment History:', '1. Lead Java Consultant(Sr. Software Engineer) (0.3 yr)', 'Midas Software Solutions Ltd', 'Duties/Responsibilities:', '2. Lead Developer (0.8 yr)', 'Amharc Tech', '3. Lead Developer (1.3 yrs)', 'AlterSense Limited', '4. Sr.Software Engineer(Team Lead) (2.1 yrs)', 'ADN DIGINET LTD.', '5. Sr.Software Engineer (2.0 yrs)', 'Synesis IT', '6. Software Engineer (4.6 yrs)', 'Newgen Technology Ltd.', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference: 01', 'Reference: 02']
+2025-10-31 18:26:58,350 - cv_chatbot - INFO - [vector_store.py:540] - Lightweight LLM validation completed
+2025-10-31 18:26:58,350 - cv_chatbot - INFO - [vector_store.py:557] - Golden chunk content length: 4560 characters
+2025-10-31 18:26:58,351 - cv_chatbot - INFO - [vector_store.py:558] - Golden chunk preview: MOHASIN MIAH
+
+**Career Objective:**
+To join a company that offers a stable and positive atmosphere and inspires me to enhance and innovate the work culture for the betterment of all parties concerned....
+2025-10-31 18:26:58,352 - cv_chatbot - INFO - [vector_store.py:578] - Created single golden chunk with 4560 characters
+2025-10-31 18:26:58,353 - cv_chatbot - INFO - [vector_store.py:650] - Successfully created chunk for MOHASIN MIAH 
+2025-10-31 18:27:23,618 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:27:28,244 - cv_chatbot - INFO - [rag.py:351] - Found source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:27:34,413 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:28:43,250 - cv_chatbot - INFO - [main.py:225] - PDF saved permanently: uploaded_cvs/MD.ROBIUL_HOSSAIN.pdf
+2025-10-31 18:28:43,250 - cv_chatbot - INFO - [vector_store.py:702] - Storing permanent PDF path: 10.0.6.22:7878/MD.ROBIUL_HOSSAIN.pdf
+2025-10-31 18:29:05,724 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: MD.ROBIUL HOSSAIN
+2025-10-31 18:29:05,726 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: MD.ROBIUL HOSSAIN (16b27a38-79d6-44e4-b0f6-17d4ebde0ed5) from content_extraction
+2025-10-31 18:29:05,727 - cv_chatbot - INFO - [vector_store.py:615] - Starting optimized processing for: MD.ROBIUL HOSSAIN
+2025-10-31 18:29:05,728 - cv_chatbot - INFO - [vector_store.py:642] - Extracted 21 sections from pre-processed content: ['MD.ROBIUL HOSSAIN', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Total Year of Experience: 16.8 yrs', 'e-World Ltd', 'Duties/Responsibilities:', '2. Cheif Operating Officer (1.8 yrs)', 'AJRA Technologies Ltd', '3. Cheif Operating Officer (8.3 yrs)', 'VU Mobile Ltd.', '4. Software Development Manager (3.0 yrs)', 'AccessInfo Tech ltd.', '5. Application Developer (0.6 yr)', 'Black Stone technologies', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :']
+2025-10-31 18:29:09,820 - cv_chatbot - INFO - [vector_store.py:540] - Lightweight LLM validation completed
+2025-10-31 18:29:09,820 - cv_chatbot - INFO - [vector_store.py:557] - Golden chunk content length: 5505 characters
+2025-10-31 18:29:09,821 - cv_chatbot - INFO - [vector_store.py:558] - Golden chunk preview: # MD. ROBIUL HOSSAIN
+
+## Career Objective:
+Provide strategic oversight of operational and financial functions for the firm specializing in technical and business areas, including the establishment of ...
+2025-10-31 18:29:09,822 - cv_chatbot - INFO - [vector_store.py:578] - Created single golden chunk with 5505 characters
+2025-10-31 18:29:09,822 - cv_chatbot - INFO - [vector_store.py:650] - Successfully created chunk for MD.ROBIUL HOSSAIN 
+2025-10-31 18:29:15,950 - cv_chatbot - INFO - [main.py:225] - PDF saved permanently: uploaded_cvs/EVANA_YASMIN.pdf
+2025-10-31 18:29:15,951 - cv_chatbot - INFO - [vector_store.py:702] - Storing permanent PDF path: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 18:29:33,088 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: EVANA YASMIN
+2025-10-31 18:29:33,090 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: EVANA YASMIN (89690eb7-2110-458b-90ed-807bdaac8fd9) from content_extraction
+2025-10-31 18:29:33,090 - cv_chatbot - INFO - [vector_store.py:615] - Starting optimized processing for: EVANA YASMIN
+2025-10-31 18:29:33,091 - cv_chatbot - INFO - [vector_store.py:642] - Extracted 25 sections from pre-processed content: ['EVANA YASMIN', 'Career Objective:', 'PROFESSIONAL SKILLS:', 'MAJOR PROJECT &amp; SERVICES:', '1. Sr. Software Engineer (0.8 yr)', 'Ahsanullah University of Science and Technology', 'Duties/Responsibilities:', '2. Sr. Software Developer (1.7 yrs)', 'Friendship', '3. Backend Developer (0.2 yr)', 'Save the Children in Bangladesh', '4. Java Programmer (0.8 yr)', 'Dnet Ltd.', '5. Sr. Officer (0.9 yr)', 'Save The Children International', '6. Software Engineer (4.8 yrs)', 'BRAC International', '7. Sr. PHP Programmer (2.7 yrs)', 'Winux Soft Ltd', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-31 18:29:36,423 - cv_chatbot - INFO - [vector_store.py:540] - Lightweight LLM validation completed
+2025-10-31 18:29:36,423 - cv_chatbot - INFO - [vector_store.py:557] - Golden chunk content length: 4339 characters
+2025-10-31 18:29:36,424 - cv_chatbot - INFO - [vector_store.py:558] - Golden chunk preview: # EVANA YASMIN
+
+## Career Objective:
+To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self development and help me achieve personal as well a...
+2025-10-31 18:29:36,424 - cv_chatbot - INFO - [vector_store.py:578] - Created single golden chunk with 4339 characters
+2025-10-31 18:29:36,425 - cv_chatbot - INFO - [vector_store.py:650] - Successfully created chunk for EVANA YASMIN 
+2025-10-31 18:29:55,542 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:29:59,530 - cv_chatbot - INFO - [rag.py:351] - Found source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 18:29:59,530 - cv_chatbot - INFO - [rag.py:351] - Found source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:29:59,530 - cv_chatbot - INFO - [rag.py:351] - Found source path for MD.ROBIUL HOSSAIN: 10.0.6.22:7878/MD.ROBIUL_HOSSAIN.pdf
+2025-10-31 18:30:38,844 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:30:42,982 - cv_chatbot - INFO - [rag.py:351] - Found source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 18:30:42,982 - cv_chatbot - INFO - [rag.py:351] - Found source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:30:42,982 - cv_chatbot - INFO - [rag.py:351] - Found source path for MD.ROBIUL HOSSAIN: 10.0.6.22:7878/MD.ROBIUL_HOSSAIN.pdf
+2025-10-31 18:30:47,536 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: 10.0.6.22:7878/EVANA_YASMIN.pdf, 10.0.6.22:7878/MD.ROBIUL_HOSSAIN.pdf, 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:34:34,531 - cv_chatbot - WARNING - [main.py:322] - Vector store, candidate index, and uploaded PDFs reset
+2025-10-31 18:34:48,805 - cv_chatbot - INFO - [main.py:225] - PDF saved permanently: uploaded_cvs/MOHASIN_MIAH.pdf
+2025-10-31 18:34:48,805 - cv_chatbot - INFO - [vector_store.py:702] - Storing permanent PDF path: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:35:19,479 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: MOHASIN MIAH
+2025-10-31 18:35:19,481 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: MOHASIN MIAH (c111cea7-b777-4dd3-a4d4-cc6607655bf1) from content_extraction
+2025-10-31 18:35:19,482 - cv_chatbot - INFO - [vector_store.py:615] - Starting optimized processing for: MOHASIN MIAH
+2025-10-31 18:35:19,483 - cv_chatbot - INFO - [vector_store.py:642] - Extracted 24 sections from pre-processed content: ['MOHASIN MIAH', 'Career Objective:', 'Career Summary:', 'Employment History:', '1. Lead Java Consultant(Sr. Software Engineer) (0.3 yr)', 'Midas Software Solutions Ltd', 'Duties/Responsibilities:', '2. Lead Developer (0.8 yr)', 'Amharc Tech', '3. Lead Developer (1.3 yrs)', 'AlterSense Limited', '4. Sr.Software Engineer(Team Lead) (2.1 yrs)', 'ADN DIGINET LTD.', '5. Sr.Software Engineer (2.0 yrs)', 'Synesis IT', '6. Software Engineer (4.6 yrs)', 'Newgen Technology Ltd.', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference: 01', 'Reference: 02']
+2025-10-31 18:35:23,366 - cv_chatbot - INFO - [vector_store.py:540] - Lightweight LLM validation completed
+2025-10-31 18:35:23,366 - cv_chatbot - INFO - [vector_store.py:557] - Golden chunk content length: 4610 characters
+2025-10-31 18:35:23,367 - cv_chatbot - INFO - [vector_store.py:558] - Golden chunk preview: MOHASIN MIAH
+
+**Career Objective:**
+To join a company that offers a stable and positive atmosphere and inspires me to enhance and innovate the work culture for the betterment of all parties concerned....
+2025-10-31 18:35:23,368 - cv_chatbot - INFO - [vector_store.py:578] - Created single golden chunk with 4610 characters
+2025-10-31 18:35:23,369 - cv_chatbot - INFO - [vector_store.py:650] - Successfully created chunk for MOHASIN MIAH 
+2025-10-31 18:35:52,797 - cv_chatbot - INFO - [main.py:225] - PDF saved permanently: uploaded_cvs/Sujan_Das.pdf
+2025-10-31 18:35:52,797 - cv_chatbot - INFO - [vector_store.py:702] - Storing permanent PDF path: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:36:17,419 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: SUJAN DAS
+2025-10-31 18:36:17,422 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: SUJAN DAS (ca894df1-77a7-4cb0-9e4f-e9e1ca114c05) from content_extraction
+2025-10-31 18:36:17,424 - cv_chatbot - INFO - [vector_store.py:615] - Starting optimized processing for: SUJAN DAS
+2025-10-31 18:36:17,426 - cv_chatbot - INFO - [vector_store.py:642] - Extracted 19 sections from pre-processed content: ['SUJAN DAS', 'Career Objective:', 'Career Summary:', 'Employment History:', '1. Senior Software Engineer (0.3 yr)', 'Infinia Group', 'Duties/Responsibilities:', '2. Programmer (2.2 yrs)', 'IICT , BUET', '3. Assistant Manager (9.7 yrs)', 'Youngone CEPZ', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Fields of Specialization', 'Language Proficiency:', 'Personal Details :', 'Reference: 02']
+2025-10-31 18:36:20,558 - cv_chatbot - INFO - [vector_store.py:540] - Lightweight LLM validation completed
+2025-10-31 18:36:20,559 - cv_chatbot - INFO - [vector_store.py:557] - Golden chunk content length: 4278 characters
+2025-10-31 18:36:20,559 - cv_chatbot - INFO - [vector_store.py:558] - Golden chunk preview: # SUJAN DAS
+
+## Career Objective
+Passionate software development professional with a desire to leverage critical thinking, requirement analysis, and project management technologies to develop medium t...
+2025-10-31 18:36:20,560 - cv_chatbot - INFO - [vector_store.py:578] - Created single golden chunk with 4278 characters
+2025-10-31 18:36:20,560 - cv_chatbot - INFO - [vector_store.py:650] - Successfully created chunk for SUJAN DAS 
+2025-10-31 18:36:55,621 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:37:05,941 - cv_chatbot - INFO - [rag.py:351] - Found source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:37:05,941 - cv_chatbot - INFO - [rag.py:351] - Found source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:37:14,712 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:40:20,700 - cv_chatbot - INFO - [main.py:225] - PDF saved permanently: uploaded_cvs/MOHASIN_MIAH.pdf
+2025-10-31 18:40:41,605 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:40:49,139 - cv_chatbot - INFO - [rag.py:351] - Found source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:40:49,140 - cv_chatbot - INFO - [rag.py:351] - Found source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:40:51,737 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:41:13,681 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:41:21,773 - cv_chatbot - INFO - [rag.py:351] - Found source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:41:21,774 - cv_chatbot - INFO - [rag.py:351] - Found source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:41:24,436 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:41:47,271 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:41:55,655 - cv_chatbot - INFO - [rag.py:351] - Found source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:41:55,655 - cv_chatbot - INFO - [rag.py:351] - Found source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:41:59,653 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:44:44,202 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:44:54,371 - cv_chatbot - INFO - [rag.py:351] - Found source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:44:54,373 - cv_chatbot - INFO - [rag.py:351] - Found source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:45:33,655 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:45:42,855 - cv_chatbot - INFO - [rag.py:351] - Found source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:45:42,855 - cv_chatbot - INFO - [rag.py:351] - Found source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:45:49,424 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:47:47,301 - cv_chatbot - INFO - [rag.py:474] - Documents available - using RAG only
+2025-10-31 18:47:56,267 - cv_chatbot - INFO - [rag.py:351] - Found source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:47:56,268 - cv_chatbot - INFO - [rag.py:351] - Found source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:48:07,272 - cv_chatbot - INFO - [rag.py:408] - Added real file path source attribution: 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:49:47,315 - cv_chatbot - INFO - [rag.py:473] - Documents available - using RAG only
+2025-10-31 18:49:56,970 - cv_chatbot - ERROR - [rag.py:412] - RAG failed: name 'source_paths' is not defined
+2025-10-31 18:52:04,590 - cv_chatbot - INFO - [rag.py:527] - Documents available - using RAG only
+2025-10-31 18:52:24,321 - cv_chatbot - INFO - [rag.py:444] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:52:24,321 - cv_chatbot - INFO - [rag.py:460] - Added RELEVANT source paths: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:56:46,237 - cv_chatbot - INFO - [main.py:225] - PDF saved permanently: uploaded_cvs/EVANA_YASMIN.pdf
+2025-10-31 18:56:46,239 - cv_chatbot - INFO - [vector_store.py:702] - Storing permanent PDF path: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 18:57:52,604 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: EVANA YASMIN
+2025-10-31 18:57:52,607 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: EVANA YASMIN (25bce560-04ad-4b86-9ebf-322d3940aaab) from content_extraction
+2025-10-31 18:57:52,608 - cv_chatbot - INFO - [vector_store.py:615] - Starting optimized processing for: EVANA YASMIN
+2025-10-31 18:57:52,611 - cv_chatbot - INFO - [vector_store.py:642] - Extracted 25 sections from pre-processed content: ['EVANA YASMIN', 'Career Objective:', 'PROFESSIONAL SKILLS:', 'MAJOR PROJECT &amp; SERVICES:', '1. Sr. Software Engineer (0.8 yr)', 'Ahsanullah University of Science and Technology', 'Duties/Responsibilities:', '2. Sr. Software Developer (1.7 yrs)', 'Friendship', '3. Backend Developer (0.2 yr)', 'Save the Children in Bangladesh', '4. Java Programmer (0.8 yr)', 'Dnet Ltd.', '5. Sr. Officer (0.9 yr)', 'Save The Children International', '6. Software Engineer (4.8 yrs)', 'BRAC International', '7. Sr. PHP Programmer (2.7 yrs)', 'Winux Soft Ltd', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-31 18:57:57,300 - cv_chatbot - INFO - [vector_store.py:540] - Lightweight LLM validation completed
+2025-10-31 18:57:57,301 - cv_chatbot - INFO - [vector_store.py:557] - Golden chunk content length: 4300 characters
+2025-10-31 18:57:57,301 - cv_chatbot - INFO - [vector_store.py:558] - Golden chunk preview: # EVANA YASMIN
+
+## Career Objective:
+To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self development and help me achieve personal as well a...
+2025-10-31 18:57:57,302 - cv_chatbot - INFO - [vector_store.py:578] - Created single golden chunk with 4300 characters
+2025-10-31 18:57:57,302 - cv_chatbot - INFO - [vector_store.py:650] - Successfully created chunk for EVANA YASMIN 
+2025-10-31 18:58:21,317 - cv_chatbot - INFO - [main.py:225] - PDF saved permanently: uploaded_cvs/EVANA_YASMIN.pdf
+2025-10-31 18:58:25,438 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 18:58:37,113 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:58:37,114 - cv_chatbot - INFO - [rag.py:444] - Added RELEVANT source paths: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:58:37,122 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 18:58:58,675 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:58:58,675 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 18:58:58,676 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 18:58:58,676 - cv_chatbot - INFO - [rag.py:444] - Added RELEVANT source paths: 10.0.6.22:7878/EVANA_YASMIN.pdf, 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 18:59:02,340 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 18:59:57,838 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 19:00:11,064 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 19:00:11,065 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:00:11,066 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:00:11,066 - cv_chatbot - INFO - [rag.py:444] - Added RELEVANT source paths: 10.0.6.22:7878/EVANA_YASMIN.pdf, 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:00:29,138 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 19:00:47,477 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:00:47,478 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:00:47,479 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 19:00:47,479 - cv_chatbot - INFO - [rag.py:444] - Added RELEVANT source paths: 10.0.6.22:7878/EVANA_YASMIN.pdf, 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:01:40,504 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 19:01:56,422 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:01:56,423 - cv_chatbot - INFO - [rag.py:444] - Added RELEVANT source paths: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:02:53,280 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 19:03:19,254 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 19:03:35,892 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:03:35,893 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 19:03:35,895 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:03:35,895 - cv_chatbot - INFO - [rag.py:444] - Added RELEVANT source paths: 10.0.6.22:7878/EVANA_YASMIN.pdf, 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:03:39,255 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 19:03:59,878 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:03:59,879 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 19:03:59,880 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:03:59,881 - cv_chatbot - INFO - [rag.py:444] - Added RELEVANT source paths: 10.0.6.22:7878/EVANA_YASMIN.pdf, 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:04:04,115 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 19:04:21,666 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:04:21,667 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:04:21,668 - cv_chatbot - INFO - [rag.py:444] - Added RELEVANT source paths: 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:05:03,512 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 19:05:21,402 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:05:21,404 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 19:05:21,405 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:05:21,406 - cv_chatbot - INFO - [rag.py:444] - Added RELEVANT source paths: 10.0.6.22:7878/EVANA_YASMIN.pdf, 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:08:35,941 - cv_chatbot - INFO - [main.py:225] - PDF saved permanently: uploaded_cvs/MD.ROBIUL_HOSSAIN.pdf
+2025-10-31 19:08:35,942 - cv_chatbot - INFO - [vector_store.py:702] - Storing permanent PDF path: 10.0.6.22:7878/MD.ROBIUL_HOSSAIN.pdf
+2025-10-31 19:08:58,809 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: MD.ROBIUL HOSSAIN
+2025-10-31 19:08:58,811 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: MD.ROBIUL HOSSAIN (40b23fc3-780b-4650-ad45-1d0d35c68b5c) from content_extraction
+2025-10-31 19:08:58,812 - cv_chatbot - INFO - [vector_store.py:615] - Starting optimized processing for: MD.ROBIUL HOSSAIN
+2025-10-31 19:08:58,813 - cv_chatbot - INFO - [vector_store.py:642] - Extracted 21 sections from pre-processed content: ['MD.ROBIUL HOSSAIN', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Total Year of Experience: 16.8 yrs', 'e-World Ltd', 'Duties/Responsibilities:', '2. Cheif Operating Officer (1.8 yrs)', 'AJRA Technologies Ltd', '3. Cheif Operating Officer (8.3 yrs)', 'VU Mobile Ltd.', '4. Software Development Manager (3.0 yrs)', 'AccessInfo Tech ltd.', '5. Application Developer (0.6 yr)', 'Black Stone technologies', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :']
+2025-10-31 19:09:02,817 - cv_chatbot - INFO - [vector_store.py:540] - Lightweight LLM validation completed
+2025-10-31 19:09:02,818 - cv_chatbot - INFO - [vector_store.py:557] - Golden chunk content length: 5432 characters
+2025-10-31 19:09:02,818 - cv_chatbot - INFO - [vector_store.py:558] - Golden chunk preview: # MD. ROBIUL HOSSAIN
+
+## Career Objective:
+Provide strategic oversight of operational and financial functions for the firm specializing in technical and business areas, including the establishment of ...
+2025-10-31 19:09:02,819 - cv_chatbot - INFO - [vector_store.py:578] - Created single golden chunk with 5432 characters
+2025-10-31 19:09:02,819 - cv_chatbot - INFO - [vector_store.py:650] - Successfully created chunk for MD.ROBIUL HOSSAIN 
+2025-10-31 19:09:25,634 - cv_chatbot - INFO - [rag.py:511] - Documents available - using RAG only
+2025-10-31 19:09:51,618 - cv_chatbot - INFO - [rag.py:428] - Added relevant source path for MD.ROBIUL HOSSAIN: 10.0.6.22:7878/MD.ROBIUL_HOSSAIN.pdf
+2025-10-31 19:09:51,618 - cv_chatbot - INFO - [rag.py:444] - Added RELEVANT source paths: 10.0.6.22:7878/MD.ROBIUL_HOSSAIN.pdf
+2025-10-31 19:19:43,739 - cv_chatbot - INFO - [main.py:78] - PDF saved permanently: uploaded_cvs/Md_Rafiqul_Islam.pdf
+2025-10-31 19:19:43,739 - cv_chatbot - INFO - [vector_store.py:318] - Storing permanent PDF path: 10.0.6.22:7878/Md_Rafiqul_Islam.pdf
+2025-10-31 19:20:10,809 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: MD RAFIQUL ISLAM
+2025-10-31 19:20:10,812 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: MD RAFIQUL ISLAM (d7267358-e312-4585-a480-51f7c66fd7ec) from content_extraction
+2025-10-31 19:20:10,812 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MD RAFIQUL ISLAM
+2025-10-31 19:20:10,815 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 21 sections from pre-processed content: ['MD RAFIQUL ISLAM', 'Career Objective:', 'Career Summary:', 'Special Qualification:', '1. Sr.Software Engineer (0.8 yr)', 'Softzino Technologies', 'Duties/Responsibilities:', '2. Teach lead (1.1 yrs)', '3S Intersoft JSC', '3. Full-stack Software Engineer (1.4 yrs)', 'Information strategy and Technology', 'Software Developer (1.3 yrs)', 'Nazdaq Technology Inc.', '5. Web Developer (1.2 yrs)', 'RS Software', 'Academic Qualification:', 'Career and Application Information:', 'Extra Curricular Activities:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-31 19:20:15,724 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-31 19:20:15,725 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 5833 characters
+2025-10-31 19:20:15,725 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MD RAFIQUL ISLAM
+
+**Career Objective:**
+Highly proficient FULL STACK DEVELOPER with up to 5 years of hands-on development experience building highly interactive, efficient, and unique applications usi...
+2025-10-31 19:20:15,726 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 5833 characters
+2025-10-31 19:20:15,726 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for MD RAFIQUL ISLAM 
+2025-10-31 19:20:39,720 - cv_chatbot - INFO - [rag.py:264] - Documents available - using RAG only
+2025-10-31 19:21:00,638 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:21:00,639 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 19:21:00,640 - cv_chatbot - INFO - [rag.py:197] - Added RELEVANT source paths: 10.0.6.22:7878/EVANA_YASMIN.pdf, 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:23:20,381 - cv_chatbot - INFO - [rag.py:264] - Documents available - using RAG only
+2025-10-31 19:23:39,118 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:23:39,119 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MD RAFIQUL ISLAM: 10.0.6.22:7878/Md_Rafiqul_Islam.pdf
+2025-10-31 19:23:39,120 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MD.ROBIUL HOSSAIN: 10.0.6.22:7878/MD.ROBIUL_HOSSAIN.pdf
+2025-10-31 19:23:39,120 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:23:39,120 - cv_chatbot - INFO - [rag.py:197] - Added RELEVANT source paths: 10.0.6.22:7878/MD.ROBIUL_HOSSAIN.pdf, 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Md_Rafiqul_Islam.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:27:47,216 - cv_chatbot - INFO - [main.py:78] - PDF saved permanently: uploaded_cvs/Md.Harunor.Rashid_Harun.pdf
+2025-10-31 19:27:47,217 - cv_chatbot - INFO - [vector_store.py:318] - Storing permanent PDF path: 10.0.6.22:7878/Md.Harunor.Rashid_Harun.pdf
+2025-10-31 19:28:17,706 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: MD.HARUNOR.RASHID HARUN
+2025-10-31 19:28:17,709 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: MD.HARUNOR.RASHID HARUN (a98f10cf-7980-479d-a22b-3c5756ad1ec4) from content_extraction
+2025-10-31 19:28:17,709 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MD.HARUNOR.RASHID HARUN
+2025-10-31 19:28:17,711 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 17 sections from pre-processed content: ['MD.HARUNOR.RASHID HARUN', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '2. Lead Software Engineer &amp; Architect (2.9 yrs)', 'BANGAS TALLU INDUSTRIAL GROUP BD -Manufacturing -MFG .', 'Duties/Responsibilities:', '3. SOFTWARE DEVELOPER , ARCHITECT &amp; DBA (5.3 yrs)', 'ISL- GENESIS TECHNOLOGY GROUP', '4. PROGRAMMER (1.4 yrs)', 'FLORA SYSTEM LTD.', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Extra Curricular Activities:', 'Language Proficiency:']
+2025-10-31 19:28:23,608 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-31 19:28:23,609 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 6975 characters
+2025-10-31 19:28:23,609 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MD.HARUNOR.RASHID HARUN
+
+**Career Objective:**
+To be involved in the ICT Solution and Services Department, taking on challenges for growth, improvement, and development through self-driven potential f...
+2025-10-31 19:28:23,610 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 6975 characters
+2025-10-31 19:28:23,610 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for MD.HARUNOR.RASHID HARUN 
+2025-10-31 19:28:48,871 - cv_chatbot - INFO - [rag.py:264] - Documents available - using RAG only
+2025-10-31 19:29:06,356 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:29:06,357 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MD.HARUNOR.RASHID HARUN: 10.0.6.22:7878/Md.Harunor.Rashid_Harun.pdf
+2025-10-31 19:29:06,358 - cv_chatbot - INFO - [rag.py:197] - Added RELEVANT source paths: 10.0.6.22:7878/Md.Harunor.Rashid_Harun.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:33:21,932 - cv_chatbot - INFO - [main.py:78] - PDF saved permanently: uploaded_cvs/MD.ROBIUL_HOSSAIN.pdf
+2025-10-31 19:35:29,271 - cv_chatbot - INFO - [main.py:78] - PDF saved permanently: uploaded_cvs/Mehearaz_Uddin_Himel.pdf
+2025-10-31 19:35:29,271 - cv_chatbot - INFO - [vector_store.py:318] - Storing permanent PDF path: 10.0.6.22:7878/Mehearaz_Uddin_Himel.pdf
+2025-10-31 19:35:45,497 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: MEHEARAZ UDDIN HIMEL
+2025-10-31 19:35:45,500 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: MEHEARAZ UDDIN HIMEL (a8adb098-83d9-4512-a6ec-01ee7711ddd5) from content_extraction
+2025-10-31 19:35:45,500 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MEHEARAZ UDDIN HIMEL
+2025-10-31 19:35:45,500 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 19 sections from pre-processed content: ['Professional Profile', 'MEHEARAZ UDDIN HIMEL', 'Career Objective:', 'Career Summary:', 'Special Qualification:', '1. Senior Software Engineer (3.6 yrs)', 'Grameen Communications', 'Duties/Responsibilities:', '2. Senior Software Developer (2.8 yrs)', 'Nexdecade', '3. Senior Software Engineer (1.8 yrs)', 'Carbon51 Ltd', '4. junior Software Engineer (2.6 yrs)', 'Bengal Solutions Ltd', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :']
+2025-10-31 19:35:48,612 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-31 19:35:48,612 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 3136 characters
+2025-10-31 19:35:48,613 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # MEHEARAZ UDDIN HIMEL
+
+## Professional Profile
+
+To establish a promising career in a well-known established company or organization, deliver performance at my best, and foster strong cooperative rela...
+2025-10-31 19:35:48,613 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 3136 characters
+2025-10-31 19:35:48,614 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for MEHEARAZ UDDIN HIMEL 
+2025-10-31 19:36:32,252 - cv_chatbot - INFO - [main.py:78] - PDF saved permanently: uploaded_cvs/Mehearaz_Uddin_Himel.pdf
+2025-10-31 19:37:58,855 - cv_chatbot - INFO - [rag.py:264] - Documents available - using RAG only
+2025-10-31 19:38:15,549 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MEHEARAZ UDDIN HIMEL: 10.0.6.22:7878/Mehearaz_Uddin_Himel.pdf
+2025-10-31 19:38:15,550 - cv_chatbot - INFO - [rag.py:197] - Added RELEVANT source paths: 10.0.6.22:7878/Mehearaz_Uddin_Himel.pdf
+2025-10-31 19:38:37,216 - cv_chatbot - INFO - [rag.py:264] - Documents available - using RAG only
+2025-10-31 19:38:57,574 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MD RAFIQUL ISLAM: 10.0.6.22:7878/Md_Rafiqul_Islam.pdf
+2025-10-31 19:38:57,575 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MD.HARUNOR.RASHID HARUN: 10.0.6.22:7878/Md.Harunor.Rashid_Harun.pdf
+2025-10-31 19:38:57,576 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MD.ROBIUL HOSSAIN: 10.0.6.22:7878/MD.ROBIUL_HOSSAIN.pdf
+2025-10-31 19:38:57,576 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:38:57,576 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 19:38:57,576 - cv_chatbot - INFO - [rag.py:197] - Added RELEVANT source paths: 10.0.6.22:7878/EVANA_YASMIN.pdf, 10.0.6.22:7878/MD.ROBIUL_HOSSAIN.pdf, 10.0.6.22:7878/Md.Harunor.Rashid_Harun.pdf, 10.0.6.22:7878/Md_Rafiqul_Islam.pdf, 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:39:28,315 - cv_chatbot - INFO - [rag.py:264] - Documents available - using RAG only
+2025-10-31 19:39:44,262 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 19:39:44,263 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MOHASIN MIAH: 10.0.6.22:7878/MOHASIN_MIAH.pdf
+2025-10-31 19:39:44,264 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MD RAFIQUL ISLAM: 10.0.6.22:7878/Md_Rafiqul_Islam.pdf
+2025-10-31 19:39:44,264 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MD.HARUNOR.RASHID HARUN: 10.0.6.22:7878/Md.Harunor.Rashid_Harun.pdf
+2025-10-31 19:39:44,264 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MEHEARAZ UDDIN HIMEL: 10.0.6.22:7878/Mehearaz_Uddin_Himel.pdf
+2025-10-31 19:39:44,264 - cv_chatbot - INFO - [rag.py:197] - Added RELEVANT source paths: 10.0.6.22:7878/EVANA_YASMIN.pdf, 10.0.6.22:7878/MOHASIN_MIAH.pdf, 10.0.6.22:7878/Md.Harunor.Rashid_Harun.pdf, 10.0.6.22:7878/Md_Rafiqul_Islam.pdf, 10.0.6.22:7878/Mehearaz_Uddin_Himel.pdf
+2025-10-31 19:40:20,487 - cv_chatbot - INFO - [rag.py:264] - Documents available - using RAG only
+2025-10-31 19:40:29,795 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MD RAFIQUL ISLAM: 10.0.6.22:7878/Md_Rafiqul_Islam.pdf
+2025-10-31 19:40:29,796 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MD.HARUNOR.RASHID HARUN: 10.0.6.22:7878/Md.Harunor.Rashid_Harun.pdf
+2025-10-31 19:40:29,797 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for EVANA YASMIN: 10.0.6.22:7878/EVANA_YASMIN.pdf
+2025-10-31 19:40:29,798 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for SUJAN DAS: 10.0.6.22:7878/Sujan_Das.pdf
+2025-10-31 19:40:29,798 - cv_chatbot - INFO - [rag.py:181] - Added relevant source path for MEHEARAZ UDDIN HIMEL: 10.0.6.22:7878/Mehearaz_Uddin_Himel.pdf
+2025-10-31 19:40:29,798 - cv_chatbot - INFO - [rag.py:197] - Added RELEVANT source paths: 10.0.6.22:7878/EVANA_YASMIN.pdf, 10.0.6.22:7878/Md.Harunor.Rashid_Harun.pdf, 10.0.6.22:7878/Md_Rafiqul_Islam.pdf, 10.0.6.22:7878/Mehearaz_Uddin_Himel.pdf, 10.0.6.22:7878/Sujan_Das.pdf

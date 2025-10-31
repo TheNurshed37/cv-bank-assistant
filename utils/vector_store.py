@@ -300,10 +300,8 @@ def convert_pdf_with_docling_basic(pdf_path, candidate_data):
     logger.info(f"Created fallback single chunk with {len(cleaned_text)} characters")
     return [doc]
 
-# In vector_store.py - modify the add_to_faiss_index function
-
-def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file, original_client_path=None):
-    """Enhanced with content-based name extraction and ORIGINAL source path storage"""
+def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file, permanent_storage_path=None):
+    """Enhanced with permanent PDF storage and real path storage"""
     
     from utils.candidate_manager import CandidateManager
     candidate_manager = CandidateManager(hash_index_file)
@@ -315,65 +313,50 @@ def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file, original
         candidate_data = hash_index["candidates"][candidate_id]
         return f"'{candidate_data['candidate_name']}' already exists.", 201
 
-    # Use original client path if provided, otherwise use the processed path as fallback
-    if original_client_path:
-        source_path_to_store = original_client_path
-        logger.info(f"Storing original client path: {source_path_to_store}")
-    else:
-        source_path_to_store = pdf_path
-        logger.warning(f"No original client path provided, using processed path: {source_path_to_store}")
+    # Use the permanent storage path for source attribution
+    source_path_to_store = permanent_storage_path if permanent_storage_path else pdf_path
+    logger.info(f"Storing permanent PDF path: {source_path_to_store}")
 
-    # PROCESS PDF ONLY ONCE and reuse the result
+    # PROCESS PDF
     try:
         converter = DocumentConverter()
         result = converter.convert(pdf_path)
         full_content = result.document.export_to_markdown()
         
-        # Use first 2000 chars for name extraction
         sample_content = full_content[:2000]
         
-        # Register new candidate WITH CONTENT AND ORIGINAL SOURCE PATH
         filename = os.path.basename(pdf_path)
+        
+        # Register candidate with PERMANENT storage path
         candidate_data = candidate_manager.register_candidate(
             file_hash=file_hash, 
             filename=filename, 
             content=sample_content,
-            file_path=source_path_to_store  # Store the ORIGINAL client path
+            file_path=source_path_to_store  # Store the permanent, accessible path
         )
         
-        # Process document with enhanced hybrid approach
-        logger.info(f"Processing CV with enhanced pipeline: {candidate_data['candidate_name']}")
-        
-        # Use the already processed content instead of reprocessing the PDF
         docs = convert_pdf_with_docling_enhanced_optimized(pdf_path, candidate_data, full_content)
         
     except Exception as e:
         logger.error(f"PDF processing failed: {e}")
-        # Fallback: register without content but with original source path
         filename = os.path.basename(pdf_path)
         candidate_data = candidate_manager.register_candidate(
             file_hash=file_hash, 
             filename=filename, 
             content=None,
-            file_path=source_path_to_store  # Store the ORIGINAL path in fallback too
+            file_path=source_path_to_store
         )
         docs = convert_pdf_with_docling_enhanced(pdf_path, candidate_data)
     
-    # CRITICAL: NO SPLITTING - use documents as-is
-    chunks = docs
-    
-    logger.info(f"Created {len(chunks)} golden chunks for: {candidate_data['candidate_name']}")
-
     # Save to vector store
+    chunks = docs
     embedding_model = HuggingFaceEmbeddings(model_name=settings.EMBEDDING_MODEL)
     
     if os.path.exists(os.path.join(faiss_dir, "index.faiss")):
         vector_store = FAISS.load_local(faiss_dir, embedding_model, allow_dangerous_deserialization=True)
         vector_store.add_documents(chunks)
-        logger.info("Appended to existing FAISS index")
     else:
         vector_store = FAISS.from_documents(chunks, embedding_model)
-        logger.info("Created new FAISS index")
 
     vector_store.save_local(faiss_dir)
     

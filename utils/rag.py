@@ -61,10 +61,8 @@ def llm_general_knowledge(question: str) -> str:
         logger.error(f"General knowledge LLM failed: {e}")
         return "I encountered an error while processing your question. Please try again."
 
-# In rag.py
-
 def rag_answer(question: str) -> str:
-    """Answer questions using RAG from uploaded CVs with source attribution"""
+    """Answer questions using RAG with RELEVANT file path source attribution"""
     try:
         # Initialize
         GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
@@ -83,9 +81,9 @@ def rag_answer(question: str) -> str:
         if not retrieved_docs:
             return "I couldn't find any relevant information in the uploaded CVs to answer your question. Please try asking about specific skills, experiences, or candidates that might be in the database."
 
-        # Prepare context and collect source filenames
+        # Prepare context and track which candidates are actually used
         context_parts = []
-        source_filenames = set()
+        candidate_usage_tracker = {}  # Track which candidates provide relevant content
         
         # Import candidate manager to get source paths
         from utils.candidate_manager import CandidateManager
@@ -97,44 +95,43 @@ def rag_answer(question: str) -> str:
             
             context_parts.append(f"CANDIDATE: {candidate_name}\nCONTENT: {doc.page_content}")
             
-            # Get the source path from candidate manager
+            # Store candidate info for later source path resolution
             if candidate_id:
-                candidate_data = candidate_manager.get_candidate_by_id(candidate_id)
-                if candidate_data and candidate_data.get('source_path'):
-                    # Extract just the filename from the full source path
-                    source_path = candidate_data['source_path']
-                    filename = os.path.basename(source_path)
-                    source_filenames.add(filename)
-                    logger.info(f"Found source path for {candidate_name}: {source_path} -> {filename}")
-                else:
-                    # Fallback to metadata source
-                    source_filename = doc.metadata.get('source', 'Unknown')
-                    source_filenames.add(source_filename)
-            else:
-                # Fallback to metadata source
-                source_filename = doc.metadata.get('source', 'Unknown')
-                source_filenames.add(source_filename)
+                candidate_usage_tracker[candidate_id] = {
+                    'candidate_name': candidate_name,
+                    'doc_content': doc.page_content
+                }
         
         context_text = "\n\n".join(context_parts)
         
-        # Prepare prompt (same as before)
+        # Prepare prompt - REFINED FOR HR ASSISTANT
         prompt_template = """
-        You are an HR assistant analyzing CVs. Answer the question based STRICTLY on the provided context clearly and accurately.
-        
+        You are an expert HR Assistant specialized in CV analysis and candidate screening. Your role is to help HR professionals quickly identify the best candidates based on their resumes.
+
         CONTEXT FROM UPLOADED CVs:
         {context}
-        
+
         QUESTION: {question}
-        
-        CRITICAL INSTRUCTIONS:
-        1. You MUST provide a clear, factual answer based ONLY on the context above
-        2. If the context doesn't contain the answer, be honest and say you don't know
-        3. Be specific about skills, experience, education, and projects
-        4. Reference candidate names specifically
-        5. If information is limited for a candidate, state what information IS available
-        6. Keep it informative but concise
-        7. Be helpful and professional
-        8. Complete your answer without truncation
+
+        CRITICAL INSTRUCTIONS FOR CV ANALYSIS:
+        1. **STRICT CONTEXT-BASED ANSWERS**: Only use information from the provided CV context. Do not hallucinate or assume missing details.
+
+        INSTRUCTIONS:
+        1. Base your answer **only** on the given CV context — never assume or fabricate details.
+        2. Always mention the **candidate's name** when referring to their details.
+        3. If the context does not contain the requested information, clearly state:
+        → "The provided CVs do not include that information."
+        4. Be specific when describing:
+        - Skills and technical proficiencies
+        - Work experience and job roles
+        - Education and qualifications
+        - Projects, achievements, or certifications
+        5. If multiple candidates are present, compare or list them clearly.
+        6. If information is incomplete for a candidate, specify what **is available**.
+        7. When appropriate, reference the candidate’s file path 
+        8. Keep the answer **concise, factual, and well-organized**.
+        9. Complete your response without truncation or repetition.
+        10. Keep the answer short and to the point.
 
         ANSWER:
         """
@@ -142,7 +139,7 @@ def rag_answer(question: str) -> str:
         llm = ChatGoogleGenerativeAI(
             model="gemini-2.5-flash",
             temperature=0.1,
-            max_tokens=1500,
+            max_tokens=2000,  # Increased for more comprehensive analysis
             convert_system_message_to_human=True
         )
         
@@ -163,11 +160,41 @@ def rag_answer(question: str) -> str:
         if not answer or len(answer) < 20:
             return "I couldn't generate a response based on the available CV information. Please try rephrasing your question or ask about different aspects of the candidates."
         
-        # Add source attribution with proper filenames
-        if source_filenames:
-            source_list = ", ".join(sorted(source_filenames))  # Sort for consistency
-            answer += f"\n\n[source: {source_list}]"
-            logger.info(f"Added source attribution: {source_list}")
+        # Add ONLY RELEVANT source paths based on the actual answer
+        if candidate_usage_tracker:
+            relevant_source_paths = set()
+            
+            # Analyze which candidates were actually mentioned in the answer
+            answer_lower = answer.lower()
+            
+            for candidate_id, candidate_info in candidate_usage_tracker.items():
+                candidate_name = candidate_info['candidate_name']
+                candidate_name_lower = candidate_name.lower()
+                
+                # Check if this candidate is mentioned in the answer
+                if candidate_name_lower in answer_lower:
+                    # Get the source path for this relevant candidate
+                    candidate_data = candidate_manager.get_candidate_by_id(candidate_id)
+                    if candidate_data and candidate_data.get('source_path'):
+                        source_path = candidate_data['source_path']
+                        relevant_source_paths.add(source_path)
+                        logger.info(f"Added relevant source path for {candidate_name}: {source_path}")
+            
+            # If no specific candidates mentioned, include all from context as fallback
+            if not relevant_source_paths:
+                logger.info("No specific candidates mentioned in answer, using all retrieved sources")
+                for candidate_id in candidate_usage_tracker.keys():
+                    candidate_data = candidate_manager.get_candidate_by_id(candidate_id)
+                    if candidate_data and candidate_data.get('source_path'):
+                        source_path = candidate_data['source_path']
+                        relevant_source_paths.add(source_path)
+            
+            # Add relevant source attribution
+            if relevant_source_paths:
+                sorted_paths = sorted(list(relevant_source_paths))
+                paths_str = ', '.join(sorted_paths)
+                answer += f'\n\n[source: {paths_str}]'
+                logger.info(f"Added RELEVANT source paths: {paths_str}")
         
         return answer
         
@@ -175,7 +202,7 @@ def rag_answer(question: str) -> str:
         logger.error(f"RAG failed: {e}")
         return "Error analyzing CVs. Please try again."
 
-# Add helper function to detect insufficient answers
+
 def is_insufficient_answer(answer: str, retrieved_docs: list, question: str) -> bool:
     """Check if the answer indicates insufficient information"""
     insufficient_phrases = [
