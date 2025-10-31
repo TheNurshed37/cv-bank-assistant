@@ -1,0 +1,198 @@
+2025-10-28 18:52:47,867 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 18:53:24,662 - cv_chatbot - WARNING - [candidate_manager.py:52] - Filename doesn't contain proper name: resume1.pdf
+2025-10-28 18:53:24,662 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: resume1.pdf (4cbbec85-94b2-4b0b-b0a0-d90ef7816d6e)
+2025-10-28 18:53:24,663 - cv_chatbot - INFO - [vector_store.py:34] - Processing CV for candidate: resume1.pdf
+2025-10-28 18:53:30,624 - cv_chatbot - INFO - [vector_store.py:54] - Created 13 chunks for candidate: resume1.pdf
+2025-10-28 18:53:37,782 - cv_chatbot - INFO - [vector_store.py:65] - Created new FAISS index
+2025-10-28 18:53:58,968 - cv_chatbot - INFO - [candidate_manager.py:49] - Name extracted from filename: Cv Demo
+2025-10-28 18:53:58,969 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: Cv Demo (25513e94-abb9-4679-9fc7-05ba2ecf0215)
+2025-10-28 18:53:58,969 - cv_chatbot - INFO - [vector_store.py:34] - Processing CV for candidate: Cv Demo
+2025-10-28 18:54:09,044 - cv_chatbot - INFO - [vector_store.py:54] - Created 24 chunks for candidate: Cv Demo
+2025-10-28 18:54:15,393 - cv_chatbot - INFO - [vector_store.py:62] - Appended to existing FAISS index
+2025-10-28 18:56:11,618 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 18:56:19,191 - cv_chatbot - INFO - [candidate_manager.py:49] - Name extracted from filename: Cv Demo
+2025-10-28 18:56:19,192 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: Cv Demo (9bd52843-91f6-4adb-8d95-ff0e32f7c1df)
+2025-10-28 18:56:19,192 - cv_chatbot - INFO - [vector_store.py:34] - Processing CV for candidate: Cv Demo
+2025-10-28 18:56:28,920 - cv_chatbot - INFO - [vector_store.py:54] - Created 24 chunks for candidate: Cv Demo
+2025-10-28 18:56:34,976 - cv_chatbot - INFO - [vector_store.py:65] - Created new FAISS index
+2025-10-28 18:57:39,765 - cv_chatbot - WARNING - [candidate_manager.py:52] - Filename doesn't contain proper name: resume10.pdf
+2025-10-28 18:57:39,765 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: resume10.pdf (0438582b-92bf-41f7-9996-f38aefa83a0c)
+2025-10-28 18:57:39,766 - cv_chatbot - INFO - [vector_store.py:34] - Processing CV for candidate: resume10.pdf
+2025-10-28 18:57:44,588 - cv_chatbot - INFO - [vector_store.py:54] - Created 17 chunks for candidate: resume10.pdf
+2025-10-28 18:57:50,388 - cv_chatbot - INFO - [vector_store.py:62] - Appended to existing FAISS index
+2025-10-28 18:59:17,062 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 18:59:24,374 - cv_chatbot - INFO - [candidate_manager.py:49] - Name extracted from filename: Cv Demo
+2025-10-28 18:59:24,375 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: Cv Demo (f453724d-764a-4c1c-a647-1aed40d409e3)
+2025-10-28 18:59:24,376 - cv_chatbot - INFO - [vector_store.py:34] - Processing CV for candidate: Cv Demo
+2025-10-28 18:59:34,444 - cv_chatbot - INFO - [vector_store.py:54] - Created 24 chunks for candidate: Cv Demo
+2025-10-28 18:59:40,430 - cv_chatbot - INFO - [vector_store.py:65] - Created new FAISS index
+2025-10-28 19:00:18,059 - cv_chatbot - WARNING - [candidate_manager.py:52] - Filename doesn't contain proper name: resume1.pdf
+2025-10-28 19:00:18,060 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: resume1.pdf (73a91a2f-01ec-403b-b18c-858933d1a34f)
+2025-10-28 19:00:18,060 - cv_chatbot - INFO - [vector_store.py:34] - Processing CV for candidate: resume1.pdf
+2025-10-28 19:00:22,750 - cv_chatbot - INFO - [vector_store.py:54] - Created 13 chunks for candidate: resume1.pdf
+2025-10-28 19:00:28,418 - cv_chatbot - INFO - [vector_store.py:62] - Appended to existing FAISS index
+2025-10-28 19:01:00,420 - cv_chatbot - WARNING - [candidate_manager.py:52] - Filename doesn't contain proper name: resume2.pdf
+2025-10-28 19:01:00,421 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: resume2.pdf (33dc9daa-a897-46b5-82c6-1edb9f66293e)
+2025-10-28 19:01:00,421 - cv_chatbot - INFO - [vector_store.py:34] - Processing CV for candidate: resume2.pdf
+2025-10-28 19:01:05,223 - cv_chatbot - INFO - [vector_store.py:54] - Created 10 chunks for candidate: resume2.pdf
+2025-10-28 19:01:10,806 - cv_chatbot - INFO - [vector_store.py:62] - Appended to existing FAISS index
+2025-10-28 19:01:23,515 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 19:06:00,862 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 19:06:21,675 - cv_chatbot - WARNING - [candidate_manager.py:52] - Filename doesn't contain proper name: resume1.pdf
+2025-10-28 19:06:21,677 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: resume1.pdf (b0c464fb-0540-486d-b890-4f8e4c4b98cd)
+2025-10-28 19:06:21,677 - cv_chatbot - INFO - [vector_store.py:276] - Processing CV with enhanced pipeline: resume1.pdf
+2025-10-28 19:06:21,678 - cv_chatbot - INFO - [vector_store.py:206] - Starting enhanced processing for: resume1.pdf
+2025-10-28 19:06:27,291 - cv_chatbot - WARNING - [vector_store.py:59] - Docling structure extraction failed: 'DoclingDocument' object has no attribute 'elements'
+2025-10-28 19:06:27,320 - cv_chatbot - INFO - [vector_store.py:215] - Docling extracted 1 sections
+2025-10-28 19:06:27,320 - cv_chatbot - INFO - [vector_store.py:219] - Rule-based filtering kept 0 relevant sections
+2025-10-28 19:07:31,333 - cv_chatbot - WARNING - [vector_store.py:180] - LLM validation failed, using rule-based content: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-28 19:07:31,333 - cv_chatbot - INFO - [vector_store.py:227] - Successfully created golden chunk for resume1.pdf
+2025-10-28 19:07:31,335 - cv_chatbot - INFO - [vector_store.py:287] - Created 1 golden chunks for: resume1.pdf
+2025-10-28 19:07:37,132 - cv_chatbot - INFO - [vector_store.py:298] - Created new FAISS index
+2025-10-28 19:12:49,545 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 19:13:08,379 - cv_chatbot - WARNING - [candidate_manager.py:52] - Filename doesn't contain proper name: resume1.pdf
+2025-10-28 19:13:08,379 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: resume1.pdf (6f252457-39fa-4010-82db-f9d80e2c71cc)
+2025-10-28 19:13:08,379 - cv_chatbot - INFO - [vector_store.py:301] - Processing CV with enhanced pipeline: resume1.pdf
+2025-10-28 19:13:08,379 - cv_chatbot - INFO - [vector_store.py:231] - Starting enhanced processing for: resume1.pdf
+2025-10-28 19:13:14,043 - cv_chatbot - WARNING - [vector_store.py:60] - Docling structure extraction failed: 'DoclingDocument' object has no attribute 'items'
+2025-10-28 19:13:14,073 - cv_chatbot - INFO - [vector_store.py:240] - Docling extracted 1 sections: ['Full Document']
+2025-10-28 19:13:14,073 - cv_chatbot - INFO - [vector_store.py:117] - Kept section: Full Document
+2025-10-28 19:13:14,073 - cv_chatbot - INFO - [vector_store.py:244] - Rule-based filtering kept 1 relevant sections
+2025-10-28 19:13:17,588 - cv_chatbot - INFO - [vector_store.py:198] - Lightweight LLM validation completed
+2025-10-28 19:13:17,589 - cv_chatbot - INFO - [vector_store.py:252] - Successfully created golden chunk for resume1.pdf
+2025-10-28 19:13:17,628 - cv_chatbot - INFO - [vector_store.py:312] - Created 4 golden chunks for: resume1.pdf
+2025-10-28 19:13:23,625 - cv_chatbot - INFO - [vector_store.py:323] - Created new FAISS index
+2025-10-28 19:13:35,516 - cv_chatbot - INFO - [candidate_manager.py:49] - Name extracted from filename: Cv Demo
+2025-10-28 19:13:35,517 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: Cv Demo (c1d8ef2c-51ff-4f66-be82-6434dc633594)
+2025-10-28 19:13:35,517 - cv_chatbot - INFO - [vector_store.py:301] - Processing CV with enhanced pipeline: Cv Demo
+2025-10-28 19:13:35,517 - cv_chatbot - INFO - [vector_store.py:231] - Starting enhanced processing for: Cv Demo
+2025-10-28 19:13:45,237 - cv_chatbot - WARNING - [vector_store.py:60] - Docling structure extraction failed: 'DoclingDocument' object has no attribute 'items'
+2025-10-28 19:13:45,259 - cv_chatbot - INFO - [vector_store.py:240] - Docling extracted 1 sections: ['Full Document']
+2025-10-28 19:13:45,259 - cv_chatbot - INFO - [vector_store.py:117] - Kept section: Full Document
+2025-10-28 19:13:45,260 - cv_chatbot - INFO - [vector_store.py:244] - Rule-based filtering kept 1 relevant sections
+2025-10-28 19:13:51,692 - cv_chatbot - INFO - [vector_store.py:198] - Lightweight LLM validation completed
+2025-10-28 19:13:51,694 - cv_chatbot - INFO - [vector_store.py:252] - Successfully created golden chunk for Cv Demo
+2025-10-28 19:13:51,723 - cv_chatbot - INFO - [vector_store.py:312] - Created 10 golden chunks for: Cv Demo
+2025-10-28 19:13:56,930 - cv_chatbot - INFO - [vector_store.py:320] - Appended to existing FAISS index
+2025-10-28 19:26:09,892 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 19:30:44,595 - cv_chatbot - WARNING - [candidate_manager.py:52] - Filename doesn't contain proper name: resume1.pdf
+2025-10-28 19:30:44,596 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: resume1.pdf (27e2c350-b81a-4edb-9b2d-a69b65d1994e)
+2025-10-28 19:30:44,596 - cv_chatbot - INFO - [vector_store.py:301] - Processing CV with enhanced pipeline: resume1.pdf
+2025-10-28 19:30:44,596 - cv_chatbot - INFO - [vector_store.py:231] - Starting enhanced processing for: resume1.pdf
+2025-10-28 19:30:49,568 - cv_chatbot - WARNING - [vector_store.py:60] - Docling structure extraction failed: 'DoclingDocument' object has no attribute 'items'
+2025-10-28 19:30:49,573 - cv_chatbot - INFO - [vector_store.py:240] - Docling extracted 1 sections: ['Full Document']
+2025-10-28 19:30:49,573 - cv_chatbot - INFO - [vector_store.py:117] - Kept section: Full Document
+2025-10-28 19:30:49,573 - cv_chatbot - INFO - [vector_store.py:244] - Rule-based filtering kept 1 relevant sections
+2025-10-28 19:30:52,804 - cv_chatbot - INFO - [vector_store.py:198] - Lightweight LLM validation completed
+2025-10-28 19:30:52,804 - cv_chatbot - INFO - [vector_store.py:252] - Successfully created golden chunk for resume1.pdf
+2025-10-28 19:30:52,833 - cv_chatbot - INFO - [vector_store.py:312] - Created 4 golden chunks for: resume1.pdf
+2025-10-28 19:30:57,736 - cv_chatbot - INFO - [vector_store.py:323] - Created new FAISS index
+2025-10-28 19:38:05,493 - cv_chatbot - INFO - [candidate_manager.py:49] - Name extracted from filename: Cv Demo
+2025-10-28 19:38:05,494 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: Cv Demo (91b753ac-b9a3-4575-a55a-0b90a0cc2fab)
+2025-10-28 19:38:05,494 - cv_chatbot - INFO - [vector_store.py:301] - Processing CV with enhanced pipeline: Cv Demo
+2025-10-28 19:38:05,494 - cv_chatbot - INFO - [vector_store.py:231] - Starting enhanced processing for: Cv Demo
+2025-10-28 19:38:14,984 - cv_chatbot - WARNING - [vector_store.py:60] - Docling structure extraction failed: 'DoclingDocument' object has no attribute 'items'
+2025-10-28 19:38:15,002 - cv_chatbot - INFO - [vector_store.py:240] - Docling extracted 1 sections: ['Full Document']
+2025-10-28 19:38:15,002 - cv_chatbot - INFO - [vector_store.py:117] - Kept section: Full Document
+2025-10-28 19:38:15,002 - cv_chatbot - INFO - [vector_store.py:244] - Rule-based filtering kept 1 relevant sections
+2025-10-28 19:38:21,354 - cv_chatbot - INFO - [vector_store.py:198] - Lightweight LLM validation completed
+2025-10-28 19:38:21,355 - cv_chatbot - INFO - [vector_store.py:252] - Successfully created golden chunk for Cv Demo
+2025-10-28 19:38:21,407 - cv_chatbot - INFO - [vector_store.py:312] - Created 10 golden chunks for: Cv Demo
+2025-10-28 19:38:26,920 - cv_chatbot - INFO - [vector_store.py:320] - Appended to existing FAISS index
+2025-10-28 19:48:25,825 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 19:48:42,629 - cv_chatbot - WARNING - [candidate_manager.py:52] - Filename doesn't contain proper name: resume1.pdf
+2025-10-28 19:48:42,630 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: resume1.pdf (a3751223-7c49-4ae3-8ff4-207b9182a5ca)
+2025-10-28 19:48:42,630 - cv_chatbot - INFO - [vector_store.py:271] - Processing CV with enhanced pipeline: resume1.pdf
+2025-10-28 19:48:42,630 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: resume1.pdf
+2025-10-28 19:48:48,163 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 8 sections: ['IM A. SAMPLE I', 'SUMMARY OF QUALIFICATIONS', 'EDUCATION', 'Accounting and Financial Management', 'Information Systems Analysis and Problem Solving', 'WORK HISTORY', 'PROFESSIONAL AFFILIATION', 'COMPUTER SKILLS']
+2025-10-28 19:49:52,080 - cv_chatbot - WARNING - [vector_store.py:162] - LLM validation failed, using rule-based content: 404 models/gemini-1.5-flash-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-28 19:49:52,081 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2117 characters
+2025-10-28 19:49:52,081 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for resume1.pdf
+2025-10-28 19:49:52,081 - cv_chatbot - INFO - [vector_store.py:279] - Created 1 golden chunks for: resume1.pdf
+2025-10-28 19:49:57,850 - cv_chatbot - INFO - [vector_store.py:290] - Created new FAISS index
+2025-10-28 19:50:23,242 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 19:51:55,382 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 19:52:03,627 - cv_chatbot - WARNING - [candidate_manager.py:52] - Filename doesn't contain proper name: resume1.pdf
+2025-10-28 19:52:03,628 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: resume1.pdf (d9882fc8-2fd9-4cff-a70f-b92731a7038b)
+2025-10-28 19:52:03,628 - cv_chatbot - INFO - [vector_store.py:271] - Processing CV with enhanced pipeline: resume1.pdf
+2025-10-28 19:52:03,628 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: resume1.pdf
+2025-10-28 19:52:10,907 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 8 sections: ['IM A. SAMPLE I', 'SUMMARY OF QUALIFICATIONS', 'EDUCATION', 'Accounting and Financial Management', 'Information Systems Analysis and Problem Solving', 'WORK HISTORY', 'PROFESSIONAL AFFILIATION', 'COMPUTER SKILLS']
+2025-10-28 19:52:17,987 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-28 19:52:17,988 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 1955 characters
+2025-10-28 19:52:17,989 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for resume1.pdf
+2025-10-28 19:52:18,025 - cv_chatbot - INFO - [vector_store.py:279] - Created 1 golden chunks for: resume1.pdf
+2025-10-28 19:52:24,178 - cv_chatbot - INFO - [vector_store.py:290] - Created new FAISS index
+2025-10-28 19:53:50,862 - cv_chatbot - WARNING - [candidate_manager.py:52] - Filename doesn't contain proper name: resume7.pdf
+2025-10-28 19:53:50,867 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: resume7.pdf (52f17e54-e357-49d7-8324-361a30466f36)
+2025-10-28 19:53:50,870 - cv_chatbot - INFO - [vector_store.py:271] - Processing CV with enhanced pipeline: resume7.pdf
+2025-10-28 19:53:50,870 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: resume7.pdf
+2025-10-28 19:53:58,156 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 5 sections: ['IM A. SAMPLE VII', 'OBJECTIVE', 'EDUCATION', 'PROFESSIONAL EXPERIENCE', 'COLLEGIATE HONORS AND ACTIVITIES']
+2025-10-28 19:54:01,582 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-28 19:54:01,583 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 1688 characters
+2025-10-28 19:54:01,583 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for resume7.pdf
+2025-10-28 19:54:01,627 - cv_chatbot - INFO - [vector_store.py:279] - Created 1 golden chunks for: resume7.pdf
+2025-10-28 19:54:07,273 - cv_chatbot - INFO - [vector_store.py:287] - Appended to existing FAISS index
+2025-10-28 19:59:39,211 - cv_chatbot - INFO - [candidate_manager.py:49] - Name extracted from filename: Cv Demo
+2025-10-28 19:59:39,211 - cv_chatbot - INFO - [candidate_manager.py:143] - Registered new candidate: Cv Demo (6c59ee99-8533-4729-834e-b061eb4efc41)
+2025-10-28 19:59:39,212 - cv_chatbot - INFO - [vector_store.py:271] - Processing CV with enhanced pipeline: Cv Demo
+2025-10-28 19:59:39,212 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: Cv Demo
+2025-10-28 19:59:48,957 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 16 sections: ['Md. Mahadi Hasan', 'Contact:', 'Career Objectives', 'B.Sc. Engineering', 'Diploma In Engineering', 'Secondary School Certificate (S.S.C)', 'Resume Of', 'Job Related Skill:', 'Language Proficiency', 'Job Experience:', 'Computer Skill:', 'Training:', 'Job Responsibilities:', 'Field Of Interest', 'Personal Information', 'References:']
+2025-10-28 19:59:54,590 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-28 19:59:54,590 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2765 characters
+2025-10-28 19:59:54,591 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for Cv Demo
+2025-10-28 19:59:54,623 - cv_chatbot - INFO - [vector_store.py:279] - Created 1 golden chunks for: Cv Demo
+2025-10-28 20:00:00,019 - cv_chatbot - INFO - [vector_store.py:287] - Appended to existing FAISS index
+2025-10-28 20:05:23,909 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 20:06:48,929 - cv_chatbot - WARNING - [candidate_manager.py:308] - LLM name extraction failed: 404 models/gemini-1.5-flash-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-28 20:06:48,932 - cv_chatbot - WARNING - [candidate_manager.py:204] - Filename doesn't contain proper name: resume1.pdf
+2025-10-28 20:06:48,934 - cv_chatbot - INFO - [candidate_manager.py:427] - Registered new candidate: resume1.pdf (14e86ed7-0dfc-48db-a4a0-fbb5361907c6) from original_filename
+2025-10-28 20:06:48,934 - cv_chatbot - INFO - [vector_store.py:324] - Processing CV with enhanced pipeline: resume1.pdf
+2025-10-28 20:06:48,934 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: resume1.pdf
+2025-10-28 20:06:54,219 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 8 sections: ['IM A. SAMPLE I', 'SUMMARY OF QUALIFICATIONS', 'EDUCATION', 'Accounting and Financial Management', 'Information Systems Analysis and Problem Solving', 'WORK HISTORY', 'PROFESSIONAL AFFILIATION', 'COMPUTER SKILLS']
+2025-10-28 20:06:57,446 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-28 20:06:57,446 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 1955 characters
+2025-10-28 20:06:57,447 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for resume1.pdf
+2025-10-28 20:06:57,456 - cv_chatbot - INFO - [vector_store.py:332] - Created 1 golden chunks for: resume1.pdf
+2025-10-28 20:07:01,584 - cv_chatbot - INFO - [vector_store.py:343] - Created new FAISS index
+2025-10-28 20:07:12,113 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 20:07:26,933 - cv_chatbot - INFO - [candidate_manager.py:302] - Name extracted with LLM: IM A. SAMPLE I
+2025-10-28 20:07:26,934 - cv_chatbot - INFO - [candidate_manager.py:427] - Registered new candidate: IM A. SAMPLE I (f6f69cba-2111-432d-9b16-63521da7cf06) from content_extraction
+2025-10-28 20:07:26,935 - cv_chatbot - INFO - [vector_store.py:324] - Processing CV with enhanced pipeline: IM A. SAMPLE I
+2025-10-28 20:07:26,935 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: IM A. SAMPLE I
+2025-10-28 20:07:31,620 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 8 sections: ['IM A. SAMPLE I', 'SUMMARY OF QUALIFICATIONS', 'EDUCATION', 'Accounting and Financial Management', 'Information Systems Analysis and Problem Solving', 'WORK HISTORY', 'PROFESSIONAL AFFILIATION', 'COMPUTER SKILLS']
+2025-10-28 20:07:35,115 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-28 20:07:35,116 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 1968 characters
+2025-10-28 20:07:35,117 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for IM A. SAMPLE I
+2025-10-28 20:07:35,149 - cv_chatbot - INFO - [vector_store.py:332] - Created 1 golden chunks for: IM A. SAMPLE I
+2025-10-28 20:07:40,706 - cv_chatbot - INFO - [vector_store.py:343] - Created new FAISS index
+2025-10-28 20:08:04,481 - cv_chatbot - INFO - [candidate_manager.py:302] - Name extracted with LLM: Md. Mahadi Hasan
+2025-10-28 20:08:04,484 - cv_chatbot - INFO - [candidate_manager.py:427] - Registered new candidate: Md. Mahadi Hasan (0fe5c9b0-7731-455b-a393-0b4b6a5aefda) from content_extraction
+2025-10-28 20:08:04,485 - cv_chatbot - INFO - [vector_store.py:324] - Processing CV with enhanced pipeline: Md. Mahadi Hasan
+2025-10-28 20:08:04,485 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: Md. Mahadi Hasan
+2025-10-28 20:08:14,034 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 16 sections: ['Md. Mahadi Hasan', 'Contact:', 'Career Objectives', 'B.Sc. Engineering', 'Diploma In Engineering', 'Secondary School Certificate (S.S.C)', 'Resume Of', 'Job Related Skill:', 'Language Proficiency', 'Job Experience:', 'Computer Skill:', 'Training:', 'Job Responsibilities:', 'Field Of Interest', 'Personal Information', 'References:']
+2025-10-28 20:08:18,175 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-28 20:08:18,176 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2738 characters
+2025-10-28 20:08:18,178 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for Md. Mahadi Hasan
+2025-10-28 20:08:18,201 - cv_chatbot - INFO - [vector_store.py:332] - Created 1 golden chunks for: Md. Mahadi Hasan
+2025-10-28 20:08:23,237 - cv_chatbot - INFO - [vector_store.py:340] - Appended to existing FAISS index
+2025-10-28 20:10:25,094 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-28 20:10:44,300 - cv_chatbot - INFO - [candidate_manager.py:302] - Name extracted with LLM: IM A. SAMPLE VIII
+2025-10-28 20:10:44,301 - cv_chatbot - INFO - [candidate_manager.py:427] - Registered new candidate: IM A. SAMPLE VIII (744d8f2f-49ba-49cb-8aa3-bbde65196e8a) from content_extraction
+2025-10-28 20:10:44,301 - cv_chatbot - INFO - [vector_store.py:324] - Processing CV with enhanced pipeline: IM A. SAMPLE VIII
+2025-10-28 20:10:44,301 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: IM A. SAMPLE VIII
+2025-10-28 20:10:49,247 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 7 sections: ['IM A. SAMPLE VIII', 'OBJECTIVE', 'BS in Computer Information Systems-Web-based Networking', 'TECHNICAL KNOWLEDGE AND SKILLS', 'Computer Support Technician/Intern, Union Pacific Railroad, Omaha NE (Summer 20xx)', 'Computer Lab Assistant, Bellevue University, Bellevue NE (20xx - 20xx)', 'COLLEGIATE ACTIVITIES']
+2025-10-28 20:10:52,718 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-28 20:10:52,718 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 1521 characters
+2025-10-28 20:10:52,719 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for IM A. SAMPLE VIII
+2025-10-28 20:10:52,750 - cv_chatbot - INFO - [vector_store.py:332] - Created 1 golden chunks for: IM A. SAMPLE VIII
+2025-10-28 20:10:58,574 - cv_chatbot - INFO - [vector_store.py:343] - Created new FAISS index
+2025-10-28 20:11:29,266 - cv_chatbot - INFO - [candidate_manager.py:302] - Name extracted with LLM: Md. Mahadi Hasan
+2025-10-28 20:11:29,268 - cv_chatbot - INFO - [candidate_manager.py:427] - Registered new candidate: Md. Mahadi Hasan (da4f473b-514f-4dff-b5ad-da653e3b04de) from content_extraction
+2025-10-28 20:11:29,269 - cv_chatbot - INFO - [vector_store.py:324] - Processing CV with enhanced pipeline: Md. Mahadi Hasan
+2025-10-28 20:11:29,269 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: Md. Mahadi Hasan
+2025-10-28 20:11:38,877 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 16 sections: ['Md. Mahadi Hasan', 'Contact:', 'Career Objectives', 'B.Sc. Engineering', 'Diploma In Engineering', 'Secondary School Certificate (S.S.C)', 'Resume Of', 'Job Related Skill:', 'Language Proficiency', 'Job Experience:', 'Computer Skill:', 'Training:', 'Job Responsibilities:', 'Field Of Interest', 'Personal Information', 'References:']
+2025-10-28 20:11:44,101 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-28 20:11:44,102 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2575 characters
+2025-10-28 20:11:44,103 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for Md. Mahadi Hasan
+2025-10-28 20:11:44,140 - cv_chatbot - INFO - [vector_store.py:332] - Created 1 golden chunks for: Md. Mahadi Hasan
+2025-10-28 20:11:49,096 - cv_chatbot - INFO - [vector_store.py:340] - Appended to existing FAISS index

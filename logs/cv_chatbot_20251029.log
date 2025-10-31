@@ -1,0 +1,1431 @@
+2025-10-29 13:27:08,614 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-29 13:27:49,353 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: IM A. SAMPLE I
+2025-10-29 13:27:49,355 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: IM A. SAMPLE I (32438dda-0cb3-4c74-89fb-544a87d2c887) from content_extraction
+2025-10-29 13:27:49,356 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: IM A. SAMPLE I
+2025-10-29 13:27:49,357 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: IM A. SAMPLE I
+2025-10-29 13:27:54,089 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 8 sections: ['IM A. SAMPLE I', 'SUMMARY OF QUALIFICATIONS', 'EDUCATION', 'Accounting and Financial Management', 'Information Systems Analysis and Problem Solving', 'WORK HISTORY', 'PROFESSIONAL AFFILIATION', 'COMPUTER SKILLS']
+2025-10-29 13:27:56,239 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 13:27:56,240 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 1968 characters
+2025-10-29 13:27:56,241 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for IM A. SAMPLE I
+2025-10-29 13:27:56,267 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: IM A. SAMPLE I
+2025-10-29 13:28:01,284 - cv_chatbot - INFO - [vector_store.py:297] - Created new FAISS index
+2025-10-29 13:28:45,241 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Ahasanul Haque
+2025-10-29 13:28:45,246 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Ahasanul Haque (5d627dcf-4c16-472d-bffa-43a1d9792063) from content_extraction
+2025-10-29 13:28:45,247 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: Ahasanul Haque
+2025-10-29 13:28:45,248 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: Ahasanul Haque
+2025-10-29 13:28:52,239 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 13 sections: ['Professional Profile', 'Ahasanul Haque Software Engineer', 'Self Appraisal', 'Bachelor of Science in software Engineering (SWE)', 'Higher Secondary Certificate (HSC)', 'Secondary School Certificate (SSC)', 'Communication', 'Computer Based Knowledge', 'Problem solving', 'Project', 'Research Experience', 'Certificates', 'Personal Details']
+2025-10-29 13:28:55,141 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 13:28:55,142 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2341 characters
+2025-10-29 13:28:55,143 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for Ahasanul Haque
+2025-10-29 13:28:55,174 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: Ahasanul Haque
+2025-10-29 13:28:59,453 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 13:30:47,428 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Hasin Anjum Pabon
+2025-10-29 13:30:47,430 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Hasin Anjum Pabon (85f15ca7-2e88-45dc-a013-eab1dc963466) from content_extraction
+2025-10-29 13:30:47,432 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: Hasin Anjum Pabon
+2025-10-29 13:30:47,432 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: Hasin Anjum Pabon
+2025-10-29 13:30:56,314 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 11 sections: ['React Developer', 'Summary', 'Skills', '01. Vehicle Car Sales Website || Live Site || Front End Code || Back End Code', '02. Holiday Planner Travel Agency || Live Site || Front End Code || Back End Code', '03 Online Education Platform || Live Site || Front End Code', '04. Blog-World || Live Site || Front End Code || Back End Code', 'Education', 'Online Courses', 'Experience', 'Language and Proficiency']
+2025-10-29 13:30:59,221 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 13:30:59,221 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2069 characters
+2025-10-29 13:30:59,222 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for Hasin Anjum Pabon
+2025-10-29 13:30:59,249 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: Hasin Anjum Pabon
+2025-10-29 13:31:03,411 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 13:37:14,984 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-29 13:40:50,954 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-29 13:40:57,767 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-29 13:41:26,365 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Khalid Bin Alam
+2025-10-29 13:41:26,367 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Khalid Bin Alam (56eab959-6b25-434f-a326-b56429be9081) from content_extraction
+2025-10-29 13:41:26,367 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: Khalid Bin Alam
+2025-10-29 13:41:26,367 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: Khalid Bin Alam
+2025-10-29 13:41:32,091 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 7 sections: ['MD: Khalid Bin Alam', 'Blooming Beauty/ Live Site- Blooming Beauty, GitHub-Client, GitHub-Server', 'Warehouse management app', 'Hotel View- Live-site, GitHub-Client, GitHub-Server,', 'Programming Skills', 'Education &amp; Professional Training', 'Additional Skills']
+2025-10-29 13:41:34,674 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 13:41:34,675 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2462 characters
+2025-10-29 13:41:34,675 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for Khalid Bin Alam
+2025-10-29 13:41:34,715 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: Khalid Bin Alam
+2025-10-29 13:41:39,627 - cv_chatbot - INFO - [vector_store.py:297] - Created new FAISS index
+2025-10-29 13:46:38,253 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Ikramul Haque
+2025-10-29 13:46:38,255 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Ikramul Haque (25043170-04a2-4357-be61-8c86fa3ff34c) from content_extraction
+2025-10-29 13:46:38,256 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: Ikramul Haque
+2025-10-29 13:46:38,257 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: Ikramul Haque
+2025-10-29 13:46:46,424 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 21 sections: ['Ikramul Haque', 'PROFILE', 'East West University', 'Rajshahi Government City College', 'Al Helal Islami Academy and College', 'Rideshare Admin Dashboard', 'Ecommerce Admin Dashboard', 'MysteryFlavors: Food Delivery', 'AnythingHere: Shopping Site', 'MediCare24x7: A Telemedicine Application', 'LANGUAGES', 'REFERENCES', 'Programming Language', 'Front-end Tech.', 'Back-end tech', 'Mobile App Development', 'Database Systems', 'Misc', 'Developing a Tool to Classify Lethal Weapons by Analyzing Images.', 'A Sustainable Approach Between Satellite and Traditional Broadband Transmission Technologies Based on Green IT', 'INTERESTS']
+2025-10-29 13:46:49,263 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 13:46:49,264 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 1990 characters
+2025-10-29 13:46:49,265 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for Ikramul Haque
+2025-10-29 13:46:49,293 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: Ikramul Haque
+2025-10-29 13:46:54,470 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 13:47:15,564 - cv_chatbot - INFO - [candidate_manager.py:44] - Name extracted from filename: 44 Tanzina Akter Tani
+2025-10-29 13:47:15,567 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: 44 Tanzina Akter Tani (a0a36e3d-2532-4873-9bfc-dcf9fe4a1763) from filename_extraction
+2025-10-29 13:47:15,567 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: 44 Tanzina Akter Tani
+2025-10-29 13:47:15,568 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: 44 Tanzina Akter Tani
+2025-10-29 13:47:23,347 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 10 sections: ['Bachelor of Science in Computer Science and Engineering', 'Undergraduate Teaching Assistant', 'SKILLS', 'ACADEMIC PROJECTS', 'Tanzina Akter Tani', 'RESEARCH EXPERIENCE', 'ACHIEVEMENTS', 'WORKSHOPS &amp; SYMPOSIUM ATTENDED', 'CERTIFICATIONS:', 'COMMUNICATION SKILL']
+2025-10-29 13:47:27,285 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 13:47:27,286 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 4362 characters
+2025-10-29 13:47:27,287 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for 44 Tanzina Akter Tani
+2025-10-29 13:47:27,319 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: 44 Tanzina Akter Tani
+2025-10-29 13:47:31,551 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 13:47:41,385 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'what is the radius of the earth?' -> Corrected: 'what is the radius of the earth?' | Intent: specific_info
+2025-10-29 13:47:45,336 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 13:47:45,417 - cv_chatbot - INFO - [rag.py:390] - Retrieved 3 documents
+2025-10-29 13:47:45,418 - cv_chatbot - INFO - [rag.py:394] - Using context: False
+2025-10-29 13:47:45,418 - cv_chatbot - INFO - [rag.py:403] - Using general knowledge (no context)
+2025-10-29 13:47:48,420 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 13:48:02,080 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'who are you?' -> Corrected: 'What is your role?' | Intent: specific_info
+2025-10-29 13:48:06,269 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 13:48:06,380 - cv_chatbot - INFO - [rag.py:390] - Retrieved 3 documents
+2025-10-29 13:48:06,381 - cv_chatbot - INFO - [rag.py:394] - Using context: True
+2025-10-29 13:48:06,381 - cv_chatbot - INFO - [rag.py:400] - Context prepared with 3 candidate documents
+2025-10-29 13:48:07,902 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 13:48:29,796 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'what is hr?' -> Corrected: 'What is Human Resources?' | Intent: specific_info
+2025-10-29 13:48:33,808 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 13:48:33,897 - cv_chatbot - INFO - [rag.py:390] - Retrieved 3 documents
+2025-10-29 13:48:33,898 - cv_chatbot - INFO - [rag.py:394] - Using context: False
+2025-10-29 13:48:33,899 - cv_chatbot - INFO - [rag.py:403] - Using general knowledge (no context)
+2025-10-29 13:48:36,923 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 13:48:56,887 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'what is transformers?' -> Corrected: 'what are transformers?' | Intent: general_knowledge
+2025-10-29 13:49:00,909 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 13:49:01,014 - cv_chatbot - INFO - [rag.py:390] - Retrieved 3 documents
+2025-10-29 13:49:01,016 - cv_chatbot - INFO - [rag.py:394] - Using context: False
+2025-10-29 13:49:01,017 - cv_chatbot - INFO - [rag.py:403] - Using general knowledge (no context)
+2025-10-29 13:49:04,290 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 13:50:15,724 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'what is the way to select a candidate for python team in a software farm?' -> Corrected: 'how to select a candidate for a Python developer role in a software company?' | Intent: general_knowledge
+2025-10-29 13:50:19,748 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 13:50:19,881 - cv_chatbot - INFO - [rag.py:390] - Retrieved 3 documents
+2025-10-29 13:50:19,883 - cv_chatbot - INFO - [rag.py:394] - Using context: True
+2025-10-29 13:50:19,884 - cv_chatbot - INFO - [rag.py:400] - Context prepared with 3 candidate documents
+2025-10-29 13:50:24,761 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 13:51:06,301 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'okay, then answer it' -> Corrected: 'Please provide the CV or document you would like me to analyze.' | Intent: unknown
+2025-10-29 13:51:10,330 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 13:51:10,457 - cv_chatbot - INFO - [rag.py:390] - Retrieved 3 documents
+2025-10-29 13:51:10,458 - cv_chatbot - INFO - [rag.py:394] - Using context: True
+2025-10-29 13:51:10,458 - cv_chatbot - INFO - [rag.py:400] - Context prepared with 3 candidate documents
+2025-10-29 13:51:16,001 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 13:51:46,555 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'how to select a best candidate for java team?' -> Corrected: 'how to select the best candidate for a Java team?' | Intent: candidate_comparison
+2025-10-29 13:51:51,059 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 13:51:51,124 - cv_chatbot - INFO - [rag.py:390] - Retrieved 3 documents
+2025-10-29 13:51:51,126 - cv_chatbot - INFO - [rag.py:394] - Using context: True
+2025-10-29 13:51:51,126 - cv_chatbot - INFO - [rag.py:400] - Context prepared with 3 candidate documents
+2025-10-29 13:51:54,914 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 13:52:29,381 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'who is best candidate for java team?' -> Corrected: 'who is the best candidate for the Java team?' | Intent: candidate_comparison
+2025-10-29 13:52:33,784 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 13:52:33,804 - cv_chatbot - INFO - [rag.py:390] - Retrieved 3 documents
+2025-10-29 13:52:33,805 - cv_chatbot - INFO - [rag.py:394] - Using context: True
+2025-10-29 13:52:33,805 - cv_chatbot - INFO - [rag.py:400] - Context prepared with 3 candidate documents
+2025-10-29 13:52:37,562 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 13:53:54,345 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Al Azim Islam Khan Iram
+2025-10-29 13:53:54,347 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Al Azim Islam Khan Iram (cfe4dcca-4e92-4396-b488-e1a5005e687e) from content_extraction
+2025-10-29 13:53:54,348 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: Al Azim Islam Khan Iram
+2025-10-29 13:53:54,348 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: Al Azim Islam Khan Iram
+2025-10-29 13:53:58,855 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 6 sections: ['Al Azim Islam Khan Iram', 'Education', 'Skills Summary', 'Projects', 'Publications', 'Honors and Awards']
+2025-10-29 13:54:01,255 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 13:54:01,255 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2377 characters
+2025-10-29 13:54:01,256 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for Al Azim Islam Khan Iram
+2025-10-29 13:54:01,285 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: Al Azim Islam Khan Iram
+2025-10-29 13:54:05,386 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 13:54:34,830 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: HEMEL BARAI
+2025-10-29 13:54:34,834 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: HEMEL BARAI (b4a02af1-1a19-4da9-aeeb-1337a068b6a8) from content_extraction
+2025-10-29 13:54:34,837 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: HEMEL BARAI
+2025-10-29 13:54:34,838 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: HEMEL BARAI
+2025-10-29 13:54:53,531 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 17 sections: ['HEMEL BARAI', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. Software Engineer (1.9 yrs)', 'Pothiq R&amp;D Lab', 'Duties/Responsibilities:', '2. Software Engineer (2.3 yrs)', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Specialization:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):', 'Reference: 02']
+2025-10-29 13:54:56,087 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 13:54:56,088 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2344 characters
+2025-10-29 13:54:56,089 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for HEMEL BARAI
+2025-10-29 13:54:56,124 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: HEMEL BARAI
+2025-10-29 13:55:00,865 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 13:55:18,709 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD. Ahanab Shakil
+2025-10-29 13:55:18,711 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD. Ahanab Shakil (6d8e1bd8-bad1-4c76-8bda-c98aa4662ce6) from content_extraction
+2025-10-29 13:55:18,712 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: MD. Ahanab Shakil
+2025-10-29 13:55:18,712 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: MD. Ahanab Shakil
+2025-10-29 13:55:28,640 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 9 sections: ['MD. Ahanab Shakil', 'Career Objective', 'Education', 'Experience', 'Responsibilities -', 'Skill &amp; Technologies', 'Awards/Certifications', 'Projects And Works', 'References']
+2025-10-29 13:55:32,177 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 13:55:32,178 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 3283 characters
+2025-10-29 13:55:32,178 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for MD. Ahanab Shakil
+2025-10-29 13:55:32,221 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: MD. Ahanab Shakil
+2025-10-29 13:55:37,036 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 13:56:45,586 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: EVANA YASMIN
+2025-10-29 13:56:45,589 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: EVANA YASMIN (d30ad1ae-8363-4345-a794-2cb5b3a330b6) from content_extraction
+2025-10-29 13:56:45,590 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: EVANA YASMIN
+2025-10-29 13:56:45,591 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: EVANA YASMIN
+2025-10-29 13:57:02,995 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 25 sections: ['EVANA YASMIN', 'Career Objective:', 'PROFESSIONAL SKILLS:', 'MAJOR PROJECT &amp; SERVICES:', '1. Sr. Software Engineer (0.8 yr)', 'Ahsanullah University of Science and Technology', 'Duties/Responsibilities:', '2. Sr. Software Developer (1.7 yrs)', 'Friendship', '3. Backend Developer (0.2 yr)', 'Save the Children in Bangladesh', '4. Java Programmer (0.8 yr)', 'Dnet Ltd.', '5. Sr. Officer (0.9 yr)', 'Save The Children International', '6. Software Engineer (4.8 yrs)', 'BRAC International', '7. Sr. PHP Programmer (2.7 yrs)', 'Winux Soft Ltd', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 13:57:06,695 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 13:57:06,696 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2822 characters
+2025-10-29 13:57:06,696 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for EVANA YASMIN
+2025-10-29 13:57:06,761 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: EVANA YASMIN
+2025-10-29 13:57:10,874 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 13:57:41,545 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'give me the name of candidates for java?' -> Corrected: 'give me the names of candidates with Java experience' | Intent: unknown
+2025-10-29 13:57:45,749 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 13:57:45,805 - cv_chatbot - INFO - [rag.py:390] - Retrieved 4 documents
+2025-10-29 13:57:45,806 - cv_chatbot - INFO - [rag.py:394] - Using context: True
+2025-10-29 13:57:45,807 - cv_chatbot - INFO - [rag.py:400] - Context prepared with 4 candidate documents
+2025-10-29 13:57:49,189 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 13:58:58,380 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'who can be the best candidate from all the applicant for java team?' -> Corrected: 'Who is the best candidate from all applicants for the Java team?' | Intent: candidate_comparison
+2025-10-29 13:59:02,502 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 13:59:02,549 - cv_chatbot - INFO - [rag.py:390] - Retrieved 4 documents
+2025-10-29 13:59:02,551 - cv_chatbot - INFO - [rag.py:394] - Using context: True
+2025-10-29 13:59:02,554 - cv_chatbot - INFO - [rag.py:400] - Context prepared with 4 candidate documents
+2025-10-29 13:59:07,404 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 13:59:31,654 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'who can be the best candidate from all the applicant for java team based on overall experience and projects?' -> Corrected: 'Who is the best candidate for the Java team based on overall experience and projects?' | Intent: candidate_comparison
+2025-10-29 13:59:35,675 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 13:59:35,785 - cv_chatbot - INFO - [rag.py:390] - Retrieved 4 documents
+2025-10-29 13:59:35,786 - cv_chatbot - INFO - [rag.py:394] - Using context: True
+2025-10-29 13:59:35,787 - cv_chatbot - INFO - [rag.py:400] - Context prepared with 4 candidate documents
+2025-10-29 13:59:41,105 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 14:00:07,559 - cv_chatbot - INFO - [rag.py:360] - Query analysis - Original: 'who is the best candidate from all the applicant for java team based on overall experience and projects?' -> Corrected: 'Who is the best candidate from all applicants for the Java team based on overall experience and projects?' | Intent: candidate_comparison
+2025-10-29 14:00:11,839 - cv_chatbot - INFO - [rag.py:378] - FAISS index loaded successfully
+2025-10-29 14:00:11,923 - cv_chatbot - INFO - [rag.py:390] - Retrieved 4 documents
+2025-10-29 14:00:11,925 - cv_chatbot - INFO - [rag.py:394] - Using context: True
+2025-10-29 14:00:11,925 - cv_chatbot - INFO - [rag.py:400] - Context prepared with 4 candidate documents
+2025-10-29 14:00:16,823 - cv_chatbot - INFO - [rag.py:412] - Successfully generated answer
+2025-10-29 14:14:26,502 - cv_chatbot - INFO - [rag.py:611] - Query analysis - Original: 'string' -> Corrected: 'Here's how to analyze and correct the user query for a CV analysis system, along with the corrected output:
+
+**Analysis and Correction Process:**
+
+1.  **Spelling Mistakes/Typos:** I'll scan the query for common misspellings.
+2.  **Ambiguous Terms:** I'll identify abbreviations or jargon that might be unclear to a CV analysis system and replace them with their full, unambiguous forms.
+3.  **Original Intent:** Throughout the process' | Intent: general_knowledge
+2025-10-29 14:14:31,726 - cv_chatbot - INFO - [rag.py:630] - FAISS index loaded successfully
+2025-10-29 14:14:31,795 - cv_chatbot - INFO - [rag.py:642] - Retrieved 6 documents
+2025-10-29 14:14:31,796 - cv_chatbot - INFO - [rag.py:646] - Using context: True
+2025-10-29 14:14:31,797 - cv_chatbot - INFO - [rag.py:652] - Context prepared with 6 candidate documents
+2025-10-29 14:14:33,032 - cv_chatbot - INFO - [rag.py:665] - Successfully generated answer with 653 characters
+2025-10-29 14:15:25,839 - cv_chatbot - INFO - [rag.py:611] - Query analysis - Original: 'qhat is red color?' -> Corrected: 'What is red color?' | Intent: specific_info
+2025-10-29 14:15:30,956 - cv_chatbot - INFO - [rag.py:630] - FAISS index loaded successfully
+2025-10-29 14:15:30,991 - cv_chatbot - INFO - [rag.py:642] - Retrieved 6 documents
+2025-10-29 14:15:30,991 - cv_chatbot - INFO - [rag.py:646] - Using context: False
+2025-10-29 14:15:30,991 - cv_chatbot - INFO - [rag.py:655] - Using general knowledge (no context)
+2025-10-29 14:15:32,564 - cv_chatbot - INFO - [rag.py:665] - Successfully generated answer with 548 characters
+2025-10-29 14:15:46,555 - cv_chatbot - WARNING - [main.py:133] - Vector store and candidate index reset
+2025-10-29 14:15:51,034 - cv_chatbot - INFO - [rag.py:600] - Answering general knowledge question without CVs: qhat is red color?
+2025-10-29 14:16:09,316 - cv_chatbot - INFO - [rag.py:600] - Answering general knowledge question without CVs: who are you?
+2025-10-29 14:16:27,878 - cv_chatbot - INFO - [rag.py:600] - Answering general knowledge question without CVs: do you know nurshed?
+2025-10-29 14:16:45,241 - cv_chatbot - INFO - [rag.py:600] - Answering general knowledge question without CVs: who is messi?
+2025-10-29 14:17:46,652 - cv_chatbot - WARNING - [main.py:133] - Vector store and candidate index reset
+2025-10-29 14:18:33,697 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD RAFIQUL ISLAM
+2025-10-29 14:18:33,699 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD RAFIQUL ISLAM (951d09cb-95bc-4e0d-96ab-54390b08c292) from content_extraction
+2025-10-29 14:18:33,701 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: MD RAFIQUL ISLAM
+2025-10-29 14:18:33,701 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: MD RAFIQUL ISLAM
+2025-10-29 14:19:05,227 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 21 sections: ['MD RAFIQUL ISLAM', 'Career Objective:', 'Career Summary:', 'Special Qualification:', '1. Sr.Software Engineer (0.8 yr)', 'Softzino Technologies', 'Duties/Responsibilities:', '2. Teach lead (1.1 yrs)', '3S Intersoft JSC', '3. Full-stack Software Engineer (1.4 yrs)', 'Information strategy and Technology', 'Software Developer (1.3 yrs)', 'Nazdaq Technology Inc.', '5. Web Developer (1.2 yrs)', 'RS Software', 'Academic Qualification:', 'Career and Application Information:', 'Extra Curricular Activities:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 14:19:09,802 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 14:19:09,802 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 4195 characters
+2025-10-29 14:19:09,803 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for MD RAFIQUL ISLAM
+2025-10-29 14:19:09,844 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: MD RAFIQUL ISLAM
+2025-10-29 14:19:14,128 - cv_chatbot - INFO - [vector_store.py:297] - Created new FAISS index
+2025-10-29 14:22:53,742 - cv_chatbot - WARNING - [main.py:133] - Vector store and candidate index reset
+2025-10-29 14:23:32,626 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD RAFIQUL ISLAM
+2025-10-29 14:23:32,629 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD RAFIQUL ISLAM (ec1e45d3-7998-45ad-8fde-ab26b21050ed) from content_extraction
+2025-10-29 14:23:32,630 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: MD RAFIQUL ISLAM
+2025-10-29 14:23:32,630 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: MD RAFIQUL ISLAM
+2025-10-29 14:24:03,052 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 21 sections: ['MD RAFIQUL ISLAM', 'Career Objective:', 'Career Summary:', 'Special Qualification:', '1. Sr.Software Engineer (0.8 yr)', 'Softzino Technologies', 'Duties/Responsibilities:', '2. Teach lead (1.1 yrs)', '3S Intersoft JSC', '3. Full-stack Software Engineer (1.4 yrs)', 'Information strategy and Technology', 'Software Developer (1.3 yrs)', 'Nazdaq Technology Inc.', '5. Web Developer (1.2 yrs)', 'RS Software', 'Academic Qualification:', 'Career and Application Information:', 'Extra Curricular Activities:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 14:24:07,740 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 14:24:07,740 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 4103 characters
+2025-10-29 14:24:07,741 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for MD RAFIQUL ISLAM
+2025-10-29 14:24:07,779 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: MD RAFIQUL ISLAM
+2025-10-29 14:24:11,911 - cv_chatbot - INFO - [vector_store.py:297] - Created new FAISS index
+2025-10-29 14:26:48,066 - cv_chatbot - INFO - [rag.py:611] - Query analysis - Original: 'string' -> Corrected: 'Here's an analysis and correction of the user query, assuming the original query was a placeholder:
+
+**Analysis:**
+
+The prompt provides a clear set of instructions for correcting a user query intended for a CV analysis system. The key tasks are:
+1.  **Spelling/Typos:** Identify and fix common errors.
+2.  **Ambiguity:** Expand abbreviations or jargon into their full, unambiguous forms.
+3.  **Intent Preservation:** Ensure the corrected query still reflects' | Intent: unknown
+2025-10-29 14:26:52,278 - cv_chatbot - INFO - [rag.py:630] - FAISS index loaded successfully
+2025-10-29 14:26:52,469 - cv_chatbot - INFO - [rag.py:642] - Retrieved 1 documents
+2025-10-29 14:26:52,470 - cv_chatbot - INFO - [rag.py:646] - Using context: True
+2025-10-29 14:26:52,471 - cv_chatbot - INFO - [rag.py:652] - Context prepared with 1 candidate documents
+2025-10-29 14:26:53,860 - cv_chatbot - INFO - [rag.py:665] - Successfully generated answer with 665 characters
+2025-10-29 14:27:59,762 - cv_chatbot - INFO - [rag.py:611] - Query analysis - Original: 'what is string in pogramming?' -> Corrected: 'what is a string in programming?' | Intent: specific_info
+2025-10-29 14:28:04,739 - cv_chatbot - INFO - [rag.py:630] - FAISS index loaded successfully
+2025-10-29 14:28:04,817 - cv_chatbot - INFO - [rag.py:642] - Retrieved 1 documents
+2025-10-29 14:28:04,818 - cv_chatbot - INFO - [rag.py:646] - Using context: True
+2025-10-29 14:28:04,819 - cv_chatbot - INFO - [rag.py:652] - Context prepared with 1 candidate documents
+2025-10-29 14:28:06,049 - cv_chatbot - INFO - [rag.py:665] - Successfully generated answer with 151 characters
+2025-10-29 14:28:41,613 - cv_chatbot - INFO - [rag.py:611] - Query analysis - Original: 'what is bangladesh?' -> Corrected: 'What is the relevance of Bangladesh to my CV?' | Intent: specific_info
+2025-10-29 14:28:45,636 - cv_chatbot - INFO - [rag.py:630] - FAISS index loaded successfully
+2025-10-29 14:28:45,685 - cv_chatbot - INFO - [rag.py:642] - Retrieved 1 documents
+2025-10-29 14:28:45,685 - cv_chatbot - INFO - [rag.py:646] - Using context: True
+2025-10-29 14:28:45,685 - cv_chatbot - INFO - [rag.py:652] - Context prepared with 1 candidate documents
+2025-10-29 14:28:47,326 - cv_chatbot - INFO - [rag.py:665] - Successfully generated answer with 592 characters
+2025-10-29 14:29:39,252 - cv_chatbot - WARNING - [main.py:133] - Vector store and candidate index reset
+2025-10-29 14:30:44,768 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: SIFUL ISLAM
+2025-10-29 14:30:44,771 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: SIFUL ISLAM (b5022feb-4a62-4643-bd44-e92c7621410c) from content_extraction
+2025-10-29 14:30:44,771 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: SIFUL ISLAM
+2025-10-29 14:30:44,772 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: SIFUL ISLAM
+2025-10-29 14:30:51,988 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 10 sections: ['SIFUL ISLAM', 'OBJECTIVE', 'EXPERIENCE', 'TieLogs, Bangladesh, Software Engineer(Remote)', 'DECEMBER  2018  - APRIL 2020', 'SoftByte IT Solution, Bangladesh - Junior Software Engineer', 'EDUCATION', 'Bachelor of Science: Computer Science and Engineering', 'SKILLS', 'BIOGRAPHY']
+2025-10-29 14:30:55,589 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 14:30:55,590 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 3588 characters
+2025-10-29 14:30:55,590 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for SIFUL ISLAM
+2025-10-29 14:30:55,640 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: SIFUL ISLAM
+2025-10-29 14:30:59,823 - cv_chatbot - INFO - [vector_store.py:297] - Created new FAISS index
+2025-10-29 14:35:17,292 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-29 14:35:58,184 - cv_chatbot - INFO - [rag.py:247] - Answering general knowledge question without CVs: string
+2025-10-29 14:36:06,367 - cv_chatbot - WARNING - [main.py:133] - Vector store and candidate index reset
+2025-10-29 14:36:09,219 - cv_chatbot - INFO - [rag.py:247] - Answering general knowledge question without CVs: string
+2025-10-29 15:20:44,570 - cv_chatbot - WARNING - [main.py:109] - Vector store and candidate index reset
+2025-10-29 15:21:14,126 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD. Ahanab Shakil
+2025-10-29 15:21:14,128 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD. Ahanab Shakil (72f251cc-551f-4cfd-8f5a-8628a6c5cd74) from content_extraction
+2025-10-29 15:21:14,129 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: MD. Ahanab Shakil
+2025-10-29 15:21:14,130 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: MD. Ahanab Shakil
+2025-10-29 15:21:24,696 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 9 sections: ['MD. Ahanab Shakil', 'Career Objective', 'Education', 'Experience', 'Responsibilities -', 'Skill &amp; Technologies', 'Awards/Certifications', 'Projects And Works', 'References']
+2025-10-29 15:21:28,155 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 15:21:28,156 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 3158 characters
+2025-10-29 15:21:28,156 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for MD. Ahanab Shakil
+2025-10-29 15:21:28,192 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: MD. Ahanab Shakil
+2025-10-29 15:21:32,853 - cv_chatbot - INFO - [vector_store.py:297] - Created new FAISS index
+2025-10-29 15:22:47,466 - cv_chatbot - INFO - [rag.py:258] - Query analysis - Original: 'what is machine learning?' -> Corrected: 'What is machine learning?' | Intent: specific_info
+2025-10-29 15:22:51,513 - cv_chatbot - INFO - [rag.py:276] - FAISS index loaded successfully
+2025-10-29 15:22:51,597 - cv_chatbot - INFO - [rag.py:288] - Retrieved 1 documents
+2025-10-29 15:22:51,601 - cv_chatbot - INFO - [rag.py:292] - Using context: False
+2025-10-29 15:22:51,603 - cv_chatbot - INFO - [rag.py:301] - Using general knowledge (no context)
+2025-10-29 15:22:54,332 - cv_chatbot - INFO - [rag.py:310] - Successfully generated answer
+2025-10-29 15:41:20,416 - cv_chatbot - WARNING - [main.py:125] - Vector store and candidate index reset
+2025-10-29 15:41:32,640 - cv_chatbot - INFO - [rag.py:532] - No documents - using general knowledge LLM
+2025-10-29 15:41:40,068 - cv_chatbot - INFO - [rag.py:532] - No documents - using general knowledge LLM
+2025-10-29 15:42:08,164 - cv_chatbot - INFO - [rag.py:532] - No documents - using general knowledge LLM
+2025-10-29 15:42:31,347 - cv_chatbot - INFO - [rag.py:532] - No documents - using general knowledge LLM
+2025-10-29 15:42:55,442 - cv_chatbot - INFO - [rag.py:532] - No documents - using general knowledge LLM
+2025-10-29 15:43:24,884 - cv_chatbot - INFO - [rag.py:532] - No documents - using general knowledge LLM
+2025-10-29 15:44:12,858 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: HEMEL BARAI
+2025-10-29 15:44:12,858 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: HEMEL BARAI (83b1bd1b-7486-45f9-aa79-4f8fe5d83b33) from content_extraction
+2025-10-29 15:44:12,859 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: HEMEL BARAI
+2025-10-29 15:44:12,859 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: HEMEL BARAI
+2025-10-29 15:44:31,130 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 17 sections: ['HEMEL BARAI', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. Software Engineer (1.9 yrs)', 'Pothiq R&amp;D Lab', 'Duties/Responsibilities:', '2. Software Engineer (2.3 yrs)', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Specialization:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):', 'Reference: 02']
+2025-10-29 15:44:33,875 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 15:44:33,876 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2567 characters
+2025-10-29 15:44:33,876 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for HEMEL BARAI
+2025-10-29 15:44:33,894 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: HEMEL BARAI
+2025-10-29 15:44:39,339 - cv_chatbot - INFO - [vector_store.py:297] - Created new FAISS index
+2025-10-29 15:45:09,909 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: EVANA YASMIN
+2025-10-29 15:45:09,912 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: EVANA YASMIN (05d0ac61-c75e-4394-9da6-6d8da40dba4f) from content_extraction
+2025-10-29 15:45:09,913 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: EVANA YASMIN
+2025-10-29 15:45:09,914 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: EVANA YASMIN
+2025-10-29 15:45:29,868 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 25 sections: ['EVANA YASMIN', 'Career Objective:', 'PROFESSIONAL SKILLS:', 'MAJOR PROJECT &amp; SERVICES:', '1. Sr. Software Engineer (0.8 yr)', 'Ahsanullah University of Science and Technology', 'Duties/Responsibilities:', '2. Sr. Software Developer (1.7 yrs)', 'Friendship', '3. Backend Developer (0.2 yr)', 'Save the Children in Bangladesh', '4. Java Programmer (0.8 yr)', 'Dnet Ltd.', '5. Sr. Officer (0.9 yr)', 'Save The Children International', '6. Software Engineer (4.8 yrs)', 'BRAC International', '7. Sr. PHP Programmer (2.7 yrs)', 'Winux Soft Ltd', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 15:45:33,551 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 15:45:33,552 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 2822 characters
+2025-10-29 15:45:33,553 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for EVANA YASMIN
+2025-10-29 15:45:33,589 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: EVANA YASMIN
+2025-10-29 15:45:37,942 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 15:47:01,128 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: A.H.M. HASIBUL HASAN
+2025-10-29 15:47:01,129 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: A.H.M. HASIBUL HASAN (628d8df6-2a3f-4c61-bdf9-91061e73e0da) from content_extraction
+2025-10-29 15:47:01,129 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: A.H.M. HASIBUL HASAN
+2025-10-29 15:47:01,130 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: A.H.M. HASIBUL HASAN
+2025-10-29 15:47:29,439 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 26 sections: ['A.H.M. HASIBUL HASAN', 'Career Objective:', 'Career Summary:', 'Employment History:', '1. Programmer (1.8 yrs)', 'Flora Limited', 'Duties/Responsibilities:', '2. Assistant Software Development Web Apps (0.2 yr)', 'Regent Group Bd', '3. Assistant Manager IT (0.7 yr)', 'Hamid Group', '4. Manager (IT) (1.8 yrs)', 'Amex Knitting and Dyeing Industries Ltd.', '5. Sr. System Support Engineer (10.7 yrs)', 'Airtel Bangladesh Limited.(Vendor project of Thakral Information System Private Ltd)', '6. IT Engineer (0.3 yr)', 'Al - Muslim Group Ltd', '7. System Support Engineer (0.9 yr)', 'Gonophone Online Ltd.', '8. Customer Support Engineer (1.2 yrs)', 'BD Com Online Ltd.', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :']
+2025-10-29 15:47:34,860 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 15:47:34,860 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 5392 characters
+2025-10-29 15:47:34,861 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for A.H.M. HASIBUL HASAN
+2025-10-29 15:47:34,900 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: A.H.M. HASIBUL HASAN
+2025-10-29 15:47:39,086 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 15:48:07,212 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Avirup Mondol
+2025-10-29 15:48:07,214 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Avirup Mondol (36e9de06-04f7-4056-a9ff-5f4781777a5a) from content_extraction
+2025-10-29 15:48:07,214 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: Avirup Mondol
+2025-10-29 15:48:07,215 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: Avirup Mondol
+2025-10-29 15:48:17,475 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 8 sections: ['Avirup Mondol', 'SUMMERY:', 'MY PROJECTS EXPERIENCE:', 'M Y   S K I L L :', 'EDUCATIONAL QUALIFICATION:', 'WORKING EXPERIENCE:', 'LANGUAGE PROFICIENCY:', 'EXTRA CURRICULAR ACTIVITIES']
+2025-10-29 15:48:21,890 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 15:48:21,890 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 3317 characters
+2025-10-29 15:48:21,891 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for Avirup Mondol
+2025-10-29 15:48:21,924 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: Avirup Mondol
+2025-10-29 15:48:26,114 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 15:48:44,530 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: IRINA TABASSUM
+2025-10-29 15:48:44,532 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: IRINA TABASSUM (e340a03b-56f6-4fe2-9dfe-c160d52a6bf7) from content_extraction
+2025-10-29 15:48:44,533 - cv_chatbot - INFO - [vector_store.py:278] - Processing CV with enhanced pipeline: IRINA TABASSUM
+2025-10-29 15:48:44,534 - cv_chatbot - INFO - [vector_store.py:198] - Starting enhanced processing for: IRINA TABASSUM
+2025-10-29 15:48:49,234 - cv_chatbot - INFO - [vector_store.py:207] - Docling extracted 6 sections: ['IRINA TABASSUM', 'EXPERIENCE', 'JUNIOR FRONTEND ENGINEER, CODEMEN', 'EDUCATION', 'SKILLS', 'PROJECTS']
+2025-10-29 15:48:50,647 - cv_chatbot - INFO - [vector_store.py:157] - Lightweight LLM validation completed
+2025-10-29 15:48:50,648 - cv_chatbot - INFO - [vector_store.py:191] - Created single golden chunk with 514 characters
+2025-10-29 15:48:50,650 - cv_chatbot - INFO - [vector_store.py:215] - Successfully created SINGLE golden chunk for IRINA TABASSUM
+2025-10-29 15:48:50,678 - cv_chatbot - INFO - [vector_store.py:286] - Created 1 golden chunks for: IRINA TABASSUM
+2025-10-29 15:48:54,863 - cv_chatbot - INFO - [vector_store.py:294] - Appended to existing FAISS index
+2025-10-29 15:49:35,039 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:49:35,857 - cv_chatbot - INFO - [rag.py:427] - LLM determined intent: General knowledge for question: what is the name of president of pakisten?
+2025-10-29 15:49:35,858 - cv_chatbot - INFO - [rag.py:545] - Using general knowledge LLM
+2025-10-29 15:49:51,318 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:49:52,368 - cv_chatbot - INFO - [rag.py:427] - LLM determined intent: General knowledge for question: who are you?
+2025-10-29 15:49:52,368 - cv_chatbot - INFO - [rag.py:545] - Using general knowledge LLM
+2025-10-29 15:50:40,871 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:50:41,730 - cv_chatbot - INFO - [rag.py:424] - LLM determined intent: CV-related for question: give me the name of the candidates for java team?
+2025-10-29 15:50:41,730 - cv_chatbot - INFO - [rag.py:541] - Using RAG for CV-related question
+2025-10-29 15:50:46,235 - cv_chatbot - INFO - [rag.py:456] - Retrieved 5 documents for RAG
+2025-10-29 15:51:25,417 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:51:26,381 - cv_chatbot - INFO - [rag.py:424] - LLM determined intent: CV-related for question: give me the name of the candidates for frontend developer
+2025-10-29 15:51:26,381 - cv_chatbot - INFO - [rag.py:541] - Using RAG for CV-related question
+2025-10-29 15:51:30,507 - cv_chatbot - INFO - [rag.py:456] - Retrieved 5 documents for RAG
+2025-10-29 15:51:57,778 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:51:58,891 - cv_chatbot - INFO - [rag.py:424] - LLM determined intent: CV-related for question: give me the name of the candidates for interview
+2025-10-29 15:51:58,891 - cv_chatbot - INFO - [rag.py:541] - Using RAG for CV-related question
+2025-10-29 15:52:03,594 - cv_chatbot - INFO - [rag.py:456] - Retrieved 5 documents for RAG
+2025-10-29 15:52:40,853 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:52:41,923 - cv_chatbot - INFO - [rag.py:427] - LLM determined intent: General knowledge for question: tell me about IRINA TABASSUM
+2025-10-29 15:52:41,924 - cv_chatbot - INFO - [rag.py:545] - Using general knowledge LLM
+2025-10-29 15:53:12,089 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:53:12,985 - cv_chatbot - INFO - [rag.py:424] - LLM determined intent: CV-related for question: tell me about IRINA TABASSUM from Cv
+2025-10-29 15:53:12,985 - cv_chatbot - INFO - [rag.py:541] - Using RAG for CV-related question
+2025-10-29 15:53:17,661 - cv_chatbot - INFO - [rag.py:456] - Retrieved 5 documents for RAG
+2025-10-29 15:53:52,932 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:53:53,718 - cv_chatbot - INFO - [rag.py:424] - LLM determined intent: CV-related for question: tell me the names of all candidate in the CV
+2025-10-29 15:53:53,719 - cv_chatbot - INFO - [rag.py:541] - Using RAG for CV-related question
+2025-10-29 15:53:58,068 - cv_chatbot - INFO - [rag.py:456] - Retrieved 5 documents for RAG
+2025-10-29 15:54:46,903 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:54:47,790 - cv_chatbot - INFO - [rag.py:424] - LLM determined intent: CV-related for question: who are the candidates are applied for java interview?
+2025-10-29 15:54:47,791 - cv_chatbot - INFO - [rag.py:541] - Using RAG for CV-related question
+2025-10-29 15:54:51,917 - cv_chatbot - INFO - [rag.py:456] - Retrieved 5 documents for RAG
+2025-10-29 15:55:40,856 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:55:41,942 - cv_chatbot - INFO - [rag.py:424] - LLM determined intent: CV-related for question: who has the most experience ?
+2025-10-29 15:55:41,942 - cv_chatbot - INFO - [rag.py:541] - Using RAG for CV-related question
+2025-10-29 15:55:46,140 - cv_chatbot - INFO - [rag.py:456] - Retrieved 5 documents for RAG
+2025-10-29 15:56:08,228 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:56:09,418 - cv_chatbot - INFO - [rag.py:424] - LLM determined intent: CV-related for question: who has the most experience from Java CVs?
+2025-10-29 15:56:09,418 - cv_chatbot - INFO - [rag.py:541] - Using RAG for CV-related question
+2025-10-29 15:56:13,619 - cv_chatbot - INFO - [rag.py:456] - Retrieved 5 documents for RAG
+2025-10-29 15:57:24,905 - cv_chatbot - INFO - [rag.py:536] - Documents available - LLM deciding routing
+2025-10-29 15:57:26,143 - cv_chatbot - INFO - [rag.py:427] - LLM determined intent: General knowledge for question: what is the radius of the earth?
+2025-10-29 15:57:26,144 - cv_chatbot - INFO - [rag.py:545] - Using general knowledge LLM
+2025-10-29 16:17:29,534 - cv_chatbot - WARNING - [main.py:221] - Vector store and candidate index reset
+2025-10-29 16:18:02,394 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Tushar Biswas
+2025-10-29 16:18:02,397 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Tushar Biswas (dd12fbaf-0260-4669-b6ae-0e3de0d6bd27) from content_extraction
+2025-10-29 16:18:02,397 - cv_chatbot - INFO - [vector_store.py:633] - Processing CV with enhanced pipeline: Tushar Biswas
+2025-10-29 16:18:02,398 - cv_chatbot - INFO - [vector_store.py:534] - Starting optimized processing for: Tushar Biswas
+2025-10-29 16:18:02,399 - cv_chatbot - INFO - [vector_store.py:561] - Extracted 5 sections from pre-processed content: ['Professional Profile', 'American International University - Bangladesh', 'Achievements &amp; Problem solving', 'Projects', 'Languages and Technologies']
+2025-10-29 16:18:04,426 - cv_chatbot - INFO - [vector_store.py:459] - Lightweight LLM validation completed
+2025-10-29 16:18:04,428 - cv_chatbot - INFO - [vector_store.py:476] - Golden chunk content length: 1354 characters
+2025-10-29 16:18:04,429 - cv_chatbot - INFO - [vector_store.py:477] - Golden chunk preview: Tushar Biswas
+
+## Education
+
+**American International University - Bangladesh**
+*   Bachelor of Computer Science & Engineering. CGPA: 3.33
+*   Undergraduate Coursework: Programming Languages; Algorith...
+2025-10-29 16:18:04,430 - cv_chatbot - INFO - [vector_store.py:497] - Created single golden chunk with 1354 characters
+2025-10-29 16:18:04,431 - cv_chatbot - INFO - [vector_store.py:569] - Successfully created SINGLE golden chunk for Tushar Biswas using optimized processing
+2025-10-29 16:18:04,432 - cv_chatbot - INFO - [vector_store.py:650] - Created 1 golden chunks for: Tushar Biswas
+2025-10-29 16:18:09,545 - cv_chatbot - INFO - [vector_store.py:661] - Created new FAISS index
+2025-10-29 16:19:10,277 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Khalid Bin Alam
+2025-10-29 16:19:10,281 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Khalid Bin Alam (5ff1c270-4d81-47d6-a869-eb439191181c) from content_extraction
+2025-10-29 16:19:10,282 - cv_chatbot - INFO - [vector_store.py:633] - Processing CV with enhanced pipeline: Khalid Bin Alam
+2025-10-29 16:19:10,282 - cv_chatbot - INFO - [vector_store.py:534] - Starting optimized processing for: Khalid Bin Alam
+2025-10-29 16:19:10,282 - cv_chatbot - INFO - [vector_store.py:561] - Extracted 7 sections from pre-processed content: ['MD: Khalid Bin Alam', 'Blooming Beauty/ Live Site- Blooming Beauty, GitHub-Client, GitHub-Server', 'Warehouse management app', 'Hotel View- Live-site, GitHub-Client, GitHub-Server,', 'Programming Skills', 'Education &amp; Professional Training', 'Additional Skills']
+2025-10-29 16:19:12,721 - cv_chatbot - INFO - [vector_store.py:459] - Lightweight LLM validation completed
+2025-10-29 16:19:12,722 - cv_chatbot - INFO - [vector_store.py:476] - Golden chunk content length: 2220 characters
+2025-10-29 16:19:12,722 - cv_chatbot - INFO - [vector_store.py:477] - Golden chunk preview: Khalid Bin Alam
+
+**Professional Summary**
+
+Frontend Developer with experience building websites and full-stack web applications using HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. Seeki...
+2025-10-29 16:19:12,722 - cv_chatbot - INFO - [vector_store.py:497] - Created single golden chunk with 2220 characters
+2025-10-29 16:19:12,722 - cv_chatbot - INFO - [vector_store.py:569] - Successfully created SINGLE golden chunk for Khalid Bin Alam using optimized processing
+2025-10-29 16:19:12,722 - cv_chatbot - INFO - [vector_store.py:650] - Created 1 golden chunks for: Khalid Bin Alam
+2025-10-29 16:19:17,071 - cv_chatbot - INFO - [vector_store.py:658] - Appended to existing FAISS index
+2025-10-29 16:20:05,628 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Shafiul Bashar
+2025-10-29 16:20:05,630 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Shafiul Bashar (7f3e0c15-f5dc-46e4-a81e-408c97e1e9e4) from content_extraction
+2025-10-29 16:20:05,631 - cv_chatbot - INFO - [vector_store.py:633] - Processing CV with enhanced pipeline: Shafiul Bashar
+2025-10-29 16:20:05,632 - cv_chatbot - INFO - [vector_store.py:534] - Starting optimized processing for: Shafiul Bashar
+2025-10-29 16:20:05,632 - cv_chatbot - INFO - [vector_store.py:561] - Extracted 9 sections from pre-processed content: ['Professional Profile', 'Objective', 'Year', 'Publications', 'Projects / Relative Course Work:', 'Skills:', 'Hobbies or Interest:', 'References:', 'Dr. Shafin Rahman']
+2025-10-29 16:20:09,064 - cv_chatbot - INFO - [vector_store.py:459] - Lightweight LLM validation completed
+2025-10-29 16:20:09,065 - cv_chatbot - INFO - [vector_store.py:476] - Golden chunk content length: 3387 characters
+2025-10-29 16:20:09,066 - cv_chatbot - INFO - [vector_store.py:477] - Golden chunk preview: Shafiul Bashar
+
+## Professional Summary
+Web developer with experience in customizing Shopify themes using HTML, CSS, and JavaScript, and developing projects with Laravel and Django frameworks. Possess...
+2025-10-29 16:20:09,067 - cv_chatbot - INFO - [vector_store.py:497] - Created single golden chunk with 3387 characters
+2025-10-29 16:20:09,068 - cv_chatbot - INFO - [vector_store.py:569] - Successfully created SINGLE golden chunk for Shafiul Bashar using optimized processing
+2025-10-29 16:20:09,068 - cv_chatbot - INFO - [vector_store.py:650] - Created 1 golden chunks for: Shafiul Bashar
+2025-10-29 16:20:14,910 - cv_chatbot - INFO - [vector_store.py:658] - Appended to existing FAISS index
+2025-10-29 16:23:27,171 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:23:28,387 - cv_chatbot - INFO - [rag.py:335] - LLM determined intent: CV-related for question: Compare all candidates' technical skills
+2025-10-29 16:23:28,388 - cv_chatbot - INFO - [rag.py:456] - Using RAG for CV-related question
+2025-10-29 16:23:32,566 - cv_chatbot - INFO - [rag.py:367] - Retrieved 3 COMPLETE CV chunks
+2025-10-29 16:23:32,567 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for Tushar Biswas with 1354 characters
+2025-10-29 16:23:32,568 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for Shafiul Bashar with 3387 characters
+2025-10-29 16:23:32,569 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for Khalid Bin Alam with 2220 characters
+2025-10-29 16:24:08,362 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:24:09,547 - cv_chatbot - INFO - [rag.py:335] - LLM determined intent: CV-related for question: Compare all candidates' technical skills from CV.
+2025-10-29 16:24:09,547 - cv_chatbot - INFO - [rag.py:456] - Using RAG for CV-related question
+2025-10-29 16:24:14,141 - cv_chatbot - INFO - [rag.py:367] - Retrieved 3 COMPLETE CV chunks
+2025-10-29 16:24:14,142 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for Shafiul Bashar with 3387 characters
+2025-10-29 16:24:14,142 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for Khalid Bin Alam with 2220 characters
+2025-10-29 16:24:14,142 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for Tushar Biswas with 1354 characters
+2025-10-29 16:47:20,264 - cv_chatbot - WARNING - [main.py:221] - Vector store and candidate index reset
+2025-10-29 16:47:42,553 - cv_chatbot - INFO - [rag.py:447] - No documents - using general knowledge LLM
+2025-10-29 16:48:45,715 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD. ARIFUL ISLAM SUNNY
+2025-10-29 16:48:45,715 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD. ARIFUL ISLAM SUNNY (cf8933bc-9de9-404c-9c28-88907596f52b) from content_extraction
+2025-10-29 16:48:45,716 - cv_chatbot - INFO - [vector_store.py:633] - Processing CV with enhanced pipeline: MD. ARIFUL ISLAM SUNNY
+2025-10-29 16:48:45,716 - cv_chatbot - INFO - [vector_store.py:534] - Starting optimized processing for: MD. ARIFUL ISLAM SUNNY
+2025-10-29 16:48:45,717 - cv_chatbot - INFO - [vector_store.py:561] - Extracted 13 sections from pre-processed content: ['MD. ARIFUL ISLAM SUNNY', 'Career Objective', 'Qualifications', 'Technical skills', 'Training Course', 'Interested Fields', 'Academic Projects', 'Extra Projects', 'Educational Qualification', 'Language Skill', 'Extra Curricula Activities', 'Personal Information', 'References']
+2025-10-29 16:48:48,612 - cv_chatbot - INFO - [vector_store.py:459] - Lightweight LLM validation completed
+2025-10-29 16:48:48,612 - cv_chatbot - INFO - [vector_store.py:476] - Golden chunk content length: 2368 characters
+2025-10-29 16:48:48,613 - cv_chatbot - INFO - [vector_store.py:477] - Golden chunk preview: MD. ARIFUL ISLAM SUNNY
+
+**Education**
+
+*   **Master of Science (M.Sc.) in CSE**
+    *   Institution: Jahangirnagar University
+    *   Result: CGPA 3.53 out of 4.00
+    *   Year of Passing: 2022
+
+*   *...
+2025-10-29 16:48:48,613 - cv_chatbot - INFO - [vector_store.py:497] - Created single golden chunk with 2368 characters
+2025-10-29 16:48:48,613 - cv_chatbot - INFO - [vector_store.py:569] - Successfully created SINGLE golden chunk for MD. ARIFUL ISLAM SUNNY using optimized processing
+2025-10-29 16:48:48,613 - cv_chatbot - INFO - [vector_store.py:650] - Created 1 golden chunks for: MD. ARIFUL ISLAM SUNNY
+2025-10-29 16:48:53,799 - cv_chatbot - INFO - [vector_store.py:661] - Created new FAISS index
+2025-10-29 16:49:23,774 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:49:24,652 - cv_chatbot - INFO - [rag.py:338] - LLM determined intent: General knowledge for question: what is meachine learning?
+2025-10-29 16:49:24,653 - cv_chatbot - INFO - [rag.py:460] - Using general knowledge LLM
+2025-10-29 16:49:52,121 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:49:53,322 - cv_chatbot - INFO - [rag.py:335] - LLM determined intent: CV-related for question: what is the CV is about?
+2025-10-29 16:49:53,324 - cv_chatbot - INFO - [rag.py:456] - Using RAG for CV-related question
+2025-10-29 16:49:57,788 - cv_chatbot - INFO - [rag.py:367] - Retrieved 1 COMPLETE CV chunks
+2025-10-29 16:49:57,788 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for MD. ARIFUL ISLAM SUNNY with 2368 characters
+2025-10-29 16:50:28,288 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:50:29,354 - cv_chatbot - INFO - [rag.py:335] - LLM determined intent: CV-related for question: what skills this candidate habe?
+2025-10-29 16:50:29,354 - cv_chatbot - INFO - [rag.py:456] - Using RAG for CV-related question
+2025-10-29 16:50:33,685 - cv_chatbot - INFO - [rag.py:367] - Retrieved 1 COMPLETE CV chunks
+2025-10-29 16:50:33,686 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for MD. ARIFUL ISLAM SUNNY with 2368 characters
+2025-10-29 16:51:00,919 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:51:02,161 - cv_chatbot - INFO - [rag.py:335] - LLM determined intent: CV-related for question: what are the references of the candidate?
+2025-10-29 16:51:02,162 - cv_chatbot - INFO - [rag.py:456] - Using RAG for CV-related question
+2025-10-29 16:51:06,305 - cv_chatbot - INFO - [rag.py:367] - Retrieved 1 COMPLETE CV chunks
+2025-10-29 16:51:06,305 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for MD. ARIFUL ISLAM SUNNY with 2368 characters
+2025-10-29 16:52:58,452 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:52:59,801 - cv_chatbot - INFO - [rag.py:335] - LLM determined intent: CV-related for question: why is the refencese are not available? is this because of chunk ?
+2025-10-29 16:52:59,802 - cv_chatbot - INFO - [rag.py:456] - Using RAG for CV-related question
+2025-10-29 16:53:03,939 - cv_chatbot - INFO - [rag.py:367] - Retrieved 1 COMPLETE CV chunks
+2025-10-29 16:53:03,939 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for MD. ARIFUL ISLAM SUNNY with 2368 characters
+2025-10-29 16:53:50,592 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:53:51,667 - cv_chatbot - INFO - [rag.py:338] - LLM determined intent: General knowledge for question: what the context can you retrieve from this document for generation?
+2025-10-29 16:53:51,667 - cv_chatbot - INFO - [rag.py:460] - Using general knowledge LLM
+2025-10-29 16:54:03,424 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:54:04,548 - cv_chatbot - INFO - [rag.py:338] - LLM determined intent: General knowledge for question: what are the contexts can you retrieve from this document for generation?
+2025-10-29 16:54:04,548 - cv_chatbot - INFO - [rag.py:460] - Using general knowledge LLM
+2025-10-29 16:54:30,106 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:54:30,916 - cv_chatbot - INFO - [rag.py:335] - LLM determined intent: CV-related for question: what is the document is about that you have?
+2025-10-29 16:54:30,916 - cv_chatbot - INFO - [rag.py:456] - Using RAG for CV-related question
+2025-10-29 16:54:35,368 - cv_chatbot - INFO - [rag.py:367] - Retrieved 1 COMPLETE CV chunks
+2025-10-29 16:54:35,369 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for MD. ARIFUL ISLAM SUNNY with 2368 characters
+2025-10-29 16:54:56,706 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:54:57,761 - cv_chatbot - INFO - [rag.py:338] - LLM determined intent: General knowledge for question: why the sky is blue?
+2025-10-29 16:54:57,762 - cv_chatbot - INFO - [rag.py:460] - Using general knowledge LLM
+2025-10-29 16:55:30,295 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:55:31,385 - cv_chatbot - INFO - [rag.py:338] - LLM determined intent: General knowledge for question: why the fireflies have to die so soon? from what movie this dialoge is from>
+2025-10-29 16:55:31,386 - cv_chatbot - INFO - [rag.py:460] - Using general knowledge LLM
+2025-10-29 16:56:28,254 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Muhibbul Hasan
+2025-10-29 16:56:28,256 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Muhibbul Hasan (39cbd00f-1783-48c4-b1af-b0d176f3586d) from content_extraction
+2025-10-29 16:56:28,257 - cv_chatbot - INFO - [vector_store.py:633] - Processing CV with enhanced pipeline: Muhibbul Hasan
+2025-10-29 16:56:28,257 - cv_chatbot - INFO - [vector_store.py:534] - Starting optimized processing for: Muhibbul Hasan
+2025-10-29 16:56:28,258 - cv_chatbot - INFO - [vector_store.py:561] - Extracted 5 sections from pre-processed content: ['Web Developer', 'Projects', 'Muhibbul Hasan', 'Feature:', 'Technology used:']
+2025-10-29 16:56:29,999 - cv_chatbot - INFO - [vector_store.py:459] - Lightweight LLM validation completed
+2025-10-29 16:56:30,000 - cv_chatbot - INFO - [vector_store.py:476] - Golden chunk content length: 938 characters
+2025-10-29 16:56:30,000 - cv_chatbot - INFO - [vector_store.py:477] - Golden chunk preview: Muhibbul Hasan
+
+**Education**
+University of Liberal Arts Bangladesh/BSc. In CSE
+October 2014 - December 2018, Mohammadpur Dhaka - 1207, Bangladesh
+
+**Technical Skills**
+HTML, CSS, JavaScript, React, T...
+2025-10-29 16:56:30,001 - cv_chatbot - INFO - [vector_store.py:497] - Created single golden chunk with 938 characters
+2025-10-29 16:56:30,002 - cv_chatbot - INFO - [vector_store.py:569] - Successfully created SINGLE golden chunk for Muhibbul Hasan using optimized processing
+2025-10-29 16:56:30,002 - cv_chatbot - INFO - [vector_store.py:650] - Created 1 golden chunks for: Muhibbul Hasan
+2025-10-29 16:56:34,247 - cv_chatbot - INFO - [vector_store.py:658] - Appended to existing FAISS index
+2025-10-29 16:57:06,012 - cv_chatbot - INFO - [rag.py:451] - Documents available - LLM deciding routing
+2025-10-29 16:57:07,467 - cv_chatbot - INFO - [rag.py:335] - LLM determined intent: CV-related for question: tell me all name of the candidates from CV and write a short comparison
+2025-10-29 16:57:07,468 - cv_chatbot - INFO - [rag.py:456] - Using RAG for CV-related question
+2025-10-29 16:57:11,470 - cv_chatbot - INFO - [rag.py:367] - Retrieved 2 COMPLETE CV chunks
+2025-10-29 16:57:11,470 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for MD. ARIFUL ISLAM SUNNY with 2368 characters
+2025-10-29 16:57:11,470 - cv_chatbot - INFO - [rag.py:377] - Retrieved chunk for Muhibbul Hasan with 938 characters
+2025-10-29 17:02:42,675 - cv_chatbot - WARNING - [main.py:221] - Vector store and candidate index reset
+2025-10-29 17:03:19,031 - cv_chatbot - INFO - [rag.py:701] - No documents - using general knowledge LLM
+2025-10-29 17:03:34,596 - cv_chatbot - INFO - [rag.py:701] - No documents - using general knowledge LLM
+2025-10-29 17:04:32,167 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Hasin Anjum Pabon
+2025-10-29 17:04:32,169 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Hasin Anjum Pabon (fa4f1b74-593e-4cc3-93fd-c1d9186cb41e) from content_extraction
+2025-10-29 17:04:32,170 - cv_chatbot - INFO - [vector_store.py:998] - Processing CV with enhanced pipeline: Hasin Anjum Pabon
+2025-10-29 17:04:32,171 - cv_chatbot - INFO - [vector_store.py:899] - Starting optimized processing for: Hasin Anjum Pabon
+2025-10-29 17:04:32,172 - cv_chatbot - INFO - [vector_store.py:926] - Extracted 11 sections from pre-processed content: ['React Developer', 'Summary', 'Skills', '01. Vehicle Car Sales Website || Live Site || Front End Code || Back End Code', '02. Holiday Planner Travel Agency || Live Site || Front End Code || Back End Code', '03 Online Education Platform || Live Site || Front End Code', '04. Blog-World || Live Site || Front End Code || Back End Code', 'Education', 'Online Courses', 'Experience', 'Language and Proficiency']
+2025-10-29 17:04:35,221 - cv_chatbot - INFO - [vector_store.py:824] - Lightweight LLM validation completed
+2025-10-29 17:04:35,222 - cv_chatbot - INFO - [vector_store.py:841] - Golden chunk content length: 2335 characters
+2025-10-29 17:04:35,222 - cv_chatbot - INFO - [vector_store.py:842] - Golden chunk preview: # Hasin Anjum Pabon
+
+## Summary
+Junior MERN Stack developer with a strong foundation in HTML5, CSS3, JavaScript, React, Node.js, Express.js, and MongoDB. Proven ability to develop and deploy functiona...
+2025-10-29 17:04:35,223 - cv_chatbot - INFO - [vector_store.py:862] - Created single golden chunk with 2335 characters
+2025-10-29 17:04:35,223 - cv_chatbot - INFO - [vector_store.py:934] - Successfully created SINGLE golden chunk for Hasin Anjum Pabon using optimized processing
+2025-10-29 17:04:35,223 - cv_chatbot - INFO - [vector_store.py:1013] - Created 1 golden chunks for: Hasin Anjum Pabon
+2025-10-29 17:04:40,032 - cv_chatbot - INFO - [vector_store.py:1024] - Created new FAISS index
+2025-10-29 17:04:58,174 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Shafiul Bashar
+2025-10-29 17:04:58,176 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Shafiul Bashar (7a765246-1eae-4582-99d9-0f847a86bb0b) from content_extraction
+2025-10-29 17:04:58,176 - cv_chatbot - INFO - [vector_store.py:998] - Processing CV with enhanced pipeline: Shafiul Bashar
+2025-10-29 17:04:58,177 - cv_chatbot - INFO - [vector_store.py:899] - Starting optimized processing for: Shafiul Bashar
+2025-10-29 17:04:58,178 - cv_chatbot - INFO - [vector_store.py:926] - Extracted 9 sections from pre-processed content: ['Professional Profile', 'Objective', 'Year', 'Publications', 'Projects / Relative Course Work:', 'Skills:', 'Hobbies or Interest:', 'References:', 'Dr. Shafin Rahman']
+2025-10-29 17:05:01,955 - cv_chatbot - INFO - [vector_store.py:824] - Lightweight LLM validation completed
+2025-10-29 17:05:01,955 - cv_chatbot - INFO - [vector_store.py:841] - Golden chunk content length: 3730 characters
+2025-10-29 17:05:01,956 - cv_chatbot - INFO - [vector_store.py:842] - Golden chunk preview: Shafiul Bashar
+
+## Professional Profile
+A motivated web developer with experience in customizing Shopify themes using HTML, CSS, and JavaScript, and developing projects with Laravel and Django framewo...
+2025-10-29 17:05:01,957 - cv_chatbot - INFO - [vector_store.py:862] - Created single golden chunk with 3730 characters
+2025-10-29 17:05:01,957 - cv_chatbot - INFO - [vector_store.py:934] - Successfully created SINGLE golden chunk for Shafiul Bashar using optimized processing
+2025-10-29 17:05:01,958 - cv_chatbot - INFO - [vector_store.py:1013] - Created 1 golden chunks for: Shafiul Bashar
+2025-10-29 17:05:06,413 - cv_chatbot - INFO - [vector_store.py:1021] - Appended to existing FAISS index
+2025-10-29 17:05:44,790 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD. Mohtasim Billah
+2025-10-29 17:05:44,792 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD. Mohtasim Billah (86ded31c-4128-4704-bf6d-61e6e94227b5) from content_extraction
+2025-10-29 17:05:44,793 - cv_chatbot - INFO - [vector_store.py:998] - Processing CV with enhanced pipeline: MD. Mohtasim Billah
+2025-10-29 17:05:44,793 - cv_chatbot - INFO - [vector_store.py:899] - Starting optimized processing for: MD. Mohtasim Billah
+2025-10-29 17:05:44,794 - cv_chatbot - INFO - [vector_store.py:926] - Extracted 10 sections from pre-processed content: ['Professional Profile', 'SUMMARY', 'SKILLS', 'PROJECTS', 'Key Features:', 'EDUCATION', 'PROBLEM SOLVING:', 'EXPERIENCE', 'PROFESSIONAL COURSE', 'LANGUAGE SKILLS:']
+2025-10-29 17:05:46,894 - cv_chatbot - INFO - [vector_store.py:824] - Lightweight LLM validation completed
+2025-10-29 17:05:46,895 - cv_chatbot - INFO - [vector_store.py:841] - Golden chunk content length: 1456 characters
+2025-10-29 17:05:46,895 - cv_chatbot - INFO - [vector_store.py:842] - Golden chunk preview: MD. Mohtasim Billah
+
+## Professional Profile
+Flutter Developer & Machine Learning Engineer
+
+## SUMMARY
+A passionate, committed, and curious Software Engineer with over 2 years of experience in Flutter...
+2025-10-29 17:05:46,896 - cv_chatbot - INFO - [vector_store.py:862] - Created single golden chunk with 1456 characters
+2025-10-29 17:05:46,896 - cv_chatbot - INFO - [vector_store.py:934] - Successfully created SINGLE golden chunk for MD. Mohtasim Billah using optimized processing
+2025-10-29 17:05:46,897 - cv_chatbot - INFO - [vector_store.py:1013] - Created 1 golden chunks for: MD. Mohtasim Billah
+2025-10-29 17:05:51,045 - cv_chatbot - INFO - [vector_store.py:1021] - Appended to existing FAISS index
+2025-10-29 17:06:20,857 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Md. Muhtadee Faiaz Khan Soumik
+2025-10-29 17:06:20,859 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Md. Muhtadee Faiaz Khan Soumik (a7dddee8-711f-407b-b578-c64c87da2470) from content_extraction
+2025-10-29 17:06:20,860 - cv_chatbot - INFO - [vector_store.py:998] - Processing CV with enhanced pipeline: Md. Muhtadee Faiaz Khan Soumik
+2025-10-29 17:06:20,860 - cv_chatbot - INFO - [vector_store.py:899] - Starting optimized processing for: Md. Muhtadee Faiaz Khan Soumik
+2025-10-29 17:06:20,861 - cv_chatbot - INFO - [vector_store.py:926] - Extracted 8 sections from pre-processed content: ['Md. Muhtadee Faiaz Khan Soumik', 'EDUCATION', 'Red.Digital Limited', 'Mentor &amp; Instructor', 'Air Pad using Python &amp; Open CV', 'Bangla Speech Recognition', 'Online Airplane Ticket Booking System', 'SKILLS']
+2025-10-29 17:06:22,698 - cv_chatbot - INFO - [vector_store.py:824] - Lightweight LLM validation completed
+2025-10-29 17:06:22,699 - cv_chatbot - INFO - [vector_store.py:841] - Golden chunk content length: 1212 characters
+2025-10-29 17:06:22,699 - cv_chatbot - INFO - [vector_store.py:842] - Golden chunk preview: # Md. Muhtadee Faiaz Khan Soumik
+
+## Education
+
+**Bachelor of Science in Computer Science and Engineering (CSE)**
+BRAC University
+January 2019 - January 2023
+Grade: 3.38 out of 4
+
+## Experience
+
+**Red...
+2025-10-29 17:06:22,700 - cv_chatbot - INFO - [vector_store.py:862] - Created single golden chunk with 1212 characters
+2025-10-29 17:06:22,700 - cv_chatbot - INFO - [vector_store.py:934] - Successfully created SINGLE golden chunk for Md. Muhtadee Faiaz Khan Soumik using optimized processing
+2025-10-29 17:06:22,700 - cv_chatbot - INFO - [vector_store.py:1013] - Created 1 golden chunks for: Md. Muhtadee Faiaz Khan Soumik
+2025-10-29 17:06:26,835 - cv_chatbot - INFO - [vector_store.py:1021] - Appended to existing FAISS index
+2025-10-29 17:06:46,595 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:06:47,660 - cv_chatbot - INFO - [rag.py:576] - LLM determined intent: General knowledge for question: what is the radius of the earth?
+2025-10-29 17:06:47,660 - cv_chatbot - INFO - [rag.py:714] - Using general knowledge LLM
+2025-10-29 17:07:03,416 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:07:04,519 - cv_chatbot - INFO - [rag.py:576] - LLM determined intent: General knowledge for question: who is avengeres?
+2025-10-29 17:07:04,520 - cv_chatbot - INFO - [rag.py:714] - Using general knowledge LLM
+2025-10-29 17:07:25,085 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:07:26,202 - cv_chatbot - INFO - [rag.py:576] - LLM determined intent: General knowledge for question: tell me about batman
+2025-10-29 17:07:26,203 - cv_chatbot - INFO - [rag.py:714] - Using general knowledge LLM
+2025-10-29 17:08:21,828 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:08:22,850 - cv_chatbot - INFO - [rag.py:573] - LLM determined intent: CV-related for question: List all the candidates from the CVs
+2025-10-29 17:08:22,851 - cv_chatbot - INFO - [rag.py:710] - Using RAG for CV-related question
+2025-10-29 17:08:27,005 - cv_chatbot - INFO - [rag.py:605] - Retrieved 4 COMPLETE CV chunks
+2025-10-29 17:08:27,005 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Md. Muhtadee Faiaz Khan Soumik with 1212 characters
+2025-10-29 17:08:27,006 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Shafiul Bashar with 3730 characters
+2025-10-29 17:08:27,006 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Hasin Anjum Pabon with 2335 characters
+2025-10-29 17:08:27,006 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MD. Mohtasim Billah with 1456 characters
+2025-10-29 17:09:34,388 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: EVANA YASMIN
+2025-10-29 17:09:34,391 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: EVANA YASMIN (d352f342-343e-46d9-a5ac-911d2101151b) from content_extraction
+2025-10-29 17:09:34,392 - cv_chatbot - INFO - [vector_store.py:998] - Processing CV with enhanced pipeline: EVANA YASMIN
+2025-10-29 17:09:34,392 - cv_chatbot - INFO - [vector_store.py:899] - Starting optimized processing for: EVANA YASMIN
+2025-10-29 17:09:34,393 - cv_chatbot - INFO - [vector_store.py:926] - Extracted 25 sections from pre-processed content: ['EVANA YASMIN', 'Career Objective:', 'PROFESSIONAL SKILLS:', 'MAJOR PROJECT &amp; SERVICES:', '1. Sr. Software Engineer (0.8 yr)', 'Ahsanullah University of Science and Technology', 'Duties/Responsibilities:', '2. Sr. Software Developer (1.7 yrs)', 'Friendship', '3. Backend Developer (0.2 yr)', 'Save the Children in Bangladesh', '4. Java Programmer (0.8 yr)', 'Dnet Ltd.', '5. Sr. Officer (0.9 yr)', 'Save The Children International', '6. Software Engineer (4.8 yrs)', 'BRAC International', '7. Sr. PHP Programmer (2.7 yrs)', 'Winux Soft Ltd', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 17:09:39,982 - cv_chatbot - INFO - [vector_store.py:824] - Lightweight LLM validation completed
+2025-10-29 17:09:39,982 - cv_chatbot - INFO - [vector_store.py:841] - Golden chunk content length: 4300 characters
+2025-10-29 17:09:39,983 - cv_chatbot - INFO - [vector_store.py:842] - Golden chunk preview: # EVANA YASMIN
+
+## Career Objective:
+To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self development and help me achieve personal as well a...
+2025-10-29 17:09:39,983 - cv_chatbot - INFO - [vector_store.py:862] - Created single golden chunk with 4300 characters
+2025-10-29 17:09:39,984 - cv_chatbot - INFO - [vector_store.py:934] - Successfully created SINGLE golden chunk for EVANA YASMIN using optimized processing
+2025-10-29 17:09:39,984 - cv_chatbot - INFO - [vector_store.py:1013] - Created 1 golden chunks for: EVANA YASMIN
+2025-10-29 17:09:45,258 - cv_chatbot - INFO - [vector_store.py:1021] - Appended to existing FAISS index
+2025-10-29 17:10:13,002 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD.MEHEDI HASAN TAMIM
+2025-10-29 17:10:13,004 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD.MEHEDI HASAN TAMIM (86ca05c5-0623-4f7a-9127-d603aae1a503) from content_extraction
+2025-10-29 17:10:13,005 - cv_chatbot - INFO - [vector_store.py:998] - Processing CV with enhanced pipeline: MD.MEHEDI HASAN TAMIM
+2025-10-29 17:10:13,005 - cv_chatbot - INFO - [vector_store.py:899] - Starting optimized processing for: MD.MEHEDI HASAN TAMIM
+2025-10-29 17:10:13,006 - cv_chatbot - INFO - [vector_store.py:926] - Extracted 20 sections from pre-processed content: ['MD.MEHEDI HASAN TAMIM', 'Career Objective:', 'Career Summary:', 'Employment History:', '1. Software Engineer (0.8 yr)', 'eGeneration Limited', 'Duties/Responsibilities:', '2. Software Engineer (1.0 yr)', 'Newgen Technology', '3. Software Engineer (3.6 yrs)', 'BRAC IT Services Ltd', '4. Jr.Software Engineer (1.0 yr)', 'APLOS GOLOBAL LTD.', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Fields of Specialization', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 17:10:18,528 - cv_chatbot - INFO - [vector_store.py:824] - Lightweight LLM validation completed
+2025-10-29 17:10:18,529 - cv_chatbot - INFO - [vector_store.py:841] - Golden chunk content length: 4113 characters
+2025-10-29 17:10:18,530 - cv_chatbot - INFO - [vector_store.py:842] - Golden chunk preview: MD.MEHEDI HASAN TAMIM
+
+**Career Objective:**
+Looking for the position of a software engineer where my creative thinking and excellent skills in web application development using modern development too...
+2025-10-29 17:10:18,531 - cv_chatbot - INFO - [vector_store.py:862] - Created single golden chunk with 4113 characters
+2025-10-29 17:10:18,531 - cv_chatbot - INFO - [vector_store.py:934] - Successfully created SINGLE golden chunk for MD.MEHEDI HASAN TAMIM using optimized processing
+2025-10-29 17:10:18,532 - cv_chatbot - INFO - [vector_store.py:1013] - Created 1 golden chunks for: MD.MEHEDI HASAN TAMIM
+2025-10-29 17:10:23,005 - cv_chatbot - INFO - [vector_store.py:1021] - Appended to existing FAISS index
+2025-10-29 17:10:54,004 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MASHUKUR RAHMAN
+2025-10-29 17:10:54,006 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MASHUKUR RAHMAN (1badb00e-c301-4397-8718-bfd2437a79c7) from content_extraction
+2025-10-29 17:10:54,007 - cv_chatbot - INFO - [vector_store.py:998] - Processing CV with enhanced pipeline: MASHUKUR RAHMAN
+2025-10-29 17:10:54,007 - cv_chatbot - INFO - [vector_store.py:899] - Starting optimized processing for: MASHUKUR RAHMAN
+2025-10-29 17:10:54,008 - cv_chatbot - INFO - [vector_store.py:926] - Extracted 14 sections from pre-processed content: ['Professional Profile', 'MASHUKUR RAHMAN', 'Career Objective:', 'Career Summary:', 'Area of Expertise', 'Total Year of Experience: 8.4 yrs', 'Orbund Bangladesh LLC', 'Academic Qualification:', 'Professional Qualification:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference: 01', 'Reference: 02']
+2025-10-29 17:11:00,160 - cv_chatbot - INFO - [vector_store.py:824] - Lightweight LLM validation completed
+2025-10-29 17:11:00,161 - cv_chatbot - INFO - [vector_store.py:841] - Golden chunk content length: 3975 characters
+2025-10-29 17:11:00,162 - cv_chatbot - INFO - [vector_store.py:842] - Golden chunk preview: MASHUKUR RAHMAN
+
+## Professional Profile
+
+A sincere and energetic professional with 8.4 years of experience in software development, specializing in Java and web technologies. Seeking a challenging ro...
+2025-10-29 17:11:00,163 - cv_chatbot - INFO - [vector_store.py:862] - Created single golden chunk with 3975 characters
+2025-10-29 17:11:00,164 - cv_chatbot - INFO - [vector_store.py:934] - Successfully created SINGLE golden chunk for MASHUKUR RAHMAN using optimized processing
+2025-10-29 17:11:00,165 - cv_chatbot - INFO - [vector_store.py:1013] - Created 1 golden chunks for: MASHUKUR RAHMAN
+2025-10-29 17:11:04,325 - cv_chatbot - INFO - [vector_store.py:1021] - Appended to existing FAISS index
+2025-10-29 17:11:52,042 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: KHIRUL BASHER LIMON
+2025-10-29 17:11:52,045 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: KHIRUL BASHER LIMON (d422efda-8cd0-4a4a-8de8-055869bcadbe) from content_extraction
+2025-10-29 17:11:52,045 - cv_chatbot - INFO - [vector_store.py:998] - Processing CV with enhanced pipeline: KHIRUL BASHER LIMON
+2025-10-29 17:11:52,046 - cv_chatbot - INFO - [vector_store.py:899] - Starting optimized processing for: KHIRUL BASHER LIMON
+2025-10-29 17:11:52,047 - cv_chatbot - INFO - [vector_store.py:926] - Extracted 19 sections from pre-processed content: ['Professional Profile', 'KHIRUL BASHER LIMON', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. Lead Software Engineer (1.4 yrs)', 'BRAC IT Services Limited', 'Duties/Responsibilities:', '2. Fullstack Software Engineer (1.0 yr)', 'Impel It solutions', '3. Software Engineer Java (2.0 yrs)', 'LEADS corporation', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 17:11:56,783 - cv_chatbot - INFO - [vector_store.py:824] - Lightweight LLM validation completed
+2025-10-29 17:11:56,784 - cv_chatbot - INFO - [vector_store.py:841] - Golden chunk content length: 5016 characters
+2025-10-29 17:11:56,784 - cv_chatbot - INFO - [vector_store.py:842] - Golden chunk preview: # KHIRUL BASHER LIMON
+
+## Professional Profile
+
+Enthusiastic software engineer with around 4 years of experience, participating in various completed product life-cycles of successful applications. Eag...
+2025-10-29 17:11:56,785 - cv_chatbot - INFO - [vector_store.py:862] - Created single golden chunk with 5016 characters
+2025-10-29 17:11:56,786 - cv_chatbot - INFO - [vector_store.py:934] - Successfully created SINGLE golden chunk for KHIRUL BASHER LIMON using optimized processing
+2025-10-29 17:11:56,786 - cv_chatbot - INFO - [vector_store.py:1013] - Created 1 golden chunks for: KHIRUL BASHER LIMON
+2025-10-29 17:12:01,221 - cv_chatbot - INFO - [vector_store.py:1021] - Appended to existing FAISS index
+2025-10-29 17:12:16,053 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:12:16,881 - cv_chatbot - INFO - [rag.py:573] - LLM determined intent: CV-related for question: List all the candidates from the CVs
+2025-10-29 17:12:16,882 - cv_chatbot - INFO - [rag.py:710] - Using RAG for CV-related question
+2025-10-29 17:12:21,120 - cv_chatbot - INFO - [rag.py:605] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 17:12:21,121 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for EVANA YASMIN with 4300 characters
+2025-10-29 17:12:21,122 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Md. Muhtadee Faiaz Khan Soumik with 1212 characters
+2025-10-29 17:12:21,123 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Shafiul Bashar with 3730 characters
+2025-10-29 17:12:21,124 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for KHIRUL BASHER LIMON with 5016 characters
+2025-10-29 17:12:21,125 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MD.MEHEDI HASAN TAMIM with 4113 characters
+2025-10-29 17:13:22,431 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:13:23,301 - cv_chatbot - INFO - [rag.py:573] - LLM determined intent: CV-related for question: List all the candidates from the CVs
+2025-10-29 17:13:23,302 - cv_chatbot - INFO - [rag.py:710] - Using RAG for CV-related question
+2025-10-29 17:13:27,917 - cv_chatbot - INFO - [rag.py:605] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 17:13:27,919 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for EVANA YASMIN with 4300 characters
+2025-10-29 17:13:27,919 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Md. Muhtadee Faiaz Khan Soumik with 1212 characters
+2025-10-29 17:13:27,920 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Shafiul Bashar with 3730 characters
+2025-10-29 17:13:27,920 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for KHIRUL BASHER LIMON with 5016 characters
+2025-10-29 17:13:27,920 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MD.MEHEDI HASAN TAMIM with 4113 characters
+2025-10-29 17:13:59,894 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:14:00,677 - cv_chatbot - INFO - [rag.py:573] - LLM determined intent: CV-related for question: how many candidates are in all documents?
+2025-10-29 17:14:00,678 - cv_chatbot - INFO - [rag.py:710] - Using RAG for CV-related question
+2025-10-29 17:14:04,779 - cv_chatbot - INFO - [rag.py:605] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 17:14:04,779 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for KHIRUL BASHER LIMON with 5016 characters
+2025-10-29 17:14:04,779 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for EVANA YASMIN with 4300 characters
+2025-10-29 17:14:04,780 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Hasin Anjum Pabon with 2335 characters
+2025-10-29 17:14:04,780 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Shafiul Bashar with 3730 characters
+2025-10-29 17:14:04,780 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MD. Mohtasim Billah with 1456 characters
+2025-10-29 17:14:39,604 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:14:40,750 - cv_chatbot - INFO - [rag.py:573] - LLM determined intent: CV-related for question: how many candidates are in all documents?
+2025-10-29 17:14:40,750 - cv_chatbot - INFO - [rag.py:710] - Using RAG for CV-related question
+2025-10-29 17:14:44,789 - cv_chatbot - INFO - [rag.py:605] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 17:14:44,790 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for KHIRUL BASHER LIMON with 5016 characters
+2025-10-29 17:14:44,790 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for EVANA YASMIN with 4300 characters
+2025-10-29 17:14:44,790 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Hasin Anjum Pabon with 2335 characters
+2025-10-29 17:14:44,790 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Shafiul Bashar with 3730 characters
+2025-10-29 17:14:44,790 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MD. Mohtasim Billah with 1456 characters
+2025-10-29 17:27:45,623 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:27:46,759 - cv_chatbot - INFO - [rag.py:573] - LLM determined intent: CV-related for question: who are the candidates for frontend developer?
+2025-10-29 17:27:46,759 - cv_chatbot - INFO - [rag.py:710] - Using RAG for CV-related question
+2025-10-29 17:27:51,549 - cv_chatbot - INFO - [rag.py:605] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 17:27:51,549 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for EVANA YASMIN with 4300 characters
+2025-10-29 17:27:51,549 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Hasin Anjum Pabon with 2335 characters
+2025-10-29 17:27:51,550 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MD.MEHEDI HASAN TAMIM with 4113 characters
+2025-10-29 17:27:51,550 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for KHIRUL BASHER LIMON with 5016 characters
+2025-10-29 17:27:51,550 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MASHUKUR RAHMAN with 3975 characters
+2025-10-29 17:30:14,447 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:30:15,252 - cv_chatbot - INFO - [rag.py:573] - LLM determined intent: CV-related for question: who are the candidates for java?
+2025-10-29 17:30:15,253 - cv_chatbot - INFO - [rag.py:710] - Using RAG for CV-related question
+2025-10-29 17:30:19,401 - cv_chatbot - INFO - [rag.py:605] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 17:30:19,402 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for KHIRUL BASHER LIMON with 5016 characters
+2025-10-29 17:30:19,402 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for EVANA YASMIN with 4300 characters
+2025-10-29 17:30:19,402 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Hasin Anjum Pabon with 2335 characters
+2025-10-29 17:30:19,402 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Md. Muhtadee Faiaz Khan Soumik with 1212 characters
+2025-10-29 17:30:19,402 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MASHUKUR RAHMAN with 3975 characters
+2025-10-29 17:31:53,271 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:31:54,267 - cv_chatbot - INFO - [rag.py:573] - LLM determined intent: CV-related for question: tell me the name of the candidates who worked with java
+2025-10-29 17:31:54,268 - cv_chatbot - INFO - [rag.py:710] - Using RAG for CV-related question
+2025-10-29 17:31:58,821 - cv_chatbot - INFO - [rag.py:605] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 17:31:58,821 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for KHIRUL BASHER LIMON with 5016 characters
+2025-10-29 17:31:58,821 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for EVANA YASMIN with 4300 characters
+2025-10-29 17:31:58,821 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MD.MEHEDI HASAN TAMIM with 4113 characters
+2025-10-29 17:31:58,821 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MASHUKUR RAHMAN with 3975 characters
+2025-10-29 17:31:58,821 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Md. Muhtadee Faiaz Khan Soumik with 1212 characters
+2025-10-29 17:32:52,431 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 17:32:53,592 - cv_chatbot - INFO - [rag.py:573] - LLM determined intent: CV-related for question: tell me the name of the candidates who are suitable for frontend developer.
+2025-10-29 17:32:53,593 - cv_chatbot - INFO - [rag.py:710] - Using RAG for CV-related question
+2025-10-29 17:32:58,128 - cv_chatbot - INFO - [rag.py:605] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 17:32:58,128 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for EVANA YASMIN with 4300 characters
+2025-10-29 17:32:58,129 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Hasin Anjum Pabon with 2335 characters
+2025-10-29 17:32:58,129 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MD.MEHEDI HASAN TAMIM with 4113 characters
+2025-10-29 17:32:58,129 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for KHIRUL BASHER LIMON with 5016 characters
+2025-10-29 17:32:58,130 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MASHUKUR RAHMAN with 3975 characters
+2025-10-29 18:02:43,012 - cv_chatbot - WARNING - [main.py:107] - Vector store and candidate index reset
+2025-10-29 18:03:01,323 - cv_chatbot - INFO - [rag.py:701] - No documents - using general knowledge LLM
+2025-10-29 18:04:22,734 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Avirup Mondol
+2025-10-29 18:04:22,735 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Avirup Mondol (af9fa5e9-c279-4397-ba66-656c8355f4c4) from content_extraction
+2025-10-29 18:04:22,736 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: Avirup Mondol
+2025-10-29 18:04:22,736 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: Avirup Mondol
+2025-10-29 18:04:22,737 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 8 sections from pre-processed content: ['Avirup Mondol', 'SUMMERY:', 'MY PROJECTS EXPERIENCE:', 'M Y   S K I L L :', 'EDUCATIONAL QUALIFICATION:', 'WORKING EXPERIENCE:', 'LANGUAGE PROFICIENCY:', 'EXTRA CURRICULAR ACTIVITIES']
+2025-10-29 18:04:39,737 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 18:04:39,737 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4193 characters
+2025-10-29 18:04:39,737 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # Avirup Mondol
+
+## SUMMARY
+Aspiring Junior Software Engineer with a BSc in Computer Science and Engineering from Independent University Bangladesh. Seeking to leverage skills in a challenging role to...
+2025-10-29 18:04:39,737 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4193 characters
+2025-10-29 18:04:39,738 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for Avirup Mondol using optimized processing
+2025-10-29 18:04:39,738 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: Avirup Mondol
+2025-10-29 18:04:48,038 - cv_chatbot - INFO - [vector_store.py:356] - Created new FAISS index
+2025-10-29 18:05:48,695 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD. Mohtasim Billah
+2025-10-29 18:05:48,697 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD. Mohtasim Billah (c525ebb9-84a3-43d0-9a39-b7c788e4cc16) from content_extraction
+2025-10-29 18:05:48,697 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: MD. Mohtasim Billah
+2025-10-29 18:05:48,698 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MD. Mohtasim Billah
+2025-10-29 18:05:48,698 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 10 sections from pre-processed content: ['Professional Profile', 'SUMMARY', 'SKILLS', 'PROJECTS', 'Key Features:', 'EDUCATION', 'PROBLEM SOLVING:', 'EXPERIENCE', 'PROFESSIONAL COURSE', 'LANGUAGE SKILLS:']
+2025-10-29 18:05:51,782 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 18:05:51,783 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 1513 characters
+2025-10-29 18:05:51,783 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MD. Mohtasim Billah
+
+## Professional Profile
+Flutter Developer & Machine Learning Engineer
+
+## SUMMARY
+A passionate, committed, and curious Software Engineer with over 2 years of experience in Flutter...
+2025-10-29 18:05:51,784 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 1513 characters
+2025-10-29 18:05:51,785 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for MD. Mohtasim Billah using optimized processing
+2025-10-29 18:05:51,785 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: MD. Mohtasim Billah
+2025-10-29 18:05:59,179 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 18:06:28,902 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MDMAHBUBRAHMAN
+2025-10-29 18:06:28,904 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MDMAHBUBRAHMAN (9b8939d1-a017-4538-980a-49bafae28076) from content_extraction
+2025-10-29 18:06:28,905 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: MDMAHBUBRAHMAN
+2025-10-29 18:06:28,906 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MDMAHBUBRAHMAN
+2025-10-29 18:06:28,907 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 14 sections from pre-processed content: ['Software ENGINEER', 'OBJECTIVE', 'EDUCATION', 'United International University', 'TECHNICAL SKILLS', 'OTHERS SKILL', 'TOOLS &amp; IDES', 'PROJECTS', 'CAPSTONE PROJECT', 'CERTIFICATIONS', 'STRENGTHS', 'LANGUAGES', 'INTERESTS', 'REFERENCES']
+2025-10-29 18:06:31,778 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 18:06:31,779 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 1410 characters
+2025-10-29 18:06:31,779 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MDMAHBUBRAHMAN
+
+## OBJECTIVE
+To secure a Software Engineer position at a software company, with aspirations of becoming a Software Architect. I aim to leverage my learned skills to deliver satisfactor...
+2025-10-29 18:06:31,780 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 1410 characters
+2025-10-29 18:06:31,780 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for MDMAHBUBRAHMAN using optimized processing
+2025-10-29 18:06:31,781 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: MDMAHBUBRAHMAN
+2025-10-29 18:06:39,199 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 18:07:30,900 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: A. H. S. MD. IFTEKHAR HUSSAIN
+2025-10-29 18:07:30,902 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: A. H. S. MD. IFTEKHAR HUSSAIN (af8facf7-1327-406c-bf51-051324cdbd67) from content_extraction
+2025-10-29 18:07:30,902 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: A. H. S. MD. IFTEKHAR HUSSAIN
+2025-10-29 18:07:30,903 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: A. H. S. MD. IFTEKHAR HUSSAIN
+2025-10-29 18:07:30,904 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 30 sections from pre-processed content: ['Professional Profile', 'A. H. S. MD. IFTEKHAR HUSSAIN', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. Lead SQA Manager (2.8 yrs)', 'Grameen Digital Health', 'Duties/Responsibilities:', '2. SQA Manager (1.2 yrs)', 'Shohoz Ltd.', '3. SQA Manager (2.3 yrs)', 'Streams Tech Ltd.', '4. Project Manager (1.5 yrs)', 'East West Media Group Ltd.', '5. Senior SQA Engineer (Team Lead) (3.2 yrs)', 'SELISE rockin` software (Secure Link Services Ltd.)', '6. Software Engineer (QC) (2.6 yrs)', 'IMS Health', '7. Software Test Engineer (1.0 yr)', 'ASA International (ASAI)', '8. Software Test Engineer (0.7 yr)', 'Therap (BD) Ltd.', '9. Test Engineer (0.7 yr)', 'UNIQA Software &amp; Systems Limited', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :']
+2025-10-29 18:07:38,007 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 18:07:38,008 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4663 characters
+2025-10-29 18:07:38,008 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: A. H. S. MD. IFTEKHAR HUSSAIN
+
+**Professional Profile**
+Job Title: Software QA Lead
+
+**Career Objective**
+Accepting a challenging position in the field of software development where quality is built i...
+2025-10-29 18:07:38,009 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4663 characters
+2025-10-29 18:07:38,009 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for A. H. S. MD. IFTEKHAR HUSSAIN using optimized processing
+2025-10-29 18:07:38,010 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: A. H. S. MD. IFTEKHAR HUSSAIN
+2025-10-29 18:07:45,452 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 18:08:35,082 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: BIKASH CHANDRA DEBNATH
+2025-10-29 18:08:35,084 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: BIKASH CHANDRA DEBNATH (d81265ca-ebf8-460c-931a-660eff8cd9d8) from content_extraction
+2025-10-29 18:08:35,085 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: BIKASH CHANDRA DEBNATH
+2025-10-29 18:08:35,085 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: BIKASH CHANDRA DEBNATH
+2025-10-29 18:08:35,086 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 22 sections from pre-processed content: ['Professional Profile', 'BIKASH CHANDRA DEBNATH', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. Sr.Software Quality Assurance Engineer (5.8 yrs)', 'ServicEngineBPO', 'Duties/Responsibilities:', 'LEADS Corporation Limited', '3. Software Engineer (1.8 yrs)', 'BJIT', '4. IT Officer. (0.8 yr)', 'Canadian International School', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Extra Curricular Activities:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 18:08:39,547 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 18:08:39,547 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4386 characters
+2025-10-29 18:08:39,548 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: BIKASH CHANDRA DEBNATH
+
+**Professional Profile**
+Job Title: Software QA Lead
+
+**Career Objective**
+Seeking a position as Sr./Lead Software QA Engineer in a highly motivating and challenging environmen...
+2025-10-29 18:08:39,548 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4386 characters
+2025-10-29 18:08:39,549 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for BIKASH CHANDRA DEBNATH using optimized processing
+2025-10-29 18:08:39,550 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: BIKASH CHANDRA DEBNATH
+2025-10-29 18:08:49,497 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 18:09:23,490 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: JAYED IBRAHIM
+2025-10-29 18:09:23,495 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: JAYED IBRAHIM (3363c71d-9198-45d1-9c7c-6d741ecf1afe) from content_extraction
+2025-10-29 18:09:23,496 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: JAYED IBRAHIM
+2025-10-29 18:09:23,497 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: JAYED IBRAHIM
+2025-10-29 18:09:23,497 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 23 sections from pre-processed content: ['Professional Profile', 'JAYED IBRAHIM', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. QA Manager (3.9 yrs)', 'TigerIT Bangladesh Ltd', 'Duties/Responsibilities:', '2. Senior Software Engineer (QA) (1.0 yr)', '3. Software Engineer (QA) (6.8 yrs)', 'TigerIT Bangladesh Ltd.', '4. QA (0.3 yr)', 'Hisoft Ltd', '5. Web Developer (0.2 yr)', 'Trust IT BD Ltd', '6. SQA Engineer (0.7 yr)', 'Greenland IT', 'Academic Qualification:', 'Career and Application Information:', 'Extra Curricular Activities:', 'Personal Details :', 'Reference (s):']
+2025-10-29 18:09:28,064 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 18:09:28,065 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 3917 characters
+2025-10-29 18:09:28,066 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: JAYED IBRAHIM
+
+**Professional Profile**
+Job Title: Software QA Lead
+
+**Career Objective**
+Looking forward to head the quality assurance department in a world-reputed organization where I can utilize t...
+2025-10-29 18:09:28,066 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 3917 characters
+2025-10-29 18:09:28,067 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for JAYED IBRAHIM using optimized processing
+2025-10-29 18:09:28,068 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: JAYED IBRAHIM
+2025-10-29 18:09:35,763 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 18:09:58,162 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 18:09:59,065 - cv_chatbot - INFO - [rag.py:576] - LLM determined intent: General knowledge for question: who are you?
+2025-10-29 18:09:59,066 - cv_chatbot - INFO - [rag.py:714] - Using general knowledge LLM
+2025-10-29 18:10:15,417 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 18:10:16,236 - cv_chatbot - INFO - [rag.py:576] - LLM determined intent: General knowledge for question: what is machine learning?
+2025-10-29 18:10:16,237 - cv_chatbot - INFO - [rag.py:714] - Using general knowledge LLM
+2025-10-29 18:10:50,511 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 18:10:51,389 - cv_chatbot - INFO - [rag.py:573] - LLM determined intent: CV-related for question: tell me name of the candiadtes for QA engineering position
+2025-10-29 18:10:51,390 - cv_chatbot - INFO - [rag.py:710] - Using RAG for CV-related question
+2025-10-29 18:10:58,122 - cv_chatbot - INFO - [rag.py:605] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 18:10:58,122 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for JAYED IBRAHIM with 3917 characters
+2025-10-29 18:10:58,123 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for BIKASH CHANDRA DEBNATH with 4386 characters
+2025-10-29 18:10:58,123 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MDMAHBUBRAHMAN with 1410 characters
+2025-10-29 18:10:58,123 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for A. H. S. MD. IFTEKHAR HUSSAIN with 4663 characters
+2025-10-29 18:10:58,123 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for Avirup Mondol with 4193 characters
+2025-10-29 18:12:35,140 - cv_chatbot - INFO - [rag.py:705] - Documents available - LLM deciding routing
+2025-10-29 18:12:36,129 - cv_chatbot - INFO - [rag.py:573] - LLM determined intent: CV-related for question: tell me name and details of the candiadtes for SQA
+2025-10-29 18:12:36,130 - cv_chatbot - INFO - [rag.py:710] - Using RAG for CV-related question
+2025-10-29 18:12:43,893 - cv_chatbot - INFO - [rag.py:605] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 18:12:43,893 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for JAYED IBRAHIM with 3917 characters
+2025-10-29 18:12:43,893 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for BIKASH CHANDRA DEBNATH with 4386 characters
+2025-10-29 18:12:43,893 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for A. H. S. MD. IFTEKHAR HUSSAIN with 4663 characters
+2025-10-29 18:12:43,893 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MDMAHBUBRAHMAN with 1410 characters
+2025-10-29 18:12:43,893 - cv_chatbot - INFO - [rag.py:622] - Retrieved chunk for MD. Mohtasim Billah with 1513 characters
+2025-10-29 18:25:50,532 - cv_chatbot - INFO - [rag.py:1038] - Documents available - LLM deciding routing
+2025-10-29 18:25:51,433 - cv_chatbot - INFO - [rag.py:830] - LLM determined intent: CV-related for question: is there any SQA engineer present in the documents?
+2025-10-29 18:25:51,435 - cv_chatbot - INFO - [rag.py:1043] - Using RAG for CV-related question
+2025-10-29 18:25:55,866 - cv_chatbot - INFO - [rag.py:943] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 18:25:55,866 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for JAYED IBRAHIM with 3917 characters
+2025-10-29 18:25:55,867 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for BIKASH CHANDRA DEBNATH with 4386 characters
+2025-10-29 18:25:55,867 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for A. H. S. MD. IFTEKHAR HUSSAIN with 4663 characters
+2025-10-29 18:25:55,867 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for MDMAHBUBRAHMAN with 1410 characters
+2025-10-29 18:25:55,867 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for Avirup Mondol with 4193 characters
+2025-10-29 18:27:16,995 - cv_chatbot - INFO - [rag.py:1038] - Documents available - LLM deciding routing
+2025-10-29 18:27:18,488 - cv_chatbot - INFO - [rag.py:830] - LLM determined intent: CV-related for question: tell the name of all SQA candidates
+2025-10-29 18:27:18,489 - cv_chatbot - INFO - [rag.py:1043] - Using RAG for CV-related question
+2025-10-29 18:27:22,802 - cv_chatbot - INFO - [rag.py:943] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 18:27:22,802 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for JAYED IBRAHIM with 3917 characters
+2025-10-29 18:27:22,803 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for BIKASH CHANDRA DEBNATH with 4386 characters
+2025-10-29 18:27:22,803 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for A. H. S. MD. IFTEKHAR HUSSAIN with 4663 characters
+2025-10-29 18:27:22,803 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for MDMAHBUBRAHMAN with 1410 characters
+2025-10-29 18:27:22,803 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for Avirup Mondol with 4193 characters
+2025-10-29 18:27:47,366 - cv_chatbot - WARNING - [rag.py:1012] - LLM returned short answer (34 chars), generating detailed fallback
+2025-10-29 18:28:52,403 - cv_chatbot - INFO - [rag.py:1038] - Documents available - LLM deciding routing
+2025-10-29 18:28:53,552 - cv_chatbot - INFO - [rag.py:830] - LLM determined intent: CV-related for question: tell the just name of all SQA candidates
+2025-10-29 18:28:53,553 - cv_chatbot - INFO - [rag.py:1043] - Using RAG for CV-related question
+2025-10-29 18:28:58,039 - cv_chatbot - INFO - [rag.py:943] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 18:28:58,039 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for JAYED IBRAHIM with 3917 characters
+2025-10-29 18:28:58,039 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for BIKASH CHANDRA DEBNATH with 4386 characters
+2025-10-29 18:28:58,039 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for A. H. S. MD. IFTEKHAR HUSSAIN with 4663 characters
+2025-10-29 18:28:58,039 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for MDMAHBUBRAHMAN with 1410 characters
+2025-10-29 18:28:58,039 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for Avirup Mondol with 4193 characters
+2025-10-29 18:30:07,198 - cv_chatbot - INFO - [rag.py:1038] - Documents available - LLM deciding routing
+2025-10-29 18:30:08,329 - cv_chatbot - INFO - [rag.py:830] - LLM determined intent: CV-related for question: tell the just name of all frontend candidates
+2025-10-29 18:30:08,330 - cv_chatbot - INFO - [rag.py:1043] - Using RAG for CV-related question
+2025-10-29 18:30:12,444 - cv_chatbot - INFO - [rag.py:943] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 18:30:12,444 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for Avirup Mondol with 4193 characters
+2025-10-29 18:30:12,444 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for MDMAHBUBRAHMAN with 1410 characters
+2025-10-29 18:30:12,444 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for JAYED IBRAHIM with 3917 characters
+2025-10-29 18:30:12,444 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for BIKASH CHANDRA DEBNATH with 4386 characters
+2025-10-29 18:30:12,444 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for MD. Mohtasim Billah with 1513 characters
+2025-10-29 18:31:56,347 - cv_chatbot - INFO - [rag.py:1038] - Documents available - LLM deciding routing
+2025-10-29 18:31:57,120 - cv_chatbot - INFO - [rag.py:830] - LLM determined intent: CV-related for question: who has the best project done with better frameworks among SQA candidates?
+2025-10-29 18:31:57,120 - cv_chatbot - INFO - [rag.py:1043] - Using RAG for CV-related question
+2025-10-29 18:32:01,546 - cv_chatbot - INFO - [rag.py:943] - Retrieved 5 COMPLETE CV chunks
+2025-10-29 18:32:01,546 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for MDMAHBUBRAHMAN with 1410 characters
+2025-10-29 18:32:01,546 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for A. H. S. MD. IFTEKHAR HUSSAIN with 4663 characters
+2025-10-29 18:32:01,547 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for BIKASH CHANDRA DEBNATH with 4386 characters
+2025-10-29 18:32:01,547 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for Avirup Mondol with 4193 characters
+2025-10-29 18:32:01,547 - cv_chatbot - INFO - [rag.py:956] - Retrieved chunk for JAYED IBRAHIM with 3917 characters
+2025-10-29 18:32:23,274 - cv_chatbot - WARNING - [rag.py:1012] - LLM returned short answer (0 chars), generating detailed fallback
+2025-10-29 18:55:57,254 - cv_chatbot - WARNING - [main.py:107] - Vector store and candidate index reset
+2025-10-29 18:56:03,494 - cv_chatbot - INFO - [rag.py:1364] - No documents - using general knowledge LLM
+2025-10-29 18:56:03,525 - cv_chatbot - ERROR - [rag.py:1181] - General knowledge LLM failed: "Input to PromptTemplate is missing variables {'context'}.  Expected: ['context', 'question'] Received: ['question']\nNote: if you intended {context} to be part of the string and not a variable, please escape it with double curly braces like: '{{context}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+2025-10-29 18:56:15,136 - cv_chatbot - INFO - [rag.py:1364] - No documents - using general knowledge LLM
+2025-10-29 18:56:15,141 - cv_chatbot - ERROR - [rag.py:1181] - General knowledge LLM failed: "Input to PromptTemplate is missing variables {'context'}.  Expected: ['context', 'question'] Received: ['question']\nNote: if you intended {context} to be part of the string and not a variable, please escape it with double curly braces like: '{{context}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+2025-10-29 19:00:12,000 - cv_chatbot - INFO - [rag.py:1392] - No documents - using general knowledge LLM
+2025-10-29 19:00:26,493 - cv_chatbot - INFO - [rag.py:1392] - No documents - using general knowledge LLM
+2025-10-29 19:00:43,451 - cv_chatbot - INFO - [rag.py:1392] - No documents - using general knowledge LLM
+2025-10-29 19:00:58,133 - cv_chatbot - WARNING - [main.py:107] - Vector store and candidate index reset
+2025-10-29 19:01:31,699 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: A. H. S. MD. IFTEKHAR HUSSAIN
+2025-10-29 19:01:31,701 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: A. H. S. MD. IFTEKHAR HUSSAIN (01689eba-e457-422a-8b77-e90385884e73) from content_extraction
+2025-10-29 19:01:31,702 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: A. H. S. MD. IFTEKHAR HUSSAIN
+2025-10-29 19:01:31,703 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: A. H. S. MD. IFTEKHAR HUSSAIN
+2025-10-29 19:01:31,704 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 30 sections from pre-processed content: ['Professional Profile', 'A. H. S. MD. IFTEKHAR HUSSAIN', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. Lead SQA Manager (2.8 yrs)', 'Grameen Digital Health', 'Duties/Responsibilities:', '2. SQA Manager (1.2 yrs)', 'Shohoz Ltd.', '3. SQA Manager (2.3 yrs)', 'Streams Tech Ltd.', '4. Project Manager (1.5 yrs)', 'East West Media Group Ltd.', '5. Senior SQA Engineer (Team Lead) (3.2 yrs)', 'SELISE rockin` software (Secure Link Services Ltd.)', '6. Software Engineer (QC) (2.6 yrs)', 'IMS Health', '7. Software Test Engineer (1.0 yr)', 'ASA International (ASAI)', '8. Software Test Engineer (0.7 yr)', 'Therap (BD) Ltd.', '9. Test Engineer (0.7 yr)', 'UNIQA Software &amp; Systems Limited', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :']
+2025-10-29 19:01:38,055 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:01:38,056 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4663 characters
+2025-10-29 19:01:38,056 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: A. H. S. MD. IFTEKHAR HUSSAIN
+
+**Professional Profile**
+Job Title: Software QA Lead
+
+**Career Objective**
+Accepting a challenging position in the field of software development where quality is built i...
+2025-10-29 19:01:38,057 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4663 characters
+2025-10-29 19:01:38,057 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for A. H. S. MD. IFTEKHAR HUSSAIN using optimized processing
+2025-10-29 19:01:38,058 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: A. H. S. MD. IFTEKHAR HUSSAIN
+2025-10-29 19:01:42,689 - cv_chatbot - INFO - [vector_store.py:356] - Created new FAISS index
+2025-10-29 19:02:24,143 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: YEA HASIB MD. ABU BAKAR SIDDIQUE
+2025-10-29 19:02:24,145 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: YEA HASIB MD. ABU BAKAR SIDDIQUE (6eccfd36-33c6-40f6-8f45-5dc0df9d4688) from content_extraction
+2025-10-29 19:02:24,145 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: YEA HASIB MD. ABU BAKAR SIDDIQUE
+2025-10-29 19:02:24,146 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: YEA HASIB MD. ABU BAKAR SIDDIQUE
+2025-10-29 19:02:24,147 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 27 sections from pre-processed content: ['Professional Profile', 'YEA HASIB MD. ABU BAKAR SIDDIQUE', 'Career Objective:', 'Career Summary:', 'Special Qualification:', '1. Assistant Vice President (2.4 yrs)', 'SureCash, Progoti Systems Ltd.', 'Duties/Responsibilities:', 'Brain Station 23 Ltd.', '3. Assistant Vice President (2.3 yrs)', '4. SQA Analyst (2.1 yrs)', 'IT Magnet', '5. Sr. Software Quality Assurance Engineer (2.7 yrs)', 'Brain Station-23', '6. Project Manager and SQA (0.3 yr)', '7. Project Coordinator and QA (2.8 yrs)', 'Spider Web Outsourcing and Technology', '8. Developer (0.7 yr)', 'Cireworx,LLC', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Specialization:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 19:02:30,031 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:02:30,031 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 5769 characters
+2025-10-29 19:02:30,032 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: YEA HASIB MD. ABU BAKAR SIDDIQUE
+
+## Professional Profile
+Job Title: Software QA Lead
+
+## Career Objective:
+-
+
+## Career Summary:
+Over 11 years of experience in software industries, contributing to so...
+2025-10-29 19:02:30,032 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 5769 characters
+2025-10-29 19:02:30,033 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for YEA HASIB MD. ABU BAKAR SIDDIQUE using optimized processing
+2025-10-29 19:02:30,033 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: YEA HASIB MD. ABU BAKAR SIDDIQUE
+2025-10-29 19:02:34,657 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 19:03:11,217 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: NIPA MONALISA
+2025-10-29 19:03:11,218 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: NIPA MONALISA (15d52253-3040-4589-b4b1-dcd4cf7edb8a) from content_extraction
+2025-10-29 19:03:11,219 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: NIPA MONALISA
+2025-10-29 19:03:11,219 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: NIPA MONALISA
+2025-10-29 19:03:11,220 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 23 sections from pre-processed content: ['Professional Profile', 'NIPA MONALISA', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', 'FAQ Private Limited', 'Duties/Responsibilities:', '2. SQA Engineer &amp; Business Development. (0.6 yr)', 'BDTASK LTD', '3. SQA Engineer (1.3 yrs)', 'Nexzen Solution LTD (Contractual)', '4. Web &amp; Software Developer (0.7 yr)', 'Nanotech Solution &amp; Consultancy', '5. Assistient IT Trainer And Executive (0.4 yr)', 'TalhaTraining (Contractual)', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 19:03:18,137 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:03:18,138 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 7319 characters
+2025-10-29 19:03:18,138 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: NIPA MONALISA
+
+**Professional Profile**
+Job Title: Software QA Lead
+
+**Career Objective**
+To build a career in a growing organization where a strong sense of responsibility, sincerity, integrity, and ...
+2025-10-29 19:03:18,139 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 7319 characters
+2025-10-29 19:03:18,139 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for NIPA MONALISA using optimized processing
+2025-10-29 19:03:18,140 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: NIPA MONALISA
+2025-10-29 19:03:22,795 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 19:04:22,864 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: A.H.M. HASIBUL HASAN
+2025-10-29 19:04:22,866 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: A.H.M. HASIBUL HASAN (43125f72-a7cb-4b90-bd76-bcdd53c86133) from content_extraction
+2025-10-29 19:04:22,867 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: A.H.M. HASIBUL HASAN
+2025-10-29 19:04:22,867 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: A.H.M. HASIBUL HASAN
+2025-10-29 19:04:22,868 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 26 sections from pre-processed content: ['A.H.M. HASIBUL HASAN', 'Career Objective:', 'Career Summary:', 'Employment History:', '1. Programmer (1.8 yrs)', 'Flora Limited', 'Duties/Responsibilities:', '2. Assistant Software Development Web Apps (0.2 yr)', 'Regent Group Bd', '3. Assistant Manager IT (0.7 yr)', 'Hamid Group', '4. Manager (IT) (1.8 yrs)', 'Amex Knitting and Dyeing Industries Ltd.', '5. Sr. System Support Engineer (10.7 yrs)', 'Airtel Bangladesh Limited.(Vendor project of Thakral Information System Private Ltd)', '6. IT Engineer (0.3 yr)', 'Al - Muslim Group Ltd', '7. System Support Engineer (0.9 yr)', 'Gonophone Online Ltd.', '8. Customer Support Engineer (1.2 yrs)', 'BD Com Online Ltd.', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :']
+2025-10-29 19:04:30,312 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:04:30,313 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 7283 characters
+2025-10-29 19:04:30,313 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # A.H.M. HASIBUL HASAN
+
+## Career Objective:
+Build up career with intelligence and integrity. I want a respective and challenging career where my educational, technical skills and experiences will be ...
+2025-10-29 19:04:30,314 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 7283 characters
+2025-10-29 19:04:30,315 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for A.H.M. HASIBUL HASAN using optimized processing
+2025-10-29 19:04:30,315 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: A.H.M. HASIBUL HASAN
+2025-10-29 19:04:34,778 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 19:05:11,737 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD. AHSAN ULLAH ROKANI
+2025-10-29 19:05:11,738 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD. AHSAN ULLAH ROKANI (b90e2609-775f-47e7-829e-ec7839757f78) from content_extraction
+2025-10-29 19:05:11,738 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: MD. AHSAN ULLAH ROKANI
+2025-10-29 19:05:11,738 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MD. AHSAN ULLAH ROKANI
+2025-10-29 19:05:11,739 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 26 sections from pre-processed content: ['MD. AHSAN ULLAH ROKANI', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. Manager (ERP Development) (4.8 yrs)', 'Panna Group', 'Duties/Responsibilities:', '2. Manager (ERP) (2.2 yrs)', 'Yunusco (BD) Ltd.', '3. Associate Manager (0.5 yr)', 'Brac IT Services (biTS) Ltd. (Sister Concern of BRAC Bank)', '4. Asst. Manager - Software Section (1.0 yr)', 'Nitol-Niloy Group', '5. Software Engineer (0.4 yr)', 'EsySolution Ltd (Nordic Softwares Ltd.)', '6. Sr. System Engineer (2.0 yrs)', 'Montrims Limited (A Sister Concern of Mondol Group)', '7. Sr. System Engineer (2.3 yrs)', 'DIRD Group', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference: 02']
+2025-10-29 19:05:17,715 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:05:17,715 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 5258 characters
+2025-10-29 19:05:17,716 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MD. AHSAN ULLAH ROKANI
+
+**Career Objective:**
+To develop the career as a professional in a dynamic environment where hard work and strict discipline are the cornerstone of success.
+
+**Career Summary:*...
+2025-10-29 19:05:17,717 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 5258 characters
+2025-10-29 19:05:17,717 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for MD. AHSAN ULLAH ROKANI using optimized processing
+2025-10-29 19:05:17,718 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: MD. AHSAN ULLAH ROKANI
+2025-10-29 19:05:26,204 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 19:06:11,142 - cv_chatbot - INFO - [rag.py:1396] - Documents available - LLM deciding routing
+2025-10-29 19:06:12,290 - cv_chatbot - INFO - [rag.py:1225] - LLM determined intent: General knowledge for question: whatr is the capital of banglaesh
+2025-10-29 19:06:12,290 - cv_chatbot - INFO - [rag.py:1405] - Using general knowledge LLM
+2025-10-29 19:06:28,047 - cv_chatbot - INFO - [rag.py:1396] - Documents available - LLM deciding routing
+2025-10-29 19:06:29,149 - cv_chatbot - INFO - [rag.py:1225] - LLM determined intent: General knowledge for question: what is machine learning?
+2025-10-29 19:06:29,149 - cv_chatbot - INFO - [rag.py:1405] - Using general knowledge LLM
+2025-10-29 19:06:51,426 - cv_chatbot - INFO - [rag.py:1396] - Documents available - LLM deciding routing
+2025-10-29 19:06:52,630 - cv_chatbot - INFO - [rag.py:1222] - LLM determined intent: CV-related for question: tell me tjhe names of the candidates for SQA
+2025-10-29 19:06:52,630 - cv_chatbot - INFO - [rag.py:1401] - Using RAG for CV-related question
+2025-10-29 19:07:38,503 - cv_chatbot - INFO - [rag.py:1396] - Documents available - LLM deciding routing
+2025-10-29 19:07:40,104 - cv_chatbot - INFO - [rag.py:1222] - LLM determined intent: CV-related for question: tell me the names of the candidates for java developer
+2025-10-29 19:07:40,104 - cv_chatbot - INFO - [rag.py:1401] - Using RAG for CV-related question
+2025-10-29 19:09:24,611 - cv_chatbot - INFO - [rag.py:1396] - Documents available - LLM deciding routing
+2025-10-29 19:09:26,038 - cv_chatbot - INFO - [rag.py:1222] - LLM determined intent: CV-related for question: who are the suitable candidates for SQA?
+2025-10-29 19:09:26,039 - cv_chatbot - INFO - [rag.py:1401] - Using RAG for CV-related question
+2025-10-29 19:09:59,965 - cv_chatbot - INFO - [rag.py:1396] - Documents available - LLM deciding routing
+2025-10-29 19:10:01,195 - cv_chatbot - INFO - [rag.py:1222] - LLM determined intent: CV-related for question: who are the suitable candidates for java team?
+2025-10-29 19:10:01,196 - cv_chatbot - INFO - [rag.py:1401] - Using RAG for CV-related question
+2025-10-29 19:11:17,399 - cv_chatbot - INFO - [rag.py:1329] - Documents available - LLM deciding routing
+2025-10-29 19:11:18,542 - cv_chatbot - INFO - [rag.py:1196] - LLM determined intent: CV-related for question: who are the suitable candidates for java team?
+2025-10-29 19:11:18,542 - cv_chatbot - INFO - [rag.py:1334] - Using RAG for CV-related question
+2025-10-29 19:14:12,298 - cv_chatbot - WARNING - [main.py:107] - Vector store and candidate index reset
+2025-10-29 19:14:35,489 - cv_chatbot - INFO - [rag.py:231] - No documents - using general knowledge LLM
+2025-10-29 19:15:16,391 - cv_chatbot - INFO - [rag.py:231] - No documents - using general knowledge LLM
+2025-10-29 19:16:14,701 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD. AHSAN ULLAH ROKANI
+2025-10-29 19:16:14,703 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD. AHSAN ULLAH ROKANI (b1555ea6-9224-4a3a-b86b-c8c66f16e5e9) from content_extraction
+2025-10-29 19:16:14,703 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: MD. AHSAN ULLAH ROKANI
+2025-10-29 19:16:14,704 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MD. AHSAN ULLAH ROKANI
+2025-10-29 19:16:14,706 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 26 sections from pre-processed content: ['MD. AHSAN ULLAH ROKANI', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. Manager (ERP Development) (4.8 yrs)', 'Panna Group', 'Duties/Responsibilities:', '2. Manager (ERP) (2.2 yrs)', 'Yunusco (BD) Ltd.', '3. Associate Manager (0.5 yr)', 'Brac IT Services (biTS) Ltd. (Sister Concern of BRAC Bank)', '4. Asst. Manager - Software Section (1.0 yr)', 'Nitol-Niloy Group', '5. Software Engineer (0.4 yr)', 'EsySolution Ltd (Nordic Softwares Ltd.)', '6. Sr. System Engineer (2.0 yrs)', 'Montrims Limited (A Sister Concern of Mondol Group)', '7. Sr. System Engineer (2.3 yrs)', 'DIRD Group', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference: 02']
+2025-10-29 19:16:21,344 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:16:21,345 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 5698 characters
+2025-10-29 19:16:21,345 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MD. AHSAN ULLAH ROKANI
+
+**Career Objective:**
+To develop the career as a professional in a dynamic environment where hard work and strict discipline are the cornerstone of success.
+
+**Career Summary:*...
+2025-10-29 19:16:21,346 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 5698 characters
+2025-10-29 19:16:21,346 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for MD. AHSAN ULLAH ROKANI using optimized processing
+2025-10-29 19:16:21,347 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: MD. AHSAN ULLAH ROKANI
+2025-10-29 19:16:26,119 - cv_chatbot - INFO - [vector_store.py:356] - Created new FAISS index
+2025-10-29 19:17:00,082 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD.ROBIUL HOSSAIN
+2025-10-29 19:17:00,084 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD.ROBIUL HOSSAIN (f723ae40-2030-4c0b-ad01-f43fe5f606d3) from content_extraction
+2025-10-29 19:17:00,085 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: MD.ROBIUL HOSSAIN
+2025-10-29 19:17:00,085 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MD.ROBIUL HOSSAIN
+2025-10-29 19:17:00,086 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 21 sections from pre-processed content: ['MD.ROBIUL HOSSAIN', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Total Year of Experience: 16.8 yrs', 'e-World Ltd', 'Duties/Responsibilities:', '2. Cheif Operating Officer (1.8 yrs)', 'AJRA Technologies Ltd', '3. Cheif Operating Officer (8.3 yrs)', 'VU Mobile Ltd.', '4. Software Development Manager (3.0 yrs)', 'AccessInfo Tech ltd.', '5. Application Developer (0.6 yr)', 'Black Stone technologies', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :']
+2025-10-29 19:17:06,828 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:17:06,830 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 5297 characters
+2025-10-29 19:17:06,830 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # MD. ROBIUL HOSSAIN
+
+## Career Objective:
+Provide strategic oversight of operational and financial functions for the firm specializing in technical and business areas, including the establishment of ...
+2025-10-29 19:17:06,831 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 5297 characters
+2025-10-29 19:17:06,832 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for MD.ROBIUL HOSSAIN using optimized processing
+2025-10-29 19:17:06,832 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: MD.ROBIUL HOSSAIN
+2025-10-29 19:17:11,034 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 19:17:52,699 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: SAEEF AL MAHMUD
+2025-10-29 19:17:52,701 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: SAEEF AL MAHMUD (06672e0d-6b79-426f-a7cc-9d6e26a359f6) from content_extraction
+2025-10-29 19:17:52,701 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: SAEEF AL MAHMUD
+2025-10-29 19:17:52,702 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: SAEEF AL MAHMUD
+2025-10-29 19:17:52,703 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 22 sections from pre-processed content: ['Professional Profile', 'SAEEF AL MAHMUD', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. Product Designer (1.3 yrs)', 'Intelligent Machines Ltd', 'Duties/Responsibilities:', '2. Web &amp; Graphic Designer (4.7 yrs)', 'Freelance Designer', '3. Designer (0.8 yr)', 'Kite Games', 'Academic Qualification:', 'Professional Qualification:', 'Career and Application Information:', 'Specialization:', 'Extra Curricular Activities:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):', 'Reference: 02']
+2025-10-29 19:17:57,696 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:17:57,697 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 3591 characters
+2025-10-29 19:17:57,697 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: SAEEF AL MAHMUD
+
+## Professional Profile
+Job Title: Creative Designer (UI/UX and Graphics)
+
+## Career Objective:
+An experienced UI/UX designer, strives to develop skills and expand career growth. Year...
+2025-10-29 19:17:57,698 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 3591 characters
+2025-10-29 19:17:57,698 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for SAEEF AL MAHMUD using optimized processing
+2025-10-29 19:17:57,699 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: SAEEF AL MAHMUD
+2025-10-29 19:18:01,946 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 19:18:48,006 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: KAMRUL HASAN
+2025-10-29 19:18:48,008 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: KAMRUL HASAN (bc814898-e840-447a-98f7-a8e3d56d937b) from content_extraction
+2025-10-29 19:18:48,009 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: KAMRUL HASAN
+2025-10-29 19:18:48,010 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: KAMRUL HASAN
+2025-10-29 19:18:48,011 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 21 sections from pre-processed content: ['Professional Profile', 'KAMRUL HASAN', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. UI/UX Designer and Graphics Designer (3.0 yrs)', 'Ecomclips', 'Duties/Responsibilities:', '2. Graphics Designer (0.9 yr)', 'Helix IT Solution Ltd.', '3. Graphics Designer and Graphics Design Trainer (1.8 yrs)', 'Dynamic Architectural and Consulting Engineers', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Extra Curricular Activities:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 19:18:53,703 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:18:53,704 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4951 characters
+2025-10-29 19:18:53,705 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: KAMRUL HASAN
+
+**Professional Profile**
+Job Title: Creative Designer (UI/UX and Graphics)
+
+**Career Objective**
+A thoughtful, user-focused designer with a proven track record for bringing solid ideas t...
+2025-10-29 19:18:53,705 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4951 characters
+2025-10-29 19:18:53,706 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for KAMRUL HASAN using optimized processing
+2025-10-29 19:18:53,706 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: KAMRUL HASAN
+2025-10-29 19:18:58,019 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 19:20:01,801 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: M d.Ashi kurRahm an
+2025-10-29 19:20:01,803 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: M d.Ashi kurRahm an (e762a87b-c742-44d6-9b1b-ae72bf982175) from content_extraction
+2025-10-29 19:20:01,804 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: M d.Ashi kurRahm an
+2025-10-29 19:20:01,804 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: M d.Ashi kurRahm an
+2025-10-29 19:20:01,805 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 11 sections from pre-processed content: ['ContactAddress: M d.Ashi kurRahm an', 'CAREER O BJECTI VE', 'Bachel orofSci ence i n C om put erSci ence and Engi neer i ng ( B. Sc.i n C SE)', 'H I G H ER SECON DARY SCH O O L CERTI FI CATE ( H SC )', 'SECON DARY SCH O O L CERTI FI CATE ( SSC)', 'I C T TRAI N I N G &amp; Q U A LI FI C A TI O N', 'UY LAB', 'I N D I V I D U A L', 'LAN G U A G E P RO FI C I EN C Y', 'PERSON AL I N FO RM A TI O N', 'M d.W al iU l l ah']
+2025-10-29 19:20:05,733 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:20:05,733 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 2319 characters
+2025-10-29 19:20:05,734 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: M d.Ashi kurRahm an
+
+## CAREER OBJECTIVE
+To obtain a position with opportunities to utilize my technical branding and educational qualifications, skill, talent, ethics, creativity, sincerity for the b...
+2025-10-29 19:20:05,734 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 2319 characters
+2025-10-29 19:20:05,735 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for M d.Ashi kurRahm an using optimized processing
+2025-10-29 19:20:05,735 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: M d.Ashi kurRahm an
+2025-10-29 19:20:10,015 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 19:20:32,228 - cv_chatbot - INFO - [candidate_manager.py:87] - Name extracted from content: Front End Developer
+2025-10-29 19:20:32,229 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Front End Developer (913821f2-8e03-46a7-bd16-cc5cec046242) from content_extraction
+2025-10-29 19:20:32,229 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: Front End Developer
+2025-10-29 19:20:32,229 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: Front End Developer
+2025-10-29 19:20:32,229 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 8 sections from pre-processed content: ['(+880)1725502623', 'Amanullah', 'Qualification', 'Web Developer | Apogee Digital Ltd.', 'Audio, video Calling and Chat, group-chat App (PWA)', "'Aman-Hotel' Full Stack Hotel-Booking App", 'Burgry Foods (Food Order app)', 'LANGUAGE']
+2025-10-29 19:20:36,326 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:20:36,326 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 2631 characters
+2025-10-29 19:20:36,327 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # Amanullah
+
+Front End Developer
+
+**Contact:**
+Narsingdi, Bangladesh
+
+**Portfolio:** amanullah.com
+**GitHub:** Amanullah
+
+---
+
+## Summary
+
+A Front-End developer proficient in necessary tech stacks, wi...
+2025-10-29 19:20:36,328 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 2631 characters
+2025-10-29 19:20:36,329 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for Front End Developer using optimized processing
+2025-10-29 19:20:36,330 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: Front End Developer
+2025-10-29 19:20:40,646 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 19:21:18,157 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Towfiq Alam Pranto
+2025-10-29 19:21:18,158 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Towfiq Alam Pranto (8aa9191f-8219-489c-bde2-6088844a5740) from content_extraction
+2025-10-29 19:21:18,159 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: Towfiq Alam Pranto
+2025-10-29 19:21:18,160 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: Towfiq Alam Pranto
+2025-10-29 19:21:18,160 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 10 sections from pre-processed content: ['Towfiq Alam Pranto', 'CAREER OBJECTIVE', 'EDUCATION', 'PROJECTS', 'EXTRA CURRICULAR ACTIVITIES', 'CONTACT', 'LINKS', 'SOFT SKILLS', 'TECHNICAL SKILLS', 'INTERESTS']
+2025-10-29 19:21:21,582 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:21:21,583 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 1993 characters
+2025-10-29 19:21:21,584 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # Towfiq Alam Pranto
+
+## CAREER OBJECTIVE
+Intellectually curious, team player professional applying for enrolment to continue developing my skills and apply the knowledge I have learned through my stu...
+2025-10-29 19:21:21,585 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 1993 characters
+2025-10-29 19:21:21,585 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for Towfiq Alam Pranto using optimized processing
+2025-10-29 19:21:21,586 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: Towfiq Alam Pranto
+2025-10-29 19:21:26,296 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 19:21:47,527 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Suprove Chandra Sarkar
+2025-10-29 19:21:47,528 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Suprove Chandra Sarkar (22c701ae-9efc-42ce-917a-05efa5f03802) from content_extraction
+2025-10-29 19:21:47,528 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: Suprove Chandra Sarkar
+2025-10-29 19:21:47,528 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: Suprove Chandra Sarkar
+2025-10-29 19:21:47,528 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 6 sections from pre-processed content: ['Suprove Chandra Sarkar', 'Skills:', 'Projects:', 'Achievements:', 'Extracurricular Activities:', 'Education:']
+2025-10-29 19:21:50,144 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 19:21:50,145 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 1479 characters
+2025-10-29 19:21:50,145 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # Suprove Chandra Sarkar
+
+## Skills
+
+*   **Web Development:** Python, Django, MySQL, HTML, CSS, Bootstrap
+*   **Data Analysis:** Python, Tableau
+*   **Programming Languages:** Python, C++, C
+*   **Oth...
+2025-10-29 19:21:50,147 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 1479 characters
+2025-10-29 19:21:50,148 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for Suprove Chandra Sarkar using optimized processing
+2025-10-29 19:21:50,149 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: Suprove Chandra Sarkar
+2025-10-29 19:21:54,330 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 19:22:11,364 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:22:12,489 - cv_chatbot - INFO - [rag.py:102] - LLM determined intent: CV-related for question: string
+2025-10-29 19:22:12,489 - cv_chatbot - INFO - [rag.py:240] - Using RAG for CV-related question
+2025-10-29 19:22:33,227 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:22:34,369 - cv_chatbot - INFO - [rag.py:105] - LLM determined intent: General knowledge for question: what is machine learning?
+2025-10-29 19:22:34,370 - cv_chatbot - INFO - [rag.py:244] - Using general knowledge LLM
+2025-10-29 19:23:02,474 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:23:03,702 - cv_chatbot - INFO - [rag.py:105] - LLM determined intent: General knowledge for question: top 5 moview of all timem?
+2025-10-29 19:23:03,703 - cv_chatbot - INFO - [rag.py:244] - Using general knowledge LLM
+2025-10-29 19:23:17,003 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:23:17,976 - cv_chatbot - INFO - [rag.py:105] - LLM determined intent: General knowledge for question: top 5 moview of all time?
+2025-10-29 19:23:17,977 - cv_chatbot - INFO - [rag.py:244] - Using general knowledge LLM
+2025-10-29 19:23:41,102 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:23:42,271 - cv_chatbot - INFO - [rag.py:105] - LLM determined intent: General knowledge for question: top 5 thriller moview of all time?
+2025-10-29 19:23:42,272 - cv_chatbot - INFO - [rag.py:244] - Using general knowledge LLM
+2025-10-29 19:23:55,473 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:23:56,530 - cv_chatbot - INFO - [rag.py:105] - LLM determined intent: General knowledge for question: top 5 thriller movie of all time?
+2025-10-29 19:23:56,530 - cv_chatbot - INFO - [rag.py:244] - Using general knowledge LLM
+2025-10-29 19:24:13,532 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:24:14,731 - cv_chatbot - INFO - [rag.py:105] - LLM determined intent: General knowledge for question: what is the capital of bangladesh?
+2025-10-29 19:24:14,732 - cv_chatbot - INFO - [rag.py:244] - Using general knowledge LLM
+2025-10-29 19:25:27,578 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:25:29,328 - cv_chatbot - INFO - [rag.py:105] - LLM determined intent: General knowledge for question: what is the best thrille movie from hollywood?
+2025-10-29 19:25:29,329 - cv_chatbot - INFO - [rag.py:244] - Using general knowledge LLM
+2025-10-29 19:26:14,378 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:26:15,625 - cv_chatbot - INFO - [rag.py:102] - LLM determined intent: CV-related for question: tell the name of the candidates for UIUX
+2025-10-29 19:26:15,626 - cv_chatbot - INFO - [rag.py:240] - Using RAG for CV-related question
+2025-10-29 19:27:24,386 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:27:25,567 - cv_chatbot - INFO - [rag.py:102] - LLM determined intent: CV-related for question: tell the name of the candidates for SQA
+2025-10-29 19:27:25,567 - cv_chatbot - INFO - [rag.py:240] - Using RAG for CV-related question
+2025-10-29 19:28:18,213 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:28:19,653 - cv_chatbot - INFO - [rag.py:102] - LLM determined intent: CV-related for question: tell the name of the candidates for JAVA
+2025-10-29 19:28:19,653 - cv_chatbot - INFO - [rag.py:240] - Using RAG for CV-related question
+2025-10-29 19:28:49,435 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:28:50,764 - cv_chatbot - INFO - [rag.py:102] - LLM determined intent: CV-related for question: tell the name of the candidates for fronytend
+2025-10-29 19:28:50,764 - cv_chatbot - INFO - [rag.py:240] - Using RAG for CV-related question
+2025-10-29 19:29:40,594 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:29:41,889 - cv_chatbot - INFO - [rag.py:102] - LLM determined intent: CV-related for question: who has the best experience in UIUX?
+2025-10-29 19:29:41,890 - cv_chatbot - INFO - [rag.py:240] - Using RAG for CV-related question
+2025-10-29 19:30:54,690 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:30:56,058 - cv_chatbot - INFO - [rag.py:102] - LLM determined intent: CV-related for question: who has the best experience in frontend?
+2025-10-29 19:30:56,058 - cv_chatbot - INFO - [rag.py:240] - Using RAG for CV-related question
+2025-10-29 19:31:51,669 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 19:31:52,918 - cv_chatbot - INFO - [rag.py:102] - LLM determined intent: CV-related for question: who has the best experience in java?
+2025-10-29 19:31:52,919 - cv_chatbot - INFO - [rag.py:240] - Using RAG for CV-related question
+2025-10-29 19:54:20,019 - cv_chatbot - WARNING - [main.py:107] - Vector store and candidate index reset
+2025-10-29 19:55:00,904 - cv_chatbot - INFO - [rag.py:231] - No documents - using general knowledge LLM
+2025-10-29 19:55:39,855 - cv_chatbot - INFO - [rag.py:231] - No documents - using general knowledge LLM
+2025-10-29 19:55:59,471 - cv_chatbot - INFO - [rag.py:231] - No documents - using general knowledge LLM
+2025-10-29 19:57:04,984 - cv_chatbot - INFO - [rag.py:231] - No documents - using general knowledge LLM
+2025-10-29 19:57:21,976 - cv_chatbot - INFO - [rag.py:231] - No documents - using general knowledge LLM
+2025-10-29 19:57:34,075 - cv_chatbot - INFO - [rag.py:231] - No documents - using general knowledge LLM
+2025-10-29 19:57:46,077 - cv_chatbot - INFO - [rag.py:231] - No documents - using general knowledge LLM
+2025-10-29 19:58:00,352 - cv_chatbot - INFO - [rag.py:231] - No documents - using general knowledge LLM
+2025-10-29 19:59:11,086 - cv_chatbot - INFO - [rag.py:231] - No documents - using general knowledge LLM
+2025-10-29 20:00:30,170 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: SHAHRIAR ALAM
+2025-10-29 20:00:30,172 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: SHAHRIAR ALAM (e0597335-4291-406e-9e96-26ec60ad7482) from content_extraction
+2025-10-29 20:00:30,173 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: SHAHRIAR ALAM
+2025-10-29 20:00:30,174 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: SHAHRIAR ALAM
+2025-10-29 20:00:30,175 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 24 sections from pre-processed content: ['Professional Profile', 'SHAHRIAR ALAM', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. UI/UX Engineer (0.4 yr)', 'Bdjobs .com Ltd.', 'Duties/Responsibilities:', '2. Project &amp; Design Admin (Lead UI/UX Design) (1.7 yrs)', 'Wizard Software &amp; Technology Bangladesh Ltd.', '3. Executive Graphics Designer (0.2 yr)', 'AKSID Corporation', '4. Graphics Designer &amp; IT Support (0.9 yr)', 'Nawabpur Mart sis concern Pinewood Cafe + Kitchen', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Fields of Specialization', 'Extra Curricular Activities:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 20:00:37,956 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 20:00:37,958 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 7019 characters
+2025-10-29 20:00:37,958 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # SHAHRIAR ALAM
+
+## Professional Profile
+Creative Designer (UI/UX and Graphics)
+
+## Career Objective
+To be an efficient and successful executive in a reputed organization, demonstrating confidence, ea...
+2025-10-29 20:00:37,959 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 7019 characters
+2025-10-29 20:00:37,960 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created SINGLE golden chunk for SHAHRIAR ALAM using optimized processing
+2025-10-29 20:00:37,960 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: SHAHRIAR ALAM
+2025-10-29 20:00:42,567 - cv_chatbot - INFO - [vector_store.py:356] - Created new FAISS index
+2025-10-29 20:04:11,619 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: AMIR ISLAM
+2025-10-29 20:04:11,621 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: AMIR ISLAM (c6728a91-3c88-42c2-8532-ad567f882c3a) from content_extraction
+2025-10-29 20:04:11,621 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: AMIR ISLAM
+2025-10-29 20:04:11,622 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: AMIR ISLAM
+2025-10-29 20:04:11,623 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 24 sections from pre-processed content: ['Professional Profile', 'AMIR ISLAM', 'Career Summary:', 'Special Qualification:', '1. UX designer (1.5 yrs)', 'eJogajog Limited', '2. UI/UX Designer (0.3 yr)', 'Creatant', 'Duties/Responsibilities:', '3. Visual Designer (0.2 yr)', 'Ion TV', '4. Graphic Design Mentor (1.1 yrs)', 'CodersTrust Bangladesh', '5. Graphic &amp; UI Designer (2.2 yrs)', 'Fiverr', '6. Graphic Designer (0.5 yr)', 'Badhon', 'Academic Qualification:', 'Professional Qualification:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference: 01', 'Reference: 02']
+2025-10-29 20:04:15,774 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 20:04:15,774 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 3001 characters
+2025-10-29 20:04:15,776 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: AMIR ISLAM
+
+**Professional Profile**
+Creative Designer (UI/UX and Graphics)
+
+**Career Summary**
+Equally well-versed in UI/UX and visual design with extensive interaction design experience and a solid ...
+2025-10-29 20:04:15,777 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 3001 characters
+2025-10-29 20:04:15,778 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for AMIR ISLAM 
+2025-10-29 20:04:15,778 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: AMIR ISLAM
+2025-10-29 20:04:21,561 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 20:07:03,951 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MUHAMMAD GOLAM MAWLA
+2025-10-29 20:07:03,951 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MUHAMMAD GOLAM MAWLA (0cb355ba-9d16-4501-a7b2-9942ebd9db4f) from content_extraction
+2025-10-29 20:07:03,952 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: MUHAMMAD GOLAM MAWLA
+2025-10-29 20:07:03,952 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MUHAMMAD GOLAM MAWLA
+2025-10-29 20:07:03,952 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 20 sections from pre-processed content: ['Professional Profile', 'MUHAMMAD GOLAM MAWLA', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', 'BRAC IT Services Ltd. (biTS)', 'Duties/Responsibilities:', '2. Senior SQA Engineer (Team Lead) (2.8 yrs)', 'ServicEngine Ltd.', '3. Web Developer (0.6 yr)', 'Binary Solution', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):', 'Reference: 02']
+2025-10-29 20:07:11,628 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 20:07:11,629 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 6935 characters
+2025-10-29 20:07:11,630 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MUHAMMAD GOLAM MAWLA
+
+## Professional Profile
+Job Title: Software QA Lead
+
+## Career Objective
+To be a part of an organization in a secure and responsible position where I can utilize and enhance my t...
+2025-10-29 20:07:11,631 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 6935 characters
+2025-10-29 20:07:11,631 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for MUHAMMAD GOLAM MAWLA 
+2025-10-29 20:07:11,632 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: MUHAMMAD GOLAM MAWLA
+2025-10-29 20:07:17,732 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 20:08:15,027 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: EVANA YASMIN
+2025-10-29 20:08:15,033 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: EVANA YASMIN (54dd4b8c-a67e-4973-b2b2-cccf4bf126a8) from content_extraction
+2025-10-29 20:08:15,034 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: EVANA YASMIN
+2025-10-29 20:08:15,034 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: EVANA YASMIN
+2025-10-29 20:08:15,036 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 25 sections from pre-processed content: ['EVANA YASMIN', 'Career Objective:', 'PROFESSIONAL SKILLS:', 'MAJOR PROJECT &amp; SERVICES:', '1. Sr. Software Engineer (0.8 yr)', 'Ahsanullah University of Science and Technology', 'Duties/Responsibilities:', '2. Sr. Software Developer (1.7 yrs)', 'Friendship', '3. Backend Developer (0.2 yr)', 'Save the Children in Bangladesh', '4. Java Programmer (0.8 yr)', 'Dnet Ltd.', '5. Sr. Officer (0.9 yr)', 'Save The Children International', '6. Software Engineer (4.8 yrs)', 'BRAC International', '7. Sr. PHP Programmer (2.7 yrs)', 'Winux Soft Ltd', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 20:08:21,154 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 20:08:21,155 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4300 characters
+2025-10-29 20:08:21,156 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # EVANA YASMIN
+
+## Career Objective:
+To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self development and help me achieve personal as well a...
+2025-10-29 20:08:21,156 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4300 characters
+2025-10-29 20:08:21,157 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for EVANA YASMIN 
+2025-10-29 20:08:21,158 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: EVANA YASMIN
+2025-10-29 20:08:25,509 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 20:08:56,772 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD.MEHEDI HASAN TAMIM
+2025-10-29 20:08:56,774 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD.MEHEDI HASAN TAMIM (146e5a1e-81d8-4bad-830f-b58914b436a4) from content_extraction
+2025-10-29 20:08:56,775 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: MD.MEHEDI HASAN TAMIM
+2025-10-29 20:08:56,775 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MD.MEHEDI HASAN TAMIM
+2025-10-29 20:08:56,776 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 20 sections from pre-processed content: ['MD.MEHEDI HASAN TAMIM', 'Career Objective:', 'Career Summary:', 'Employment History:', '1. Software Engineer (0.8 yr)', 'eGeneration Limited', 'Duties/Responsibilities:', '2. Software Engineer (1.0 yr)', 'Newgen Technology', '3. Software Engineer (3.6 yrs)', 'BRAC IT Services Ltd', '4. Jr.Software Engineer (1.0 yr)', 'APLOS GOLOBAL LTD.', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Fields of Specialization', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 20:09:01,960 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 20:09:01,962 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4119 characters
+2025-10-29 20:09:01,965 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MD.MEHEDI HASAN TAMIM
+
+**Career Objective:**
+Looking for the position of a software engineer where my creative thinking and excellent skills in web application development using modern development too...
+2025-10-29 20:09:01,968 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4119 characters
+2025-10-29 20:09:01,968 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for MD.MEHEDI HASAN TAMIM 
+2025-10-29 20:09:01,969 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: MD.MEHEDI HASAN TAMIM
+2025-10-29 20:09:06,599 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 20:09:43,547 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: JAYED IBRAHIM
+2025-10-29 20:09:43,549 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: JAYED IBRAHIM (8c06c9fc-641c-4cc7-96b2-98c38f2333b9) from content_extraction
+2025-10-29 20:09:43,550 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: JAYED IBRAHIM
+2025-10-29 20:09:43,550 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: JAYED IBRAHIM
+2025-10-29 20:09:43,551 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 23 sections from pre-processed content: ['Professional Profile', 'JAYED IBRAHIM', 'Career Objective:', 'Career Summary:', 'Special Qualification:', 'Employment History:', '1. QA Manager (3.9 yrs)', 'TigerIT Bangladesh Ltd', 'Duties/Responsibilities:', '2. Senior Software Engineer (QA) (1.0 yr)', '3. Software Engineer (QA) (6.8 yrs)', 'TigerIT Bangladesh Ltd.', '4. QA (0.3 yr)', 'Hisoft Ltd', '5. Web Developer (0.2 yr)', 'Trust IT BD Ltd', '6. SQA Engineer (0.7 yr)', 'Greenland IT', 'Academic Qualification:', 'Career and Application Information:', 'Extra Curricular Activities:', 'Personal Details :', 'Reference (s):']
+2025-10-29 20:09:49,570 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 20:09:49,571 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4469 characters
+2025-10-29 20:09:49,571 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: JAYED IBRAHIM
+
+**Professional Profile**
+Job Title: Software QA Lead
+
+**Career Objective**
+Looking forward to head the quality assurance department in a world-reputed organization where I can utilize t...
+2025-10-29 20:09:49,572 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4469 characters
+2025-10-29 20:09:49,572 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for JAYED IBRAHIM 
+2025-10-29 20:09:49,573 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: JAYED IBRAHIM
+2025-10-29 20:09:53,693 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 20:10:21,358 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Avirup Mondol
+2025-10-29 20:10:21,360 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Avirup Mondol (53c066d7-5c58-45f9-9ed5-bc5066d20a19) from content_extraction
+2025-10-29 20:10:21,361 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: Avirup Mondol
+2025-10-29 20:10:21,361 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: Avirup Mondol
+2025-10-29 20:10:21,362 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 8 sections from pre-processed content: ['Avirup Mondol', 'SUMMERY:', 'MY PROJECTS EXPERIENCE:', 'M Y   S K I L L :', 'EDUCATIONAL QUALIFICATION:', 'WORKING EXPERIENCE:', 'LANGUAGE PROFICIENCY:', 'EXTRA CURRICULAR ACTIVITIES']
+2025-10-29 20:10:27,310 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 20:10:27,310 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4336 characters
+2025-10-29 20:10:27,311 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # Avirup Mondol
+
+## SUMMARY
+Aspiring Junior Software Engineer with a BSc in Computer Science and Engineering from Independent University Bangladesh. Seeking to leverage skills in a challenging role to...
+2025-10-29 20:10:27,311 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4336 characters
+2025-10-29 20:10:27,312 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for Avirup Mondol 
+2025-10-29 20:10:27,312 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: Avirup Mondol
+2025-10-29 20:10:34,820 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 20:10:59,492 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Towfiq Alam Pranto
+2025-10-29 20:10:59,494 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Towfiq Alam Pranto (5fde7f4f-e8e9-49cd-9f14-482cbfe849b5) from content_extraction
+2025-10-29 20:10:59,495 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: Towfiq Alam Pranto
+2025-10-29 20:10:59,496 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: Towfiq Alam Pranto
+2025-10-29 20:10:59,496 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 10 sections from pre-processed content: ['Towfiq Alam Pranto', 'CAREER OBJECTIVE', 'EDUCATION', 'PROJECTS', 'EXTRA CURRICULAR ACTIVITIES', 'CONTACT', 'LINKS', 'SOFT SKILLS', 'TECHNICAL SKILLS', 'INTERESTS']
+2025-10-29 20:11:02,633 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 20:11:02,633 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 1983 characters
+2025-10-29 20:11:02,634 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # Towfiq Alam Pranto
+
+## CAREER OBJECTIVE
+Intellectually curious, team player professional applying for enrolment to continue developing my skills and apply the knowledge I have learned through my stu...
+2025-10-29 20:11:02,634 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 1983 characters
+2025-10-29 20:11:02,635 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for Towfiq Alam Pranto 
+2025-10-29 20:11:02,635 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: Towfiq Alam Pranto
+2025-10-29 20:11:08,906 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 20:11:35,476 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: Md Rezowanur Rahman Robin
+2025-10-29 20:11:35,478 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: Md Rezowanur Rahman Robin (dde47f73-e789-4c5c-8281-0b7611afe853) from content_extraction
+2025-10-29 20:11:35,478 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: Md Rezowanur Rahman Robin
+2025-10-29 20:11:35,479 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: Md Rezowanur Rahman Robin
+2025-10-29 20:11:35,479 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 6 sections from pre-processed content: ['Professional Profile', 'Md Rezowanur Rahman Robin', 'Academic Qualification', 'Exprience', 'Skill', 'Information']
+2025-10-29 20:11:37,935 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 20:11:37,935 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 2150 characters
+2025-10-29 20:11:37,935 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # Md Rezowanur Rahman Robin
+
+## Professional Profile
+A highly motivated and skilled individual with a strong foundation in Computer Science and Engineering, seeking to leverage technical expertise in ...
+2025-10-29 20:11:37,936 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 2150 characters
+2025-10-29 20:11:37,936 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for Md Rezowanur Rahman Robin 
+2025-10-29 20:11:37,936 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: Md Rezowanur Rahman Robin
+2025-10-29 20:11:42,140 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 20:12:39,683 - cv_chatbot - INFO - [candidate_manager.py:145] - Name extracted with LLM: MD. MONZER -UL HAQUE
+2025-10-29 20:12:39,686 - cv_chatbot - INFO - [candidate_manager.py:270] - Registered new candidate: MD. MONZER -UL HAQUE (48c7ff92-36c5-4ca2-9174-030f01929ef8) from content_extraction
+2025-10-29 20:12:39,687 - cv_chatbot - INFO - [vector_store.py:330] - Processing CV with enhanced pipeline: MD. MONZER -UL HAQUE
+2025-10-29 20:12:39,687 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MD. MONZER -UL HAQUE
+2025-10-29 20:12:39,688 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 29 sections from pre-processed content: ['Professional Profile', 'MD. MONZER -UL HAQUE', 'Career Objective:', 'Career Summary:', 'Special Qualification:', '1. Sr. SQA Engineer (2.0 yrs)', 'IT magnet Pty Ltd', 'Duties/Responsibilities:', '2. Sr. SQA engineer - QA Lead (3.8 yrs)', 'Orion Informatics Ltd', '3. Team Lead - QA and Operation (1.8 yrs)', 'Optimum Solution and Services - Easy Payment System', '4. Sr. SQA Engineer - QA Team lead (2.8 yrs)', 'Progoti Systems - SureCash', '5. Senior Quality Assurance and System Administrator (0.8 yr)', 'Grameen Intel Social Business Ltd.', '6. Sr. SQA Engineer (1.3 yrs)', 'Bit Mascot (Pvt.) Ltd.', '7. SQA Engineer (1.3 yrs)', 'Bit Mascot (Pvt) Ltd', '8. Junior SQA and system suport Engineer (0.5 yr)', 'Academic Qualification:', 'Training Summary:', 'Professional Qualification:', 'Career and Application Information:', 'Specialization:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-29 20:12:46,678 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-29 20:12:46,678 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4525 characters
+2025-10-29 20:12:46,679 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MD. MONZER -UL HAQUE
+
+## Professional Profile
+Job Title: Software QA Lead
+
+## Career Objective:
+Obtain a challenging job in a dynamic & progressive organization where my creative talent and innovative...
+2025-10-29 20:12:46,679 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4525 characters
+2025-10-29 20:12:46,680 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for MD. MONZER -UL HAQUE 
+2025-10-29 20:12:46,680 - cv_chatbot - INFO - [vector_store.py:345] - Created 1 golden chunks for: MD. MONZER -UL HAQUE
+2025-10-29 20:12:50,856 - cv_chatbot - INFO - [vector_store.py:353] - Appended to existing FAISS index
+2025-10-29 20:12:59,761 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 20:13:00,988 - cv_chatbot - INFO - [rag.py:105] - LLM determined intent: General knowledge for question: how many r in strawberry? 
+2025-10-29 20:13:00,989 - cv_chatbot - INFO - [rag.py:244] - Using general knowledge LLM
+2025-10-29 20:13:55,691 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 20:13:56,629 - cv_chatbot - INFO - [rag.py:105] - LLM determined intent: General knowledge for question: who knows spring boot?
+2025-10-29 20:13:56,629 - cv_chatbot - INFO - [rag.py:244] - Using general knowledge LLM
+2025-10-29 20:14:40,974 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 20:14:42,082 - cv_chatbot - INFO - [rag.py:105] - LLM determined intent: General knowledge for question: who knows the springboot framework from java?
+2025-10-29 20:14:42,082 - cv_chatbot - INFO - [rag.py:244] - Using general knowledge LLM
+2025-10-29 20:15:21,346 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 20:15:22,298 - cv_chatbot - INFO - [rag.py:102] - LLM determined intent: CV-related for question: from the cvs you have who knows the springboot framework from java?
+2025-10-29 20:15:22,298 - cv_chatbot - INFO - [rag.py:240] - Using RAG for CV-related question
+2025-10-29 20:24:33,908 - cv_chatbot - INFO - [rag.py:235] - Documents available - LLM deciding routing
+2025-10-29 20:24:35,298 - cv_chatbot - INFO - [rag.py:102] - LLM determined intent: CV-related for question: who have more 2 years  of experince from cv?
+2025-10-29 20:24:35,300 - cv_chatbot - INFO - [rag.py:240] - Using RAG for CV-related question
