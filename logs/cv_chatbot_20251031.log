@@ -201,3 +201,11 @@ Aspiring Junior Software Engineer with a BSc in Computer Science and Engineering
 2025-10-31 15:15:06,055 - cv_chatbot - INFO - [rag.py:339] - Found source path for A.H.M. HASIBUL HASAN: /home/nurshed/Desktop/APPLICATION - BDJOBS -> APPLICATION - BDJOBS
 2025-10-31 15:15:06,055 - cv_chatbot - INFO - [rag.py:339] - Found source path for Avirup Mondol: /home/nurshed/Downloads/Recruitment-Old/Front End Developer -> Front End Developer
 2025-10-31 15:15:09,030 - cv_chatbot - INFO - [rag.py:401] - Added source attribution: APPLICATION - BDJOBS, Front End Developer
+2025-10-31 15:51:23,635 - cv_chatbot - INFO - [rag.py:501] - Documents available - using RAG only
+2025-10-31 15:51:28,921 - cv_chatbot - INFO - [rag.py:339] - Found source path for Avirup Mondol: /home/nurshed/Downloads/Recruitment-Old/Front End Developer -> Front End Developer
+2025-10-31 15:51:28,921 - cv_chatbot - INFO - [rag.py:339] - Found source path for A.H.M. HASIBUL HASAN: /home/nurshed/Desktop/APPLICATION - BDJOBS -> APPLICATION - BDJOBS
+2025-10-31 15:51:31,888 - cv_chatbot - INFO - [rag.py:401] - Added source attribution: APPLICATION - BDJOBS, Front End Developer
+2025-10-31 15:56:56,603 - cv_chatbot - INFO - [rag.py:501] - Documents available - using RAG only
+2025-10-31 15:57:01,471 - cv_chatbot - INFO - [rag.py:339] - Found source path for A.H.M. HASIBUL HASAN: /home/nurshed/Desktop/APPLICATION - BDJOBS -> APPLICATION - BDJOBS
+2025-10-31 15:57:01,471 - cv_chatbot - INFO - [rag.py:339] - Found source path for Avirup Mondol: /home/nurshed/Downloads/Recruitment-Old/Front End Developer -> Front End Developer
+2025-10-31 15:57:04,826 - cv_chatbot - INFO - [rag.py:401] - Added source attribution: APPLICATION - BDJOBS, Front End Developer

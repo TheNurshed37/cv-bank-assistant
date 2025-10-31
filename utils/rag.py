@@ -8,8 +8,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 import re
 
-from config import settings
-from logger import logger
+from utils.config import settings
+from utils.logger import logger
 
 load_dotenv()
 
@@ -319,7 +319,7 @@ def rag_answer(question: str) -> str:
         source_filenames = set()
         
         # Import candidate manager to get source paths
-        from candidate_manager import CandidateManager
+        from utils.candidate_manager import CandidateManager
         candidate_manager = CandidateManager("hash_index.json")
         
         for doc in retrieved_docs:

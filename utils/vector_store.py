@@ -8,8 +8,8 @@ from langchain.schema import Document
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 
-from config import settings
-from logger import logger
+from utils.config import settings
+from utils.logger import logger
 
 def initialize_docling_converter():
     """Initialize Docling converter for optimal CV parsing - OPTIMIZED"""
@@ -436,7 +436,7 @@ def convert_pdf_with_docling_basic(pdf_path, candidate_data):
 def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file, original_client_path=None):
     """Enhanced with content-based name extraction and ORIGINAL source path storage"""
     
-    from candidate_manager import CandidateManager
+    from utils.candidate_manager import CandidateManager
     candidate_manager = CandidateManager(hash_index_file)
     
     # Check if file already processed

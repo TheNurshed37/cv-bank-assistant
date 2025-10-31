@@ -289,7 +289,7 @@ from datetime import datetime
 from typing import Dict, Any, Optional
 import json
 
-from logger import logger
+from utils.logger import logger
 
 class CandidateManager:
     def __init__(self, hash_index_file: str):
