@@ -209,3 +209,106 @@ Aspiring Junior Software Engineer with a BSc in Computer Science and Engineering
 2025-10-31 15:57:01,471 - cv_chatbot - INFO - [rag.py:339] - Found source path for A.H.M. HASIBUL HASAN: /home/nurshed/Desktop/APPLICATION - BDJOBS -> APPLICATION - BDJOBS
 2025-10-31 15:57:01,471 - cv_chatbot - INFO - [rag.py:339] - Found source path for Avirup Mondol: /home/nurshed/Downloads/Recruitment-Old/Front End Developer -> Front End Developer
 2025-10-31 15:57:04,826 - cv_chatbot - INFO - [rag.py:401] - Added source attribution: APPLICATION - BDJOBS, Front End Developer
+2025-10-31 16:43:30,769 - cv_chatbot - WARNING - [main.py:108] - Vector store and candidate index reset
+2025-10-31 16:45:55,521 - cv_chatbot - WARNING - [main.py:108] - Vector store and candidate index reset
+2025-10-31 16:46:06,612 - cv_chatbot - INFO - [rag.py:497] - No documents - using general knowledge LLM
+2025-10-31 16:46:23,858 - cv_chatbot - WARNING - [vector_store.py:455] - No original client path provided, using processed path: data/01.Mohtasim Billah.pdf
+2025-10-31 16:46:35,948 - cv_chatbot - INFO - [candidate_manager.py:429] - Name extracted with LLM: MD. Mohtasim Billah
+2025-10-31 16:46:35,950 - cv_chatbot - INFO - [candidate_manager.py:555] - Registered new candidate: MD. Mohtasim Billah (56a1961c-088c-4a3f-8d51-22a98a3441ab) from content_extraction
+2025-10-31 16:46:35,951 - cv_chatbot - INFO - [vector_store.py:476] - Processing CV with enhanced pipeline: MD. Mohtasim Billah
+2025-10-31 16:46:35,953 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MD. Mohtasim Billah
+2025-10-31 16:46:35,954 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 10 sections from pre-processed content: ['Professional Profile', 'SUMMARY', 'SKILLS', 'PROJECTS', 'Key Features:', 'EDUCATION', 'PROBLEM SOLVING:', 'EXPERIENCE', 'PROFESSIONAL COURSE', 'LANGUAGE SKILLS:']
+2025-10-31 16:46:38,329 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-31 16:46:38,329 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 1534 characters
+2025-10-31 16:46:38,330 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MD. Mohtasim Billah
+
+## Professional Profile
+Flutter Developer & Machine Learning Engineer
+
+## SUMMARY
+A passionate, committed, and curious Software Engineer with 2+ years of experience in Flutter dev...
+2025-10-31 16:46:38,331 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 1534 characters
+2025-10-31 16:46:38,331 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for MD. Mohtasim Billah 
+2025-10-31 16:46:38,332 - cv_chatbot - INFO - [vector_store.py:496] - Created 1 golden chunks for: MD. Mohtasim Billah
+2025-10-31 16:46:43,331 - cv_chatbot - INFO - [vector_store.py:507] - Created new FAISS index
+2025-10-31 16:46:57,690 - cv_chatbot - INFO - [rag.py:501] - Documents available - using RAG only
+2025-10-31 16:47:02,357 - cv_chatbot - INFO - [rag.py:339] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 16:47:04,469 - cv_chatbot - INFO - [rag.py:401] - Added source attribution: 01.Mohtasim Billah.pdf
+2025-10-31 16:47:23,543 - cv_chatbot - INFO - [rag.py:501] - Documents available - using RAG only
+2025-10-31 16:47:27,943 - cv_chatbot - INFO - [rag.py:339] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 16:47:32,537 - cv_chatbot - INFO - [rag.py:401] - Added source attribution: 01.Mohtasim Billah.pdf
+2025-10-31 16:48:17,600 - cv_chatbot - WARNING - [vector_store.py:455] - No original client path provided, using processed path: data/02.Avirup Mondal.pdf
+2025-10-31 16:48:29,318 - cv_chatbot - INFO - [candidate_manager.py:429] - Name extracted with LLM: Avirup Mondol
+2025-10-31 16:48:29,320 - cv_chatbot - INFO - [candidate_manager.py:555] - Registered new candidate: Avirup Mondol (e5ea1405-c6b0-46bc-93c6-fbc0266c83c1) from content_extraction
+2025-10-31 16:48:29,321 - cv_chatbot - INFO - [vector_store.py:476] - Processing CV with enhanced pipeline: Avirup Mondol
+2025-10-31 16:48:29,321 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: Avirup Mondol
+2025-10-31 16:48:29,322 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 8 sections from pre-processed content: ['Avirup Mondol', 'SUMMERY:', 'MY PROJECTS EXPERIENCE:', 'M Y   S K I L L :', 'EDUCATIONAL QUALIFICATION:', 'WORKING EXPERIENCE:', 'LANGUAGE PROFICIENCY:', 'EXTRA CURRICULAR ACTIVITIES']
+2025-10-31 16:48:34,001 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-31 16:48:34,003 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4390 characters
+2025-10-31 16:48:34,004 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # Avirup Mondol
+
+## SUMMARY
+Aspiring Junior Software Engineer with a BSc in Computer Science and Engineering from Independent University Bangladesh. Seeking to leverage skills in a challenging role to...
+2025-10-31 16:48:34,005 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4390 characters
+2025-10-31 16:48:34,005 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for Avirup Mondol 
+2025-10-31 16:48:34,006 - cv_chatbot - INFO - [vector_store.py:496] - Created 1 golden chunks for: Avirup Mondol
+2025-10-31 16:48:38,249 - cv_chatbot - INFO - [vector_store.py:504] - Appended to existing FAISS index
+2025-10-31 16:48:58,902 - cv_chatbot - INFO - [rag.py:501] - Documents available - using RAG only
+2025-10-31 16:49:03,168 - cv_chatbot - INFO - [rag.py:339] - Found source path for Avirup Mondol: data/02.Avirup Mondal.pdf -> 02.Avirup Mondal.pdf
+2025-10-31 16:49:03,168 - cv_chatbot - INFO - [rag.py:339] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 16:49:06,890 - cv_chatbot - INFO - [rag.py:401] - Added source attribution: 01.Mohtasim Billah.pdf, 02.Avirup Mondal.pdf
+2025-10-31 16:49:52,626 - cv_chatbot - INFO - [rag.py:501] - Documents available - using RAG only
+2025-10-31 16:49:56,764 - cv_chatbot - INFO - [rag.py:339] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 16:49:56,765 - cv_chatbot - INFO - [rag.py:339] - Found source path for Avirup Mondol: data/02.Avirup Mondal.pdf -> 02.Avirup Mondal.pdf
+2025-10-31 16:50:00,283 - cv_chatbot - INFO - [rag.py:401] - Added source attribution: 01.Mohtasim Billah.pdf, 02.Avirup Mondal.pdf
+2025-10-31 16:55:23,088 - cv_chatbot - INFO - [rag.py:237] - Documents available - using RAG only
+2025-10-31 16:55:28,285 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 16:55:28,286 - cv_chatbot - INFO - [rag.py:108] - Found source path for Avirup Mondol: data/02.Avirup Mondal.pdf -> 02.Avirup Mondal.pdf
+2025-10-31 16:55:31,163 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf, 02.Avirup Mondal.pdf
+2025-10-31 17:01:01,598 - cv_chatbot - WARNING - [main.py:311] - Vector store and candidate index reset
+2025-10-31 17:01:22,432 - cv_chatbot - INFO - [rag.py:233] - No documents - using general knowledge LLM
+2025-10-31 17:01:35,401 - cv_chatbot - WARNING - [vector_store.py:324] - No original client path provided, using processed path: data/01.Mohtasim Billah.pdf
+2025-10-31 17:01:45,106 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: MD. Mohtasim Billah
+2025-10-31 17:01:45,108 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: MD. Mohtasim Billah (1115a564-c0ce-4f5a-860b-a94c2150a05e) from content_extraction
+2025-10-31 17:01:45,109 - cv_chatbot - INFO - [vector_store.py:345] - Processing CV with enhanced pipeline: MD. Mohtasim Billah
+2025-10-31 17:01:45,111 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: MD. Mohtasim Billah
+2025-10-31 17:01:45,112 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 10 sections from pre-processed content: ['Professional Profile', 'SUMMARY', 'SKILLS', 'PROJECTS', 'Key Features:', 'EDUCATION', 'PROBLEM SOLVING:', 'EXPERIENCE', 'PROFESSIONAL COURSE', 'LANGUAGE SKILLS:']
+2025-10-31 17:01:47,398 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-31 17:01:47,398 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 1461 characters
+2025-10-31 17:01:47,399 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: MD. Mohtasim Billah
+
+## Professional Profile
+Flutter Developer & Machine Learning Engineer
+
+## SUMMARY
+A passionate, committed, and curious Software Engineer with over 2 years of experience in Flutter...
+2025-10-31 17:01:47,400 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 1461 characters
+2025-10-31 17:01:47,400 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for MD. Mohtasim Billah 
+2025-10-31 17:01:47,401 - cv_chatbot - INFO - [vector_store.py:365] - Created 1 golden chunks for: MD. Mohtasim Billah
+2025-10-31 17:01:52,293 - cv_chatbot - INFO - [vector_store.py:376] - Created new FAISS index
+2025-10-31 17:03:06,513 - cv_chatbot - INFO - [rag.py:237] - Documents available - using RAG only
+2025-10-31 17:03:10,644 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 17:03:15,744 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf
+2025-10-31 17:04:35,135 - cv_chatbot - INFO - [rag.py:237] - Documents available - using RAG only
+2025-10-31 17:04:40,935 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 17:04:46,970 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf
+2025-10-31 17:10:58,624 - cv_chatbot - WARNING - [vector_store.py:324] - No original client path provided, using processed path: data/EVANA_YASMIN.pdf
+2025-10-31 17:11:16,908 - cv_chatbot - INFO - [candidate_manager.py:146] - Name extracted with LLM: EVANA YASMIN
+2025-10-31 17:11:16,910 - cv_chatbot - INFO - [candidate_manager.py:272] - Registered new candidate: EVANA YASMIN (dfca19b2-ee96-4066-9166-d95e0e110cf9) from content_extraction
+2025-10-31 17:11:16,911 - cv_chatbot - INFO - [vector_store.py:345] - Processing CV with enhanced pipeline: EVANA YASMIN
+2025-10-31 17:11:16,911 - cv_chatbot - INFO - [vector_store.py:231] - Starting optimized processing for: EVANA YASMIN
+2025-10-31 17:11:16,913 - cv_chatbot - INFO - [vector_store.py:258] - Extracted 25 sections from pre-processed content: ['EVANA YASMIN', 'Career Objective:', 'PROFESSIONAL SKILLS:', 'MAJOR PROJECT &amp; SERVICES:', '1. Sr. Software Engineer (0.8 yr)', 'Ahsanullah University of Science and Technology', 'Duties/Responsibilities:', '2. Sr. Software Developer (1.7 yrs)', 'Friendship', '3. Backend Developer (0.2 yr)', 'Save the Children in Bangladesh', '4. Java Programmer (0.8 yr)', 'Dnet Ltd.', '5. Sr. Officer (0.9 yr)', 'Save The Children International', '6. Software Engineer (4.8 yrs)', 'BRAC International', '7. Sr. PHP Programmer (2.7 yrs)', 'Winux Soft Ltd', 'Academic Qualification:', 'Training Summary:', 'Career and Application Information:', 'Language Proficiency:', 'Personal Details :', 'Reference (s):']
+2025-10-31 17:11:21,195 - cv_chatbot - INFO - [vector_store.py:156] - Lightweight LLM validation completed
+2025-10-31 17:11:21,196 - cv_chatbot - INFO - [vector_store.py:173] - Golden chunk content length: 4300 characters
+2025-10-31 17:11:21,196 - cv_chatbot - INFO - [vector_store.py:174] - Golden chunk preview: # EVANA YASMIN
+
+## Career Objective:
+To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self development and help me achieve personal as well a...
+2025-10-31 17:11:21,197 - cv_chatbot - INFO - [vector_store.py:194] - Created single golden chunk with 4300 characters
+2025-10-31 17:11:21,197 - cv_chatbot - INFO - [vector_store.py:266] - Successfully created chunk for EVANA YASMIN 
+2025-10-31 17:11:21,198 - cv_chatbot - INFO - [vector_store.py:365] - Created 1 golden chunks for: EVANA YASMIN
+2025-10-31 17:11:25,358 - cv_chatbot - INFO - [vector_store.py:373] - Appended to existing FAISS index
+2025-10-31 17:13:28,027 - cv_chatbot - INFO - [rag.py:237] - Documents available - using RAG only
+2025-10-31 17:13:32,133 - cv_chatbot - INFO - [rag.py:108] - Found source path for EVANA YASMIN: data/EVANA_YASMIN.pdf -> EVANA_YASMIN.pdf
+2025-10-31 17:13:32,133 - cv_chatbot - INFO - [rag.py:108] - Found source path for MD. Mohtasim Billah: data/01.Mohtasim Billah.pdf -> 01.Mohtasim Billah.pdf
+2025-10-31 17:13:33,914 - cv_chatbot - INFO - [rag.py:170] - Added source attribution: 01.Mohtasim Billah.pdf, EVANA_YASMIN.pdf

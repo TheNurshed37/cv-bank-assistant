@@ -1,6 +1,8 @@
-from fastapi import FastAPI, UploadFile, File, Form
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from typing import Optional
 import os
 import shutil
 import hashlib
@@ -32,6 +34,25 @@ os.makedirs(FAISS_DIR, exist_ok=True)
 from utils.candidate_manager import CandidateManager
 candidate_manager = CandidateManager(HASH_INDEX_FILE)
 
+# Pydantic models for request/response schemas
+class QuestionRequest(BaseModel):
+    question: str
+
+class QuestionResponse(BaseModel):
+    question: str
+    answer: str
+
+class UploadResponse(BaseModel):
+    message: str
+    candidate_name: str
+    status_code: int
+
+class ResetResponse(BaseModel):
+    message: str
+
+class ErrorResponse(BaseModel):
+    error: str
+
 def compute_pdf_hash(file_path: str) -> str:
     """Compute a SHA256 hash of the PDF content."""
     hash_sha256 = hashlib.sha256()
@@ -40,12 +61,12 @@ def compute_pdf_hash(file_path: str) -> str:
             hash_sha256.update(chunk)
     return hash_sha256.hexdigest()
 
-@app.post("/upload-pdf")
+@app.post("/upload-pdf", response_model=UploadResponse, responses={400: {"model": ErrorResponse}, 500: {"model": ErrorResponse}})
 async def upload_only_pdf(file: UploadFile = File(...)):
     """Upload a PDF, append embeddings, and remove file after indexing."""
     try:
         if not file.filename.endswith(".pdf"):
-            return JSONResponse(status_code=400, content={"error": "Only PDF files are allowed."})
+            raise HTTPException(status_code=400, detail="Only PDF files are allowed.")
 
         file_path = os.path.join(UPLOAD_DIR, file.filename)
 
@@ -57,7 +78,7 @@ async def upload_only_pdf(file: UploadFile = File(...)):
         file_hash = compute_pdf_hash(file_path)
 
         # Build/append embeddings with candidate management
-        msg,status_code = add_to_faiss_index(file_path, file_hash, FAISS_DIR, HASH_INDEX_FILE)
+        msg, status_code = add_to_faiss_index(file_path, file_hash, FAISS_DIR, HASH_INDEX_FILE)
 
         # Remove the uploaded file after processing
         os.remove(file_path)
@@ -67,33 +88,41 @@ async def upload_only_pdf(file: UploadFile = File(...)):
         candidate_id = hash_index["file_hashes"].get(file_hash)
         candidate_data = hash_index["candidates"].get(candidate_id, {})
         
-        return {
-            "message": msg,
-            "candidate_name": candidate_data.get("candidate_name", file.filename),
-            "status_code": status_code
-        }
+        return UploadResponse(
+            message=msg,
+            candidate_name=candidate_data.get("candidate_name", file.filename),
+            status_code=status_code
+        )
 
+    except HTTPException:
+        raise
     except Exception as e:
         logger.error(f"PDF upload failed: {str(e)}", exc_info=True)
-        return JSONResponse(status_code=500, content={"error": str(e)})
+        raise HTTPException(status_code=500, detail=f"PDF upload failed: {str(e)}")
 
-@app.post("/ask")
-async def ask_question(question: str = Form(...)):
-    """Ask a question - simplified LLM-driven approach"""
+@app.post("/ask", response_model=QuestionResponse, responses={500: {"model": ErrorResponse}})
+async def ask_question(request: QuestionRequest):
+    """Ask a question - accepts JSON body"""
     try:
         # Always call answer_question - it handles both scenarios internally
-        answer = answer_question(question)
+        answer = answer_question(request.question)
 
         if not answer or answer.strip() == "":
-            return {"question": question, "answer": "I couldn't generate a response. Please try rephrasing your question."}
+            return QuestionResponse(
+                question=request.question,
+                answer="I couldn't generate a response. Please try rephrasing your question."
+            )
 
-        return {"question": question, "answer": answer}
+        return QuestionResponse(
+            question=request.question,
+            answer=answer
+        )
 
     except Exception as e:
         logger.error(f"Question answering failed: {str(e)}", exc_info=True)
-        return JSONResponse(status_code=500, content={"error": str(e)})
+        raise HTTPException(status_code=500, detail=f"Question answering failed: {str(e)}")
 
-@app.post("/reset")
+@app.post("/reset", response_model=ResetResponse, responses={500: {"model": ErrorResponse}})
 async def reset_vector_store():
     """Completely reset FAISS and hash store."""
     try:
@@ -106,43 +135,12 @@ async def reset_vector_store():
             os.remove(HASH_INDEX_FILE)
 
         logger.warning("Vector store and candidate index reset")
-        return {"message": "Vector store and hash index reset successfully."}
+        return ResetResponse(message="Vector store and hash index reset successfully.")
 
     except Exception as e:
         logger.error(f"Reset failed: {str(e)}")
-        return JSONResponse(status_code=500, content={"error": f"Reset failed: {str(e)}"})
+        raise HTTPException(status_code=500, detail=f"Reset failed: {str(e)}")
 
-# @app.get("/debug-chunks")
-# async def debug_chunks():
-#     """Debug endpoint to see what's actually in the vector store"""
-#     try:
-#         if not os.path.exists(FAISS_DIR) or not os.listdir(FAISS_DIR):
-#             return {"message": "No documents uploaded"}
-        
-#         from langchain_community.embeddings import HuggingFaceEmbeddings
-#         from langchain_community.vectorstores import FAISS
-        
-#         embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-#         vector_store = FAISS.load_local(FAISS_DIR, embedding_model, allow_dangerous_deserialization=True)
-        
-#         # Get all documents
-#         all_docs = vector_store.similarity_search("", k=20)  # Empty query to get all
-        
-#         chunk_info = []
-#         for i, doc in enumerate(all_docs):
-#             chunk_info.append({
-#                 "chunk_number": i + 1,
-#                 "candidate_name": doc.metadata.get('candidate_name', 'Unknown'),
-#                 "content_length": len(doc.page_content),
-#                 "content_preview": doc.page_content[:100] + "...",
-#                 "metadata": doc.metadata
-#             })
-        
-#         return {
-#             "total_chunks": len(all_docs),
-#             "total_candidates": len(set([doc.metadata.get('candidate_name', 'Unknown') for doc in all_docs])),
-#             "chunks": chunk_info
-#         }
-        
-#     except Exception as e:
-#         return {"error": str(e)}
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=3737)
