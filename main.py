@@ -40,12 +40,103 @@ def compute_pdf_hash(file_path: str) -> str:
             hash_sha256.update(chunk)
     return hash_sha256.hexdigest()
 
+# @app.post("/upload-pdf")
+# async def upload_only_pdf(file: UploadFile = File(...)):
+#     """Upload a PDF, append embeddings, and remove file after indexing."""
+#     try:
+#         if not file.filename.endswith(".pdf"):
+#             return JSONResponse(status_code=400, content={"error": "Only PDF files are allowed."})
+
+#         file_path = os.path.join(UPLOAD_DIR, file.filename)
+
+#         # Save temporarily
+#         with open(file_path, "wb") as f:
+#             f.write(await file.read())
+
+#         # Compute file hash
+#         file_hash = compute_pdf_hash(file_path)
+
+#         # Build/append embeddings with candidate management
+#         msg,status_code = add_to_faiss_index(file_path, file_hash, FAISS_DIR, HASH_INDEX_FILE)
+
+#         # Remove the uploaded file after processing
+#         os.remove(file_path)
+
+#         # Get candidate info for response
+#         hash_index = candidate_manager.load_hash_index()
+#         candidate_id = hash_index["file_hashes"].get(file_hash)
+#         candidate_data = hash_index["candidates"].get(candidate_id, {})
+        
+#         return {
+#             "message": msg,
+#             "candidate_name": candidate_data.get("candidate_name", file.filename),
+#             "status_code": status_code
+#         }
+
+#     except Exception as e:
+#         logger.error(f"PDF upload failed: {str(e)}", exc_info=True)
+#         return JSONResponse(status_code=500, content={"error": str(e)})
+
+# In main.py - modify the upload_only_pdf function
+
+# @app.post("/upload-pdf")
+# async def upload_only_pdf(file: UploadFile = File(...)):
+#     """Upload a PDF, append embeddings, and remove file after indexing."""
+#     try:
+#         if not file.filename.endswith(".pdf"):
+#             return JSONResponse(status_code=400, content={"error": "Only PDF files are allowed."})
+
+#         file_path = os.path.join(UPLOAD_DIR, file.filename)
+
+#         # Save temporarily
+#         with open(file_path, "wb") as f:
+#             f.write(await file.read())
+
+#         # Compute file hash
+#         file_hash = compute_pdf_hash(file_path)
+
+#         # Build/append embeddings with candidate management AND SOURCE PATH
+#         msg, status_code = add_to_faiss_index(file_path, file_hash, FAISS_DIR, HASH_INDEX_FILE)
+
+#         # Remove the uploaded file after processing
+#         os.remove(file_path)
+
+#         # Get candidate info for response
+#         hash_index = candidate_manager.load_hash_index()
+#         candidate_id = hash_index["file_hashes"].get(file_hash)
+#         candidate_data = hash_index["candidates"].get(candidate_id, {})
+        
+#         return {
+#             "message": msg,
+#             "candidate_name": candidate_data.get("candidate_name", file.filename),
+#             "status_code": status_code
+#         }
+
+#     except Exception as e:
+#         logger.error(f"PDF upload failed: {str(e)}", exc_info=True)
+#         return JSONResponse(status_code=500, content={"error": str(e)})
+
+# In main.py - modify the upload_only_pdf function
+
 @app.post("/upload-pdf")
-async def upload_only_pdf(file: UploadFile = File(...)):
+async def upload_only_pdf(
+    file: UploadFile = File(...),
+    original_path: str = Form(None)  # NEW: Client sends the original path
+):
     """Upload a PDF, append embeddings, and remove file after indexing."""
     try:
         if not file.filename.endswith(".pdf"):
             return JSONResponse(status_code=400, content={"error": "Only PDF files are allowed."})
+
+        # Use provided original_path or fallback to filename
+        if original_path:
+            # Validate that the original_path ends with the actual filename
+            if not original_path.endswith(file.filename):
+                logger.warning(f"Original path '{original_path}' doesn't match filename '{file.filename}'. Using provided path.")
+        else:
+            # If no original_path provided, create a reasonable default
+            original_path = f"/uploads/{file.filename}"
+            logger.info(f"No original path provided, using default: {original_path}")
 
         file_path = os.path.join(UPLOAD_DIR, file.filename)
 
@@ -56,8 +147,14 @@ async def upload_only_pdf(file: UploadFile = File(...)):
         # Compute file hash
         file_hash = compute_pdf_hash(file_path)
 
-        # Build/append embeddings with candidate management
-        msg,status_code = add_to_faiss_index(file_path, file_hash, FAISS_DIR, HASH_INDEX_FILE)
+        # Build/append embeddings with candidate management AND ORIGINAL PATH
+        msg, status_code = add_to_faiss_index(
+            pdf_path=file_path, 
+            file_hash=file_hash, 
+            faiss_dir=FAISS_DIR, 
+            hash_index_file=HASH_INDEX_FILE,
+            original_client_path=original_path  # Pass the original path from client
+        )
 
         # Remove the uploaded file after processing
         os.remove(file_path)
@@ -70,6 +167,7 @@ async def upload_only_pdf(file: UploadFile = File(...)):
         return {
             "message": msg,
             "candidate_name": candidate_data.get("candidate_name", file.filename),
+            "original_path_stored": original_path,  # Return the stored path for confirmation
             "status_code": status_code
         }
 

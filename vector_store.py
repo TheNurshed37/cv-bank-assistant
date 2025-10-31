@@ -300,8 +300,141 @@ def convert_pdf_with_docling_basic(pdf_path, candidate_data):
     logger.info(f"Created fallback single chunk with {len(cleaned_text)} characters")
     return [doc]
 
-def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file):
-    """Enhanced with content-based name extraction - TRUE SINGLE CHUNK"""
+# def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file):
+#     """Enhanced with content-based name extraction - TRUE SINGLE CHUNK"""
+    
+#     from candidate_manager import CandidateManager
+#     candidate_manager = CandidateManager(hash_index_file)
+    
+#     # Check if file already processed
+#     hash_index = candidate_manager.load_hash_index()
+#     if file_hash in hash_index["file_hashes"]:
+#         candidate_id = hash_index["file_hashes"][file_hash]
+#         candidate_data = hash_index["candidates"][candidate_id]
+#         return f"'{candidate_data['candidate_name']}' already exists.",201
+
+#     # PROCESS PDF ONLY ONCE and reuse the result
+#     try:
+#         converter = DocumentConverter()
+#         result = converter.convert(pdf_path)
+#         full_content = result.document.export_to_markdown()
+        
+#         # Use first 2000 chars for name extraction
+#         sample_content = full_content[:2000]
+        
+#         # Register new candidate WITH CONTENT for better name extraction
+#         filename = os.path.basename(pdf_path)
+#         candidate_data = candidate_manager.register_candidate(file_hash, filename, sample_content)
+        
+#         # Process document with enhanced hybrid approach - PASS THE ALREADY PROCESSED CONTENT
+#         logger.info(f"Processing CV with enhanced pipeline: {candidate_data['candidate_name']}")
+        
+#         # Use the already processed content instead of reprocessing the PDF
+#         docs = convert_pdf_with_docling_enhanced_optimized(pdf_path, candidate_data, full_content)
+        
+#     except Exception as e:
+#         logger.error(f"PDF processing failed: {e}")
+#         # Fallback: register without content and process normally
+#         filename = os.path.basename(pdf_path)
+#         candidate_data = candidate_manager.register_candidate(file_hash, filename, None)
+#         docs = convert_pdf_with_docling_enhanced(pdf_path, candidate_data)
+    
+#     # CRITICAL: NO SPLITTING - use documents as-is
+#     chunks = docs  # Direct assignment - NO SPLITTING
+    
+#     logger.info(f"Created {len(chunks)} golden chunks for: {candidate_data['candidate_name']}")
+
+#     # Save to vector store
+#     embedding_model = HuggingFaceEmbeddings(model_name=settings.EMBEDDING_MODEL)
+    
+#     if os.path.exists(os.path.join(faiss_dir, "index.faiss")):
+#         vector_store = FAISS.load_local(faiss_dir, embedding_model, allow_dangerous_deserialization=True)
+#         vector_store.add_documents(chunks)
+#         logger.info("Appended to existing FAISS index")
+#     else:
+#         vector_store = FAISS.from_documents(chunks, embedding_model)
+#         logger.info("Created new FAISS index")
+
+#     vector_store.save_local(faiss_dir)
+    
+#     return f"Chunk created successfully for '{candidate_data['candidate_name']}' (ID: {candidate_data['candidate_id']})",200
+
+# In vector_store.py - modify the add_to_faiss_index function
+
+# def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file):
+#     """Enhanced with content-based name extraction and source path storage"""
+    
+#     from candidate_manager import CandidateManager
+#     candidate_manager = CandidateManager(hash_index_file)
+    
+#     # Check if file already processed
+#     hash_index = candidate_manager.load_hash_index()
+#     if file_hash in hash_index["file_hashes"]:
+#         candidate_id = hash_index["file_hashes"][file_hash]
+#         candidate_data = hash_index["candidates"][candidate_id]
+#         return f"'{candidate_data['candidate_name']}' already exists.", 201
+
+#     # PROCESS PDF ONLY ONCE and reuse the result
+#     try:
+#         converter = DocumentConverter()
+#         result = converter.convert(pdf_path)
+#         full_content = result.document.export_to_markdown()
+        
+#         # Use first 2000 chars for name extraction
+#         sample_content = full_content[:2000]
+        
+#         # Register new candidate WITH CONTENT AND SOURCE PATH
+#         filename = os.path.basename(pdf_path)
+#         candidate_data = candidate_manager.register_candidate(
+#             file_hash=file_hash, 
+#             filename=filename, 
+#             content=sample_content,
+#             file_path=pdf_path  # NEW: Pass the source path
+#         )
+        
+#         # Process document with enhanced hybrid approach
+#         logger.info(f"Processing CV with enhanced pipeline: {candidate_data['candidate_name']}")
+        
+#         # Use the already processed content instead of reprocessing the PDF
+#         docs = convert_pdf_with_docling_enhanced_optimized(pdf_path, candidate_data, full_content)
+        
+#     except Exception as e:
+#         logger.error(f"PDF processing failed: {e}")
+#         # Fallback: register without content but with source path
+#         filename = os.path.basename(pdf_path)
+#         candidate_data = candidate_manager.register_candidate(
+#             file_hash=file_hash, 
+#             filename=filename, 
+#             content=None,
+#             file_path=pdf_path  # NEW: Pass the source path in fallback too
+#         )
+#         docs = convert_pdf_with_docling_enhanced(pdf_path, candidate_data)
+    
+#     # CRITICAL: NO SPLITTING - use documents as-is
+#     chunks = docs  # Direct assignment - NO SPLITTING
+    
+#     logger.info(f"Created {len(chunks)} golden chunks for: {candidate_data['candidate_name']}")
+
+#     # Save to vector store
+#     embedding_model = HuggingFaceEmbeddings(model_name=settings.EMBEDDING_MODEL)
+    
+#     if os.path.exists(os.path.join(faiss_dir, "index.faiss")):
+#         vector_store = FAISS.load_local(faiss_dir, embedding_model, allow_dangerous_deserialization=True)
+#         vector_store.add_documents(chunks)
+#         logger.info("Appended to existing FAISS index")
+#     else:
+#         vector_store = FAISS.from_documents(chunks, embedding_model)
+#         logger.info("Created new FAISS index")
+
+#     vector_store.save_local(faiss_dir)
+    
+#     return f"Chunk created successfully for '{candidate_data['candidate_name']}' (ID: {candidate_data['candidate_id']})", 200
+
+
+# In vector_store.py - modify the add_to_faiss_index function
+
+def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file, original_client_path=None):
+    """Enhanced with content-based name extraction and ORIGINAL source path storage"""
     
     from candidate_manager import CandidateManager
     candidate_manager = CandidateManager(hash_index_file)
@@ -311,7 +444,15 @@ def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file):
     if file_hash in hash_index["file_hashes"]:
         candidate_id = hash_index["file_hashes"][file_hash]
         candidate_data = hash_index["candidates"][candidate_id]
-        return f"'{candidate_data['candidate_name']}' already exists.",201
+        return f"'{candidate_data['candidate_name']}' already exists.", 201
+
+    # Use original client path if provided, otherwise use the processed path as fallback
+    if original_client_path:
+        source_path_to_store = original_client_path
+        logger.info(f"Storing original client path: {source_path_to_store}")
+    else:
+        source_path_to_store = pdf_path
+        logger.warning(f"No original client path provided, using processed path: {source_path_to_store}")
 
     # PROCESS PDF ONLY ONCE and reuse the result
     try:
@@ -322,11 +463,16 @@ def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file):
         # Use first 2000 chars for name extraction
         sample_content = full_content[:2000]
         
-        # Register new candidate WITH CONTENT for better name extraction
+        # Register new candidate WITH CONTENT AND ORIGINAL SOURCE PATH
         filename = os.path.basename(pdf_path)
-        candidate_data = candidate_manager.register_candidate(file_hash, filename, sample_content)
+        candidate_data = candidate_manager.register_candidate(
+            file_hash=file_hash, 
+            filename=filename, 
+            content=sample_content,
+            file_path=source_path_to_store  # Store the ORIGINAL client path
+        )
         
-        # Process document with enhanced hybrid approach - PASS THE ALREADY PROCESSED CONTENT
+        # Process document with enhanced hybrid approach
         logger.info(f"Processing CV with enhanced pipeline: {candidate_data['candidate_name']}")
         
         # Use the already processed content instead of reprocessing the PDF
@@ -334,13 +480,18 @@ def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file):
         
     except Exception as e:
         logger.error(f"PDF processing failed: {e}")
-        # Fallback: register without content and process normally
+        # Fallback: register without content but with original source path
         filename = os.path.basename(pdf_path)
-        candidate_data = candidate_manager.register_candidate(file_hash, filename, None)
+        candidate_data = candidate_manager.register_candidate(
+            file_hash=file_hash, 
+            filename=filename, 
+            content=None,
+            file_path=source_path_to_store  # Store the ORIGINAL path in fallback too
+        )
         docs = convert_pdf_with_docling_enhanced(pdf_path, candidate_data)
     
     # CRITICAL: NO SPLITTING - use documents as-is
-    chunks = docs  # Direct assignment - NO SPLITTING
+    chunks = docs
     
     logger.info(f"Created {len(chunks)} golden chunks for: {candidate_data['candidate_name']}")
 
@@ -357,4 +508,4 @@ def add_to_faiss_index(pdf_path, file_hash, faiss_dir, hash_index_file):
 
     vector_store.save_local(faiss_dir)
     
-    return f"Chunk created successfully for '{candidate_data['candidate_name']}' (ID: {candidate_data['candidate_id']})",200
+    return f"Chunk created successfully for '{candidate_data['candidate_name']}' (ID: {candidate_data['candidate_id']})", 200

@@ -1,1 +1,0 @@
-# cv-bank-assistant

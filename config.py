@@ -1,4 +1,4 @@
-# config.py - ENHANCED FOR PHASE 2
+# config.py 
 import os
 from pydantic_settings import BaseSettings
 from typing import List
